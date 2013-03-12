@@ -88,7 +88,7 @@ public class GUI extends JFrame implements ActionListener {
             return;
         }
         PopupMenu popup = new PopupMenu();
-        this.trayIcon = new TrayIcon(new ImageIcon(GUI.class.getClassLoader().getResource("phoneproxy/resources/8ball.gif")).getImage(), SnomProxy.getLanguageString("TRAY_TITLE"));
+        this.trayIcon = new TrayIcon(new ImageIcon(SnomProxy.getResource("icon.gif")).getImage(), SnomProxy.getLanguageString("TRAY_TITLE"));
 
         MenuItem showGuiItem = new MenuItem("Show Gui");
         showGuiItem.setActionCommand("tray_show_gui");

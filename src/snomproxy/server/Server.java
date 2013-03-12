@@ -144,17 +144,18 @@ public class Server extends Observable {
         return running;
     }
 
-    private String getContent(String target, String action, String data) {
+    private byte[] getContent(String target, String action, String data) {
+        return this.provider.getContent(target, action, data);
         //System.out.println("Server.getContent( action: "+action+", data: "+data+" )");
-        String out = this.provider.getContent(target, action, data);
-        return this.buildHeader(out.length()) + out;
+//        String out = this.provider.getContent(target, action, data);
+//        return this.buildHeader(out.length()) + out;
     }
 
     public void setWorkerCount(int worker_count) {
         this.worker_count = worker_count;
     }
     
-    public String buildHeader(final int stringLength) {
+    private String buildHeader(final int stringLength) {
         String out = "HTTP/1.1 " + Integer.toString(this.provider.getStatus()) + " ";
         switch (this.provider.getStatus()) {
             case 200:
@@ -214,6 +215,7 @@ public class Server extends Observable {
                 byte[] bytes;
                 InputStream is;
                 int bytesToRead;
+                byte[] output;
                 while (isRunning()) {
                     if (clientSocket == null) {
                         clientSocket = serverSocket.accept();
@@ -238,7 +240,9 @@ public class Server extends Observable {
                                 data = "";
                             }
                             logger.log(Level.INFO,"Worker #".concat(String.valueOf(this.worker_nr)).concat("; Request target: \"").concat(clientSocket.getInetAddress().getHostAddress()).concat("\" action: \"").concat(action).concat("\" data: \"").concat(data).concat("\""));
-                            clientSocket.getOutputStream().write(getContent(clientSocket.getInetAddress().getHostAddress(), action, data).getBytes());
+                            output=getContent(clientSocket.getInetAddress().getHostAddress(), action, data);
+                            clientSocket.getOutputStream().write(buildHeader(output.length).getBytes());
+                            clientSocket.getOutputStream().write(output);
 
                             clientSocket.close();
                             clientSocket = null;

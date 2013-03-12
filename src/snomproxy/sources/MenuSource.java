@@ -26,7 +26,7 @@ public class MenuSource implements DataSource {
             ((SnomIPPhoneMenu) out).setTitle("SnomProxy - Main Menu");
             ((SnomIPPhoneMenu) out).addMenuItem("CSV", SnomProxy.getServer().getAddressString().concat("/?menu=csv"));
             ((SnomIPPhoneMenu) out).addMenuItem("blau", SnomProxy.getServer().getAddressString().concat("/blau"));
-            ((SnomIPPhoneMenu) out).addMenuItem("Call", SnomProxy.getServer().getAddressString().concat("/?menu=call"));
+            ((SnomIPPhoneMenu) out).addMenuItem("Eingehende Anrufe testen", SnomProxy.getServer().getAddressString().concat("/?menu=call"));
         }else if (!args.get("menu").isEmpty()){
             if (args.get("menu").equals("csv")){
                 ((SnomIPPhoneMenu) out).setTitle("SnomProxy - CSV");

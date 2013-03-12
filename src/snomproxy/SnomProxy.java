@@ -1,6 +1,7 @@
 package snomproxy;
 
 import java.io.StringWriter;
+import java.net.URL;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.ResourceBundle;
@@ -91,6 +92,10 @@ public class SnomProxy {
 
     public static Server getServer() {
         return server;
+    }
+    
+    public static URL getResource(String name){
+        return SnomProxy.class.getClassLoader().getResource("snomproxy/resources/".concat(name));
     }
 
     private static void testElems() {
