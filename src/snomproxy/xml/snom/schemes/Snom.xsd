@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+
+    <!-- Base -->
+    
+    <xs:complexType name="SnomDocument" abstract="true">
+        <xs:sequence>
+            <xs:element name="SoftKeyItem" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Name" type="xs:string"/>
+                        <xs:element name="Label" type="xs:string"/>
+                        <xs:element name="URL" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="fetch" minOccurs="0">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="mil" type="xs:integer" use="required"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+
+    <!-- Elements -->
+    
+    <xs:element name="SnomIPPhoneText">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="SnomDocument">
+                    <xs:sequence>
+                        <xs:element name="Title" type="xs:string"/>
+                        <xs:element name="Text" type="xs:string"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="SnomIPPhoneInput">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="SnomDocument">
+                    <xs:sequence>
+                        <xs:element name="Title" type="xs:string"/>
+                        <xs:element name="Prompt" type="xs:string"/>
+                        <xs:element name="URL" type="xs:string"/>
+                        <xs:element name="InputItem">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="DisplayName" type="xs:string"/>
+                                    <xs:element name="QueryStringParam" type="xs:string"/>
+                                    <xs:element name="DefaultValue" type="xs:string"/>
+                                    <xs:element name="InputFlags">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:enumeration value="a"/>
+                                                <xs:enumeration value="t"/>
+                                                <xs:enumeration value="n"/>
+                                                <xs:enumeration value="e"/>
+                                                <xs:enumeration value="u"/>
+                                                <xs:enumeration value="l"/>
+                                                <xs:enumeration value="p"/>
+                                                <xs:enumeration value="pn"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="SnomIPPhoneImageFile">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="SnomDocument">
+                    <xs:sequence>
+                        <xs:element name="LocationX" type="xs:integer" default="0"/>
+                        <xs:element name="LocationY" type="xs:integer" default="0"/>
+                        <xs:element name="URL" type="xs:string"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="SnomIPPhoneImage">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="SnomDocument">
+                    <xs:sequence>
+                        <xs:element name="LocationX" type="xs:integer" default="0"/>
+                        <xs:element name="LocationY" type="xs:integer" default="0"/>
+                        <xs:element name="Data">
+                            <xs:complexType>
+                                <xs:simpleContent>
+                                    <xs:extension base="xs:base64Binary">
+                                        <xs:attribute name="encoding" type="xs:string" fixed="base64"/>
+                                    </xs:extension>
+                                </xs:simpleContent>
+                            </xs:complexType>
+                        </xs:element> 
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="SnomIPPhoneMenu">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="SnomDocument">
+                    <xs:sequence>
+                        <xs:element name="Title" type="xs:string"/>
+                        <xs:element name="MenuItem" minOccurs="1" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="Name" type="xs:string"/>
+                                    <xs:element name="URL" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="SnomIPPhoneDirectory">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="SnomDocument">
+                    <xs:sequence>
+                        <xs:element name="Title" type="xs:string"/>
+                        <xs:element name="Prompt" type="xs:string"/>
+                        <xs:element name="DirectoryEntry" minOccurs="1" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="Name" type="xs:string"/>
+                                    <xs:element name="Telephone" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
