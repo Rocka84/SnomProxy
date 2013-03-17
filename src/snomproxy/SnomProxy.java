@@ -2,8 +2,10 @@ package snomproxy;
 
 import java.io.StringWriter;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
+import java.util.HashMap;
 import java.util.ResourceBundle;
 import java.util.logging.*;
 import javax.xml.bind.JAXBContext;
@@ -25,13 +27,17 @@ import snomproxy.xml.snom.SnomIPPhoneText;
 
 /**
  * Main Controller
+ *
  * @author Fabian Dillmeier <fabian at dillmeier.de>
  */
 public class SnomProxy {
 
     private static Server server;
+    private static GUI gui;
     private static ResourceBundle language;
     private final static Logger logger = Logger.getLogger("phoneproxy");
+    
+    private static boolean testMode=false;
 
     /**
      * @param args the command line arguments
@@ -39,6 +45,7 @@ public class SnomProxy {
     public static void main(String[] args) {
         initLogger(Level.ALL);
 
+        HashMap<String, Object> argsList=parseArgs(args);
         SnomProxy.language = ResourceBundle.getBundle("snomproxy.resources.lang", java.util.Locale.getDefault());
 
         try {
@@ -48,19 +55,21 @@ public class SnomProxy {
             SnomProxy.server.getProvider().addSource("blau", new BlauDataSource());
             SnomProxy.server.getProvider().addSource("csv", new CSVDataSource("blau_data.csv"));
             SnomProxy.server.getProvider().addSource("call", new ActiveCallSource());
-            
+
             logger.log(Level.INFO, "Server created");
         } catch (Exception ex) {
             logger.log(Level.SEVERE, ex.getMessage());
         }
 
+
+        if (argsList.containsKey("T")) {
+            setTestMode(true);
+        }
         
-        /* Quick'n'Dirty */
-        if (args.length>0 && args[0].equals("-nogui")){
-            logger.log(Level.INFO, "No GUI mode");
+        if (argsList.containsKey("nogui")) {
             SnomProxy.server.startServer();
-        }else{
-            new GUI();
+        } else {
+            gui=new GUI();
         }
     }
 
@@ -70,7 +79,6 @@ public class SnomProxy {
 
         Handler handler = new ConsoleHandler();
         handler.setFormatter(new Formatter() {
-
             @Override
             public String format(LogRecord record) {
                 GregorianCalendar cal = new GregorianCalendar();
@@ -93,8 +101,12 @@ public class SnomProxy {
     public static Server getServer() {
         return server;
     }
-    
-    public static URL getResource(String name){
+
+    public static GUI getGui() {
+        return gui;
+    }
+
+    public static URL getResource(String name) {
         return SnomProxy.class.getClassLoader().getResource("snomproxy/resources/".concat(name));
     }
 
@@ -200,5 +212,41 @@ public class SnomProxy {
 
     public static Logger getLogger() {
         return logger;
+    }
+
+    public static boolean isTestMode() {
+        return testMode;
+    }
+
+    public static void setTestMode(boolean testMode) {
+        SnomProxy.testMode = testMode;
+    }
+
+    private static HashMap<String, Object> parseArgs(String[] args) {
+        HashMap<String, Object> argsList = new HashMap<String, Object>();
+        ArrayList<String> defaults=new ArrayList<String>();
+        String var;
+        for (int i = 0; i < args.length; i++) {
+            switch (args[i].charAt(0)) {
+                case '-':
+                    if (args[i].charAt(1) == '-') {
+                        var=args[i].substring(2, args[i].length());
+                        if (!var.isEmpty()){
+                            argsList.put(var, (i<args.length-1 && args[i+1].charAt(0)!='-' )?args[++i]:null);
+                        }
+                    } else {
+                        var=args[i].substring(1, 2);
+                        argsList.put(var, args[i].substring(2, args[i].length()));
+                    }
+                    break;
+                default:
+                    defaults.add(args[i]);
+                    break;
+            }
+        }
+        if (!defaults.isEmpty()){
+            argsList.put("_defaults",defaults);
+        }
+        return argsList;
     }
 }

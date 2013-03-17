@@ -2,4 +2,19 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/home/dilli/src/SnomProxy/src/snomproxy/server/Server.java</file>
+        <file>file:/home/dilli/src/SnomProxy/src/snomproxy/providers/Provider.java</file>
+        <file>file:/home/dilli/src/SnomProxy/src/snomproxy/providers/SnomProvider.java</file>
+        <file>file:/home/dilli/src/SnomProxy/src/snomproxy/gui/GUI.java</file>
+        <file>file:/home/dilli/src/SnomProxy/src/snomproxy/SnomProxy.java</file>
+        <file>file:/home/dilli/src/SnomProxy/src/snomproxy/sources/BlauDataSource.java</file>
+        <file>file:/home/dilli/src/SnomProxy/src/snomproxy/sources/MenuSource.java</file>
+        <file>file:/home/dilli/src/SnomProxy/src/snomproxy/sources/ActiveCallSource.java</file>
+        <file>file:/home/dilli/src/SnomProxy/src/snomproxy/xml/snom/SnomIPPhoneInput.java</file>
+        <file>file:/home/dilli/src/SnomProxy/src/snomproxy/resources/SnomIPPhone.xsl</file>
+        <file>file:/home/dilli/src/SnomProxy/src/snomproxy/xml/snom/schemes/Snom.xsd</file>
+        <file>file:/home/dilli/src/SnomProxy/src/snomproxy/sources/CSVDataSource.java</file>
+        <file>file:/home/dilli/src/SnomProxy/src/snomproxy/contacts/ContactList.java</file>
+    </open-files>
 </project-private>

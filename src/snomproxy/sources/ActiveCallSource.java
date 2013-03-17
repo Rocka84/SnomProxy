@@ -1,6 +1,10 @@
 package snomproxy.sources;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import snomproxy.SnomProxy;
+import snomproxy.contacts.Contact;
+import snomproxy.contacts.ContactList;
 import snomproxy.server.Server;
 import snomproxy.xml.snom.SnomDocument;
 import snomproxy.xml.snom.SnomIPPhoneText;
@@ -11,37 +15,115 @@ import snomproxy.xml.snom.SnomIPPhoneText;
  */
 public class ActiveCallSource implements DataSource {
 
-    private String active_caller="";
+    private String active_caller = "";
+    private ContactList active_caller_data;
 
     @Override
     public SnomDocument request(String data) {
         HashMap<String, String> args = Server.splitData(data);
-        
+
 //        System.out.println(args);
-        
-        SnomDocument out=null;
+        CSVDataSource source = (CSVDataSource) SnomProxy.getServer().getProvider().getSource("csv");
+        SnomDocument out = null;
 
         if (args.containsKey("incoming") && !args.get("incoming").isEmpty()) {
-            out = new SnomIPPhoneText("Eingehender Anruf", "Anruf von ".concat(args.get("incoming")));
-            out.addSoftKeyItem("take_call","Annehmen",snomproxy.SnomProxy.getServer().getAddressString().concat("/call?info=1"));
+            out = new SnomIPPhoneText();
+            ((SnomIPPhoneText) out).setTitle("Eingehender Anruf");
+            ContactList caller = source.search(args.get("incoming"), ContactList.PHONES);
+            if (caller.size() == 1) {
+                Contact contact = caller.iterator().next();
+                ((SnomIPPhoneText) out).setText(contact.getFirstname().concat(" ").concat(contact.getLastname()).concat(" (").concat(args.get("incoming")).concat(") ruft an."));
+            } else {
+                String text = "Unbekannter Anrufer (".concat(args.get("incoming")).concat(")");
+                if (!caller.isEmpty()) {
+                    text = text.concat("<br>").concat(multipleEntries(caller));
+                }
+                ((SnomIPPhoneText) out).setText(text);
+            }
         }
-        if (args.containsKey("answered") && !args.get("answered").isEmpty()) {
-            active_caller=args.get("answered");
-            out = new SnomIPPhoneText("Anruf angenommen", "Anruf von ".concat(active_caller));
-            out.addSoftKeyItem("info","Info",snomproxy.SnomProxy.getServer().getAddressString().concat("/call?info=1"));
+        if (args.containsKey("info") || (args.containsKey("answered") && !args.get("answered").isEmpty())) {
+            out = new SnomIPPhoneText();
+            if (args.containsKey("answered") && !args.get("answered").isEmpty()) {
+                active_caller = args.get("answered");
+                active_caller_data = source.search(active_caller, ContactList.PHONES);
+                out.setFetch(snomproxy.SnomProxy.getServer().getAddressString().concat("/call?info=1"), 3000);
+            }
+            ((SnomIPPhoneText) out).setTitle(args.containsKey("answered")?"Anruf angenommen":"Aktuelles Gespräch");
+            if (active_caller.isEmpty()) {
+                ((SnomIPPhoneText) out).setText("Im Moment ist kein Anruf aktiv.");
+            } else if (active_caller_data.size() == 1) {
+                Contact contact = active_caller_data.iterator().next();
+                ((SnomIPPhoneText) out).setText("Sie sprechen mit<br>".concat(contact.getFirstname()).concat(" ").concat(contact.getLastname()).concat(" (").concat(active_caller).concat(")"));
+            } else {
+                String text = "Sie sprechen mit<br>".concat(active_caller);
+                if (active_caller_data.isEmpty()) {
+                    text = text.concat("<br>Keine Kontakte gefunden.");
+                } else {
+                    text = text.concat("<br>").concat(multipleEntries(active_caller_data));
+                }
+                ((SnomIPPhoneText) out).setText(text);
+            }
+            out.addSoftKeyItem("info", "Info", snomproxy.SnomProxy.getServer().getAddressString().concat("/call?info=1"));
         }
         if (args.containsKey("end")) {
-            out = new SnomIPPhoneText("Anruf Beendet", active_caller.isEmpty()?"Telefonat beendet.":"Telefonat mit ".concat(active_caller).concat(" beendet."));
-            active_caller="";
+            out = new SnomIPPhoneText();
+            ((SnomIPPhoneText) out).setTitle(args.containsKey("answered")?"Anruf angenommen":"Aktuelles Gespräch");
+            if (active_caller.isEmpty()) {
+                ((SnomIPPhoneText) out).setText("Im Moment ist kein Anruf aktiv.");
+            } else if (active_caller_data.size() == 1) {
+                Contact contact = active_caller_data.iterator().next();
+                ((SnomIPPhoneText) out).setText("Gespräch beendet<br>".concat(contact.getFirstname()).concat(" ").concat(contact.getLastname()).concat(" (").concat(active_caller).concat(")"));
+            } else {
+                String text = "Gespräch beendet<br>".concat(active_caller);
+                if (active_caller_data.isEmpty()) {
+                    text = text.concat("<br>Keine Kontakte gefunden.");
+                } else {
+                    text = text.concat("<br>").concat(multipleEntries(active_caller_data));
+                }
+                ((SnomIPPhoneText) out).setText(text);
+            }
+            out.addSoftKeyItem("info", "Info", snomproxy.SnomProxy.getServer().getAddressString().concat("/call?info=1"));
+            active_caller = "";
+            active_caller_data = new ContactList();
         }
-        
-        if (args.containsKey("info")) {
-            out = new SnomIPPhoneText("Aktiver Anruf", active_caller.isEmpty()?"Im Moment ist kein Anruf aktiv.":"Max Mustermann (".concat(active_caller).concat(")"));
-        }else if (out == null){
-            out = new SnomIPPhoneText("Fehler", "ungueltige daten");
-        }
-        out.addSoftKeyItem("index","Index", snomproxy.SnomProxy.getServer().getAddressString().concat("/"));
+        out.addSoftKeyItem("index", "Index", snomproxy.SnomProxy.getServer().getAddressString().concat("/"));
 
         return out;
+    }
+
+//    private SnomDocument contactCard(String number, String title, boolean answered) {
+//        SnomDocument out;
+//        out = new SnomIPPhoneText();
+//        ((SnomIPPhoneText) out).setTitle(title);
+//        
+//        if (answered){
+//            
+//        }
+//        if (active_caller_data.size() == 1) {
+//            Contact contact = active_caller_data.iterator().next();
+//            ((SnomIPPhoneText) out).setText("Anruf von ".concat(contact.getFirstname()).concat(" ").concat(contact.getLastname()).concat(" (").concat(number).concat(")"));
+//        } else {
+//            String text = "Unbekannter Anrufer (".concat(number).concat(").");
+//            if (!active_caller_data.isEmpty()) {
+//                text = text.concat("<br>").concat(multipleEntries(active_caller_data));
+//            }
+//            ((SnomIPPhoneText) out).setText(text);
+//        }
+//        return out;
+//    }
+
+    private String multipleEntries(ContactList contacts) {
+        String text = String.valueOf(active_caller_data.size()).concat(" passende Kontakte gefunden.<br>");
+        int i = 0;
+        for (Contact contact : active_caller_data) {
+            text = text.concat("<br>").concat(String.valueOf(++i)).concat(". ").concat(contact.getFirstname()).concat(" ").concat(contact.getLastname()).concat("<br>");
+            if (i >= 3) {
+                break;
+            }
+        }
+        if (active_caller_data.size() > 3) {
+            text = text.concat("...<br>");
+        }
+        return text;
     }
 }

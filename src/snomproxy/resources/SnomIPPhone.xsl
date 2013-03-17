@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <xsl:stylesheet version="1.0" 
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:output method="html" encoding="iso-8859-1" indent="no"/>
+    <xsl:output method="html" encoding="iso-8859-1" indent="yes"/>
     
     <xsl:variable name="phone" select="'snom370'"/>
 
@@ -9,11 +9,12 @@
         <html>
             <head>
                 <xsl:call-template name="styles" />
+                <xsl:call-template name="js" />
                 <title>
                     <xsl:value-of select="Title"/>
                 </title>
             </head>
-            <body>
+            <body onload="onload()">
                 <div id="header">
                     <xsl:value-of select="Title"/>
                 </div>
@@ -29,11 +30,12 @@
         <html>
             <head>
                 <xsl:call-template name="styles" />
+                <xsl:call-template name="js" />
                 <title>
                     <xsl:value-of select="Title"/>
                 </title>
             </head>
-            <body>
+            <body onload="onload()">
                 <div id="header">
                     <xsl:value-of select="Title"/>
                 </div>
@@ -46,22 +48,23 @@
     </xsl:template>
 
     <xsl:template match="SnomIPPhoneInput">
-        <xsl:param name="def" select="InputItem/DefaultValue"/>
-        <xsl:variable name="param" select="URL" />
+        <xsl:variable name="url" select="URL" />
+        <xsl:variable name="query" select="InputItem/QueryStringParam" />
         <html>
             <head>
                 <xsl:call-template name="styles" />
+                <xsl:call-template name="js" />
                 <title>
                     <xsl:value-of select="Title"/>
                 </title>
             </head>
-            <body>
+            <body onload="onload()">
                 <div id="header">
                     <xsl:value-of select="InputItem/DisplayName"/>
                 </div>
                 <div id="content">
-                    <form action="{$param}" method="get">
-                        <textarea name="param">
+                    <form action="{$url}?{$query}=" method="get">
+                        <textarea id="param">
                             <xsl:value-of select="InputItem/DefaultValue"/>
                         </textarea>
                         <br />
@@ -69,6 +72,14 @@
                     </form>
                 </div>
                 <xsl:call-template name="footer" />
+                <script type="text/javascript">
+                    var m=document.forms[0].action.match(/(.*?)([^\?&amp;]+)$/);
+                    if (m &amp;&amp; m[1]!=''){
+                        document.forms[0].action=m[1].replace(/(\?|&amp;)$/,'');
+                        document.getElementById('param').setAttribute('name',m[2].replace(/=$/,''));
+                    }
+                    m=null;
+                </script>
             </body>
         </html>
     </xsl:template>
@@ -77,11 +88,12 @@
         <html>
             <head>
                 <xsl:call-template name="styles" />
+                <xsl:call-template name="js" />
                 <title>
                     <xsl:value-of select="Title"/>
                 </title>
             </head>
-            <body>
+            <body onload="onload()">
                 <div id="header">
                     <xsl:value-of select="Title"/>
                 </div>
@@ -100,9 +112,10 @@
         <html>
             <head>  
                 <xsl:call-template name="styles" />
+                <xsl:call-template name="js" />
                 <title></title>
             </head>
-            <body>
+            <body onload="onload()">
                 <div id="header">
                     <xsl:value-of select="InputItem/DisplayName"/>
                 </div>
@@ -121,9 +134,10 @@
         <html>
             <head>  
                 <xsl:call-template name="styles" />
+                <xsl:call-template name="js" />
                 <title></title>
             </head>
-            <body>
+            <body onload="onload()">
                 <div id="header">
                     <xsl:value-of select="InputItem/DisplayName"/>
                 </div>
@@ -186,6 +200,18 @@
                 </xsl:call-template>
             </xsl:if>
         </div>    
+    </xsl:template>
+    
+    <xsl:template name="js">
+        <xsl:variable name="fetch" select="fetch"/>
+        <script type="text/javascript">
+            function onload(){
+                document.body.innerHTML=document.body.innerHTML.replace(/&amp;lt;br&amp;gt;/g,'&lt;br&gt;');
+            }
+            <xsl:if test="$fetch != ''">
+                window.setTimeout(function(){document.location.href="<xsl:value-of select="fetch"/>"},<xsl:value-of select="fetch/@mil"/>);
+            </xsl:if>
+        </script>
     </xsl:template>
     
     <xsl:template name="styles">

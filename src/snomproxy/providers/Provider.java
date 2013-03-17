@@ -9,6 +9,7 @@ import java.util.HashMap;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
+import snomproxy.SnomProxy;
 import snomproxy.controlers.Controler;
 import snomproxy.server.Server;
 import snomproxy.sources.DataSource;
@@ -39,6 +40,10 @@ public abstract class Provider {
 
     public void addSource(String name, DataSource source) {
         this.sources.put(name, source);
+    }
+
+    public DataSource getSource(String name) {
+        return this.sources.get(name);
     }
 
     public abstract byte[] getContent(String target, String source, String data);
@@ -93,11 +98,18 @@ public abstract class Provider {
             context = JAXBContext.newInstance(document.getClass());
             Marshaller m = context.createMarshaller();
             m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-            m.setProperty("com.sun.xml.internal.bind.xmlHeaders", "<?xml-stylesheet type=\"text/xsl\" href=\"SnomIPPhone.xsl\" ?>\n");
+            if (SnomProxy.isTestMode()){
+                m.setProperty("com.sun.xml.internal.bind.xmlHeaders", "<?xml-stylesheet type=\"text/xsl\" href=\"/SnomIPPhone.xsl\" ?>\n");
+            }
             StringWriter w = new StringWriter();
             m.marshal(document, w);
-
-            return w.toString();
+            
+            if (SnomProxy.isTestMode()){
+                return w.toString();
+            }else{
+                //Snoms xml implementation allows <br> tags
+                return w.toString().replace("&lt;br&gt;","<br>");
+            }
         } catch (JAXBException ex) {
             System.out.println(ex);
         }

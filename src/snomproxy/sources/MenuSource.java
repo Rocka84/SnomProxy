@@ -36,16 +36,25 @@ public class MenuSource implements DataSource {
                 out= new SnomIPPhoneInput();
                 ((SnomIPPhoneInput) out).setTitle("SnomProxy - CSV");
                 ((SnomIPPhoneInput) out).setURL(SnomProxy.getServer().getAddressString().concat("/csv"));
-                ((SnomIPPhoneInput) out).setInputItem("Suche", "", "", "a");
+                ((SnomIPPhoneInput) out).setInputItem("Suche", "search", "", "a");
             }else if (args.get("menu").equals("call")){
                 ((SnomIPPhoneMenu) out).setTitle("SnomProxy - Anrufe");
-                ((SnomIPPhoneMenu) out).addMenuItem("Eingehenden Anruf simulieren", SnomProxy.getServer().getAddressString().concat("/call?incoming=0123456789"));
-                ((SnomIPPhoneMenu) out).addMenuItem("Angenommenen Anruf simulieren", SnomProxy.getServer().getAddressString().concat("/call?answered=0123456789"));
+                ((SnomIPPhoneMenu) out).addMenuItem("Eingehenden Anruf simulieren", SnomProxy.getServer().getAddressString().concat("/?menu=call_incoming"));
+                ((SnomIPPhoneMenu) out).addMenuItem("Angenommenen Anruf simulieren", SnomProxy.getServer().getAddressString().concat("/?menu=call_answered"));
                 ((SnomIPPhoneMenu) out).addMenuItem("Auflegen", SnomProxy.getServer().getAddressString().concat("/call?end=1"));
                 ((SnomIPPhoneMenu) out).addMenuItem("Anruf Info", SnomProxy.getServer().getAddressString().concat("/call?info=1"));
+            }else if (args.get("menu").equals("call_incoming")){
+                out=new SnomIPPhoneInput();
+                ((SnomIPPhoneInput) out).setURL(SnomProxy.getServer().getAddressString().concat("/call"));
+                ((SnomIPPhoneInput) out).setInputItem("Nummer", "incoming", "0123456789", "a");
+                ((SnomIPPhoneInput) out).setTitle("SnomProxy - Anrufe");
+            }else if (args.get("menu").equals("call_answered")){
+                out=new SnomIPPhoneInput();
+                ((SnomIPPhoneInput) out).setURL(SnomProxy.getServer().getAddressString().concat("/call"));
+                ((SnomIPPhoneInput) out).setInputItem("Nummer", "answered", "0123456789", "a");
+                ((SnomIPPhoneInput) out).setTitle("SnomProxy - Anrufe");
             }
         }
-        
         
         return out;
     }

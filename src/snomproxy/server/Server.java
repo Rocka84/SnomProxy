@@ -146,9 +146,6 @@ public class Server extends Observable {
 
     private byte[] getContent(String target, String action, String data) {
         return this.provider.getContent(target, action, data);
-        //System.out.println("Server.getContent( action: "+action+", data: "+data+" )");
-//        String out = this.provider.getContent(target, action, data);
-//        return this.buildHeader(out.length()) + out;
     }
 
     public void setWorkerCount(int worker_count) {
@@ -250,6 +247,8 @@ public class Server extends Observable {
                     }
                 }
             } catch (final Exception e) {
+                e.printStackTrace();
+                logger.log(Level.SEVERE,e.getMessage());
             }
             logger.log(Level.INFO,"Worker #".concat(String.valueOf(this.worker_nr)).concat(" stopped"));
 
