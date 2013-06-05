@@ -66,7 +66,7 @@ public class ActiveCallSource implements DataSource {
         }
         if (args.containsKey("end")) {
             out = new SnomIPPhoneText();
-            ((SnomIPPhoneText) out).setTitle(args.containsKey("answered")?"Anruf angenommen":"Aktuelles Gespräch");
+            ((SnomIPPhoneText) out).setTitle("Anruf beendet");
             if (active_caller.isEmpty()) {
                 ((SnomIPPhoneText) out).setText("Im Moment ist kein Anruf aktiv.");
             } else if (active_caller_data.size() == 1) {
@@ -112,16 +112,16 @@ public class ActiveCallSource implements DataSource {
 //    }
 
     private String multipleEntries(ContactList contacts) {
-        String text = String.valueOf(active_caller_data.size()).concat(" passende Kontakte gefunden.<br>");
+        String text = String.valueOf(contacts.size()).concat(" passende Kontakte gefunden.<br>");
         int i = 0;
-        for (Contact contact : active_caller_data) {
-            text = text.concat("<br>").concat(String.valueOf(++i)).concat(". ").concat(contact.getFirstname()).concat(" ").concat(contact.getLastname()).concat("<br>");
+        for (Contact contact : contacts) {
+            text = text.concat("<br>").concat(String.valueOf(++i)).concat(". ").concat(contact.getFirstname()).concat(" ").concat(contact.getLastname());
             if (i >= 3) {
                 break;
             }
         }
-        if (active_caller_data.size() > 3) {
-            text = text.concat("...<br>");
+        if (contacts.size() > 3) {
+            text = text.concat("<br>...");
         }
         return text;
     }

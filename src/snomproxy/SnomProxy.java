@@ -66,9 +66,8 @@ public class SnomProxy {
             setTestMode(true);
         }
         
-        if (argsList.containsKey("nogui")) {
-            SnomProxy.server.startServer();
-        } else {
+        SnomProxy.server.startServer();
+        if (!argsList.containsKey("nogui")) {
             gui=new GUI();
         }
     }
