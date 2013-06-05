@@ -20,7 +20,7 @@ public class ContactList implements Iterable<Contact> {
     }
 
     public ContactList(HashMap<String, Contact> contacts) {
-        this.contacts = contacts;
+        this.setContacts(contacts);
     }
 
     public void setContacts(HashMap<String, Contact> contacts) {
@@ -58,29 +58,29 @@ public class ContactList implements Iterable<Contact> {
     public ContactList search(String term, int fields, boolean exact) {
         ContactList out = new ContactList();
 
-        for (String key : contacts.keySet()) {
+        for (Contact contact : this) {
             if (
                     (
                         (fields==ContactList.ALL || (fields & ContactList.LASTNAME)>0)
-                        && ((!exact && contacts.get(key).getLastname().contains(term)) || contacts.get(key).getLastname().equals(term))
+                        && ((!exact && contact.getLastname().contains(term)) || contact.getLastname().equals(term))
                     )
                     || (
                         (fields==ContactList.ALL || (fields & ContactList.FIRSTNAME)>0)
-                        && ((!exact && contacts.get(key).getFirstname().contains(term)) || contacts.get(key).getFirstname().equals(term))
+                        && ((!exact && contact.getFirstname().contains(term)) || contact.getFirstname().equals(term))
                     )
                     || (
                         (fields==ContactList.ALL || (fields & ContactList.PHONES)>0)
-                        && (exact && contacts.get(key).getPhones().containsValue(term))
+                        && (exact && contact.getPhones().containsValue(term))
                     )
                 ){
                 
-                out.addContact(contacts.get(key));
+                out.addContact(contact);
             }
             if(!exact && (fields==ContactList.ALL || (fields & ContactList.PHONES)>0)){
-                HashMap<String, String> phones= contacts.get(key).getPhones();
+                HashMap<String, String> phones= contact.getPhones();
                 for (String pkey : phones.keySet()) {
                     if (phones.get(pkey).contains(term)){
-                        out.addContact(contacts.get(key));
+                        out.addContact(contact);
                         break;
                     }
                 }

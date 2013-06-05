@@ -11,7 +11,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import snomproxy.providers.Provider;
+import snomproxy.providers.SnomProvider;
 
 /**
  * Wartet auf eingehende Verbindungen und ruft den gewünschten Inhalt vom
@@ -22,7 +22,7 @@ import snomproxy.providers.Provider;
 public class Server extends Observable {
 
     private ServerSocket serverSocket;
-    Provider provider;
+    SnomProvider provider;
     private int port = 8180;
     private boolean running = false;
     private InetAddress address;
@@ -30,32 +30,16 @@ public class Server extends Observable {
     private int worker_count=3;
 
     private final static Logger logger = Logger.getLogger("phoneproxy.server");
-
-//    private static Server INSTANCE;
-//    public static Server getInstance(Provider contentProvider) {
-//        return Server.getInstance(contentProvider,8180,false);
-//    }
-//
-//    public static Server getInstance(Provider contentProvider, int port) {
-//        return Server.getInstance(contentProvider,port,false);
-//    }
-//
-//    public static Server getInstance(Provider contentProvider, int port, boolean autorun) {
-//        if (Server.INSTANCE==null){
-//            Server.INSTANCE=new Server(contentProvider, port, autorun);
-//        }
-//        return Server.INSTANCE;
-//    }
-    
-    public Server(Provider contentProvider) {
+   
+    public Server(SnomProvider contentProvider) {
         this(contentProvider, 8180, false);
     }
 
-    public Server(Provider contentProvider, int port) {
+    public Server(SnomProvider contentProvider, int port) {
         this(contentProvider, port, false);
     }
 
-    public Server(Provider contentProvider, int port, boolean autorun) {       
+    public Server(SnomProvider contentProvider, int port, boolean autorun) {       
         try {
             //@TODO Geht das ermitteln der Adresse auch einfacher?
             this.address = null;
@@ -128,7 +112,7 @@ public class Server extends Observable {
         return port;
     }
 
-    public Provider getProvider() {
+    public SnomProvider getProvider() {
         return provider;
     }
 
@@ -224,20 +208,20 @@ public class Server extends Observable {
                             is.read(bytes, 0, bytesToRead);
                             matcher = pattern.matcher(new String(bytes));
 
-                            String action;
+                            String source;
                             String data;
                             if (matcher.matches() && matcher.groupCount() >= 1) {
-                                action = matcher.group(1);
+                                source = matcher.group(1);
                             } else {
-                                action = "";
+                                source = "";
                             }
                             if (matcher.matches() && matcher.groupCount() >= 2) {
                                 data = matcher.group(2);
                             } else {
                                 data = "";
                             }
-                            logger.log(Level.INFO,"Worker #".concat(String.valueOf(this.worker_nr)).concat("; Request target: \"").concat(clientSocket.getInetAddress().getHostAddress()).concat("\" action: \"").concat(action).concat("\" data: \"").concat(data).concat("\""));
-                            output=getContent(clientSocket.getInetAddress().getHostAddress(), action, data);
+                            logger.log(Level.INFO,"Worker #".concat(String.valueOf(this.worker_nr)).concat("; Request target: \"").concat(clientSocket.getInetAddress().getHostAddress()).concat("\" source: \"").concat(source).concat("\" data: \"").concat(data).concat("\""));
+                            output=getContent(clientSocket.getInetAddress().getHostAddress(), source, data);
                             clientSocket.getOutputStream().write(buildHeader(output.length).getBytes());
                             clientSocket.getOutputStream().write(output);
 

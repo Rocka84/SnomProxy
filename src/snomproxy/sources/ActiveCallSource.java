@@ -1,6 +1,5 @@
 package snomproxy.sources;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import snomproxy.SnomProxy;
 import snomproxy.contacts.Contact;
