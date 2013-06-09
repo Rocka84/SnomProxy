@@ -27,6 +27,7 @@ public class MenuSource implements DataSource {
             ((SnomIPPhoneMenu) out).addMenuItem("CSV", SnomProxy.getServer().getAddressString().concat("/?menu=csv"));
             ((SnomIPPhoneMenu) out).addMenuItem("blau", SnomProxy.getServer().getAddressString().concat("/blau"));
             ((SnomIPPhoneMenu) out).addMenuItem("Eingehende Anrufe testen", SnomProxy.getServer().getAddressString().concat("/?menu=call"));
+            ((SnomIPPhoneMenu) out).addMenuItem("Tellows", SnomProxy.getServer().getAddressString().concat("/?menu=tellows"));
         }else if (!args.get("menu").isEmpty()){
             if (args.get("menu").equals("csv")){
                 ((SnomIPPhoneMenu) out).setTitle("SnomProxy - CSV");
@@ -53,6 +54,14 @@ public class MenuSource implements DataSource {
                 ((SnomIPPhoneInput) out).setURL(SnomProxy.getServer().getAddressString().concat("/call"));
                 ((SnomIPPhoneInput) out).setInputItem("Nummer", "answered", "0123456789", "a");
                 ((SnomIPPhoneInput) out).setTitle("SnomProxy - Anrufe");
+            }else if (args.get("menu").equals("tellows")){
+                ((SnomIPPhoneMenu) out).setTitle("SnomProxy - Tellows");
+                ((SnomIPPhoneMenu) out).addMenuItem("Tellows Suche", SnomProxy.getServer().getAddressString().concat("/?menu=tellows_search"));
+            }else if (args.get("menu").equals("tellows_search")){
+                out=new SnomIPPhoneInput();
+                ((SnomIPPhoneInput) out).setURL(SnomProxy.getServer().getAddressString().concat("/tellows"));
+                ((SnomIPPhoneInput) out).setInputItem("Nummer", "search", "0123456789", "a");
+                ((SnomIPPhoneInput) out).setTitle("SnomProxy - Tellows Suche");
             }
         }
         

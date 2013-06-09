@@ -29,7 +29,7 @@ public class Server extends Observable {
     private static int worker_active_count=0;
     private int worker_count=3;
 
-    private final static Logger logger = Logger.getLogger("phoneproxy.server");
+    private final static Logger logger = Logger.getLogger("snomproxy.server");
    
     public Server(SnomProvider contentProvider) {
         this(contentProvider, 8180, false);

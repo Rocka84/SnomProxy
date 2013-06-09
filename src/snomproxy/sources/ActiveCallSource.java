@@ -16,6 +16,11 @@ public class ActiveCallSource implements DataSource {
 
     private String active_caller = "";
     private ContactList active_caller_data;
+	private boolean tellows_available;
+
+	public ActiveCallSource() {
+		tellows_available=(TellowsSource) SnomProxy.getServer().getProvider().getSource("tellows")!=null;
+	}
 
     @Override
     public SnomDocument request(String data) {
@@ -85,7 +90,13 @@ public class ActiveCallSource implements DataSource {
             active_caller = "";
             active_caller_data = new ContactList();
         }
+		if (out==null){
+			out = new SnomIPPhoneText("Anruf Fehler","Ungültige Daten");
+		}
         out.addSoftKeyItem("index", "Index", snomproxy.SnomProxy.getServer().getAddressString().concat("/"));
+		if (tellows_available && (!active_caller.isEmpty() || args.containsKey("incoming"))){
+			((SnomIPPhoneText) out).addSoftKeyItem("tellows", "Tellows",  SnomProxy.getServer().getAddressString().concat("/tellows?search=").concat(args.containsKey("incoming")?args.get("incoming"):active_caller));
+		}
 
         return out;
     }

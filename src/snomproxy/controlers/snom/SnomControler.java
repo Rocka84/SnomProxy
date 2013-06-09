@@ -14,7 +14,7 @@ import snomproxy.controlers.Controler;
  */
 public class SnomControler implements Controler {
     private String target;
-    private final static Logger logger = Logger.getLogger("phoneproxy.controler");
+    private final static Logger logger = Logger.getLogger("snomproxy.controler");
 
     public SnomControler(String target) {
         this.target = target;
@@ -54,7 +54,7 @@ public class SnomControler implements Controler {
     }
 
     public static void sendHttpRequest(String url) {
-        logger.log(Level.FINE,"Send Request: ".concat(url));
+        logger.log(Level.INFO,"Send Request: ".concat(url));
         HttpURLConnection.setFollowRedirects(false);
         try {
             URL _url = new URL(url);

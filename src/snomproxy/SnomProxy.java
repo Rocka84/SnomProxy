@@ -18,6 +18,7 @@ import snomproxy.sources.ActiveCallSource;
 import snomproxy.sources.BlauDataSource;
 import snomproxy.sources.CSVDataSource;
 import snomproxy.sources.MenuSource;
+import snomproxy.sources.TellowsSource;
 import snomproxy.xml.snom.SnomDocument;
 import snomproxy.xml.snom.SnomIPPhoneDirectory;
 import snomproxy.xml.snom.SnomIPPhoneImage;
@@ -35,7 +36,7 @@ public class SnomProxy {
     private static Server server;
     private static GUI gui;
     private static ResourceBundle language;
-    private final static Logger logger = Logger.getLogger("phoneproxy");
+    private final static Logger logger = Logger.getLogger("snomproxy");
     
     private static boolean testMode=false;
 
@@ -43,7 +44,7 @@ public class SnomProxy {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        initLogger(Level.ALL);
+        initLogger(Level.SEVERE);
 
         HashMap<String, Object> argsList=parseArgs(args);
         SnomProxy.language = ResourceBundle.getBundle("snomproxy.resources.lang", java.util.Locale.getDefault());
@@ -55,6 +56,7 @@ public class SnomProxy {
             SnomProxy.server.getProvider().addSource("blau", new BlauDataSource());
             SnomProxy.server.getProvider().addSource("csv", new CSVDataSource("blau_data.csv"));
             SnomProxy.server.getProvider().addSource("call", new ActiveCallSource());
+            SnomProxy.server.getProvider().addSource("tellows", new TellowsSource());
 
             logger.log(Level.INFO, "Server created");
         } catch (Exception ex) {
@@ -218,6 +220,7 @@ public class SnomProxy {
     }
 
     public static void setTestMode(boolean testMode) {
+		logger.setLevel(Level.ALL);
         SnomProxy.testMode = testMode;
     }
 

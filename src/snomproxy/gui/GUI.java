@@ -18,7 +18,7 @@ public class GUI extends JFrame implements ActionListener {
     TrayIcon trayIcon;
     MenuItem itemStartStopServer;
 
-    private final static Logger logger = Logger.getLogger("phoneproxy.gui");
+    private final static Logger logger = Logger.getLogger("snomproxy.gui");
 
     public GUI() {
         super(SnomProxy.getLanguageString("MAINGUI_TITLE"));
