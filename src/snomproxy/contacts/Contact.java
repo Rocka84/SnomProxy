@@ -14,11 +14,23 @@ public class Contact {
     //private HashMap<String, String> email_adresses;
 
     public Contact() {
+		this("","",new HashMap<String, String>());
+    }
+
+    public Contact(String id) {
+        this("","",new HashMap<String, String>());
+		this.id=id;
     }
     
-    public Contact(String id) {
-        this.id = id;
+    public Contact(String lastname, String firstname) {
+        this(lastname,firstname,new HashMap<String, String>());
     }
+    
+	public Contact(String lastname, String firstname, HashMap<String, String> phones) {
+		this.lastname = lastname;
+		this.firstname = firstname;
+		this.phones = phones;
+	}
     
     public String getId() {
         return id;
@@ -48,5 +60,17 @@ public class Contact {
         this.phones = phones;
     }
 
+    public String getPhone(String key) {
+        return phones.get(key);
+    }
+
+    public void setPhone(String key, String phone) {
+        this.phones.put(key, phone);
+    }
+
+	@Override
+	public String toString(){
+		return "[".concat(lastname).concat(", ").concat(firstname).concat(", ").concat(phones.toString()).concat("]");
+	}
     
 }

@@ -17,6 +17,7 @@ import snomproxy.server.Server;
 import snomproxy.sources.ActiveCallSource;
 import snomproxy.sources.BlauDataSource;
 import snomproxy.sources.CSVDataSource;
+import snomproxy.sources.KlicktelSource;
 import snomproxy.sources.MenuSource;
 import snomproxy.sources.TellowsSource;
 import snomproxy.xml.snom.SnomDocument;
@@ -57,6 +58,7 @@ public class SnomProxy {
             SnomProxy.server.getProvider().addSource("csv", new CSVDataSource("blau_data.csv"));
             SnomProxy.server.getProvider().addSource("call", new ActiveCallSource());
             SnomProxy.server.getProvider().addSource("tellows", new TellowsSource());
+            SnomProxy.server.getProvider().addSource("klicktel", new KlicktelSource());
 
             logger.log(Level.INFO, "Server created");
         } catch (Exception ex) {

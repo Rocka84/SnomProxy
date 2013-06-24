@@ -14,6 +14,7 @@ public class ContactList implements Iterable<Contact> {
     public static final int FIRSTNAME = 2;
     public static final int PHONES = 4;
     private HashMap<String, Contact> contacts;
+	protected int total_count=0;
 
     public ContactList() {
         this(new HashMap<String, Contact>());
@@ -46,6 +47,14 @@ public class ContactList implements Iterable<Contact> {
     public boolean isEmpty() {
         return contacts.isEmpty();
     }
+
+	public int getTotalCount() {
+		return total_count<this.size() ? this.size() : total_count;
+	}
+
+	public void setTotalCount(int total_count) {
+		this.total_count = total_count;
+	}
 
     public ContactList search(String term) {
         return search(term, ContactList.ALL,false);

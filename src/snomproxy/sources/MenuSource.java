@@ -8,7 +8,9 @@ import snomproxy.xml.snom.SnomIPPhoneInput;
 import snomproxy.xml.snom.SnomIPPhoneMenu;
 
 /**
- *
+ * On-Phone-Menu
+ * 
+ * Ein Menü der Funktionen des Programms zur Navigation auf dem Telefon
  * @author Fabian Dillmeier <fabian at dillmeier.de>
  */
 public class MenuSource implements DataSource {

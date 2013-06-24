@@ -11,6 +11,14 @@ public abstract class ContactsSource implements DataSource {
 
     protected ContactList contacts;
 
+	public ContactsSource() {
+		this.resetContacts();
+	}
+
+	public final void resetContacts() {
+		contacts=new ContactList();
+	}
+
     public ContactList search(String term){
         return search(term,ContactList.ALL,false);
     }

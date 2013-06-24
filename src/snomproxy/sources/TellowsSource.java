@@ -19,7 +19,9 @@ import org.xml.sax.SAXException;
 import snomproxy.xml.snom.SnomIPPhoneText;
 
 /**
- *
+ * Tellows-Scoring-Source
+ * 
+ * Ruft ein Scoring und weitere Daten zu einer Telefonnummer von tellows.de ab.
  * @author Fabian Dillmeier <fabian at dillmeier.de>
  */
 public class TellowsSource implements DataSource {

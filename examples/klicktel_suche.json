@@ -1,0 +1,445 @@
+{
+	"response": {
+		"type": "list",
+		"results": [
+			{
+				"type": "entries",
+				"first": 1,
+				"last": 9,
+				"count": 9,
+				"total": 9,
+				"fused": false,
+				"mergeSource": null,
+				"entries": [
+					{
+						"id": "QVMWXXIGV7C8754",
+						"type": "STANDARD",
+						"subtype": null,
+						"mediaflag": 0,
+						"entrytype": "private",
+						"lastname": "MFB MusterFabrik Berlin GmbH",
+						"displayname": "MFB MusterFabrik Berlin GmbH",
+						"backlink": "http:\/\/www.klicktel.de\/person\/-mfb-musterfabrik-berlin-gmbh-berlin-QVMWXXIGV7C8754.html",
+						"location": {
+							"streetnumber": "156",
+							"street": "Brunnenstr.",
+							"zipcode": "10115",
+							"district": null,
+							"city": "Berlin",
+							"county": null,
+							"state": null,
+							"country": "DE"
+						},
+						"urls": null,
+						"emails": [
+							{
+								"main": 1,
+								"email": ""
+							}
+						],
+						"media": {
+						},
+						"phonenumbers": [
+							{
+								"main": 1,
+								"description": "",
+								"type": "phone",
+								"countrycode": "49",
+								"area": "030",
+								"number": "44319xxx",
+								"displayphone": "(0 30) 44 31 9x xx",
+								"pricing": null
+							}
+						],
+						"ratings": {
+							"count": 0,
+							"average": "0,0000",
+							"backlink": "http:\/\/www.klicktel.de\/person\/-mfb-musterfabrik-berlin-gmbh-berlin-QVMWXXIGV7C8754.html"
+						}
+					},
+					{
+						"id": "QYGWRSWLQC7E9AB",
+						"type": "STANDARD",
+						"subtype": null,
+						"mediaflag": 0,
+						"entrytype": "private",
+						"firstname": "Gerhard",
+						"lastname": "Muster",
+						"salutation": "Herr",
+						"displayname": "Muster Gerhard",
+						"backlink": "http:\/\/www.klicktel.de\/person\/gerhard-herr-muster-berlin-QYGWRSWLQC7E9AB.html",
+						"location": {
+							"streetnumber": "24",
+							"street": "W\u00f6rther Str.",
+							"zipcode": "13595",
+							"district": null,
+							"city": "Berlin",
+							"county": null,
+							"state": null,
+							"country": "DE"
+						},
+						"urls": null,
+						"emails": [
+							{
+								"main": 1,
+								"email": ""
+							}
+						],
+						"media": {
+						},
+						"phonenumbers": [
+							{
+								"main": 1,
+								"description": "",
+								"type": "phone",
+								"countrycode": "49",
+								"area": "030",
+								"number": "3621xxx",
+								"displayphone": "(0 30) 3 62 1x xx",
+								"pricing": null
+							}
+						],
+						"ratings": {
+							"count": 0,
+							"average": "0,0000",
+							"backlink": "http:\/\/www.klicktel.de\/person\/gerhard-herr-muster-berlin-QYGWRSWLQC7E9AB.html"
+						}
+					},
+					{
+						"id": "QNWNJMWLQBBF5E8",
+						"type": "STANDARD",
+						"subtype": null,
+						"mediaflag": 0,
+						"entrytype": "private",
+						"firstname": "G\u00fcnter",
+						"lastname": "Muster",
+						"salutation": "Herr",
+						"displayname": "Muster G\u00fcnter",
+						"backlink": "http:\/\/www.klicktel.de\/person\/guenter-herr-muster-berlin-QNWNJMWLQBBF5E8.html",
+						"location": {
+							"streetnumber": "203",
+							"street": "Ingw\u00e4onenweg",
+							"zipcode": "13125",
+							"district": null,
+							"city": "Berlin",
+							"county": null,
+							"state": null,
+							"country": "DE"
+						},
+						"urls": null,
+						"emails": [
+							{
+								"main": 1,
+								"email": ""
+							}
+						],
+						"media": {
+						},
+						"phonenumbers": [
+							{
+								"main": 1,
+								"description": "",
+								"type": "phone",
+								"countrycode": "49",
+								"area": "030",
+								"number": "9413xxx",
+								"displayphone": "(0 30) 9 41 3x xx",
+								"pricing": null
+							}
+						],
+						"ratings": {
+							"count": 0,
+							"average": "0,0000",
+							"backlink": "http:\/\/www.klicktel.de\/person\/guenter-herr-muster-berlin-QNWNJMWLQBBF5E8.html"
+						}
+					},
+					{
+						"id": "QJNZKLWLQ912BFA",
+						"type": "STANDARD",
+						"subtype": null,
+						"mediaflag": 0,
+						"entrytype": "private",
+						"firstname": "Hans-Frithjof",
+						"lastname": "Muster",
+						"displayname": "Muster Hans-Frithjof",
+						"backlink": "http:\/\/www.klicktel.de\/person\/hans-frithjof-muster-berlin-QJNZKLWLQ912BFA.html",
+						"location": {
+							"streetnumber": "212",
+							"street": "Mariendorfer Damm",
+							"zipcode": "12107",
+							"district": null,
+							"city": "Berlin",
+							"county": null,
+							"state": null,
+							"country": "DE"
+						},
+						"urls": null,
+						"emails": [
+							{
+								"main": 1,
+								"email": ""
+							}
+						],
+						"media": {
+						},
+						"phonenumbers": [
+							{
+								"main": 1,
+								"description": "",
+								"type": "phone",
+								"countrycode": "49",
+								"area": "030",
+								"number": "7417xxx",
+								"displayphone": "(0 30) 7 41 7x xx",
+								"pricing": null
+							}
+						],
+						"ratings": {
+							"count": 0,
+							"average": "0,0000",
+							"backlink": "http:\/\/www.klicktel.de\/person\/hans-frithjof-muster-berlin-QJNZKLWLQ912BFA.html"
+						}
+					},
+					{
+						"id": "QSMSRSWLQB5E658",
+						"type": "STANDARD",
+						"subtype": null,
+						"mediaflag": 0,
+						"entrytype": "private",
+						"firstname": "Sven F.W.",
+						"lastname": "Muster",
+						"displayname": "Muster Sven F.W.",
+						"backlink": "http:\/\/www.klicktel.de\/person\/sven-f-w-muster-berlin-QSMSRSWLQB5E658.html",
+						"location": {
+							"streetnumber": "68",
+							"street": "Schillerstr.",
+							"zipcode": "10627",
+							"district": null,
+							"city": "Berlin",
+							"county": null,
+							"state": null,
+							"country": "DE"
+						},
+						"urls": null,
+						"emails": [
+							{
+								"main": 1,
+								"email": ""
+							}
+						],
+						"media": {
+						},
+						"phonenumbers": [
+							{
+								"main": 1,
+								"description": "",
+								"type": "phone",
+								"countrycode": "49",
+								"area": "030",
+								"number": "3275xxx",
+								"displayphone": "(0 30) 3 27 5x xx",
+								"pricing": null
+							}
+						],
+						"ratings": {
+							"count": 0,
+							"average": "0,0000",
+							"backlink": "http:\/\/www.klicktel.de\/person\/sven-f-w-muster-berlin-QSMSRSWLQB5E658.html"
+						}
+					},
+					{
+						"id": "QNIORIYLQE86C81",
+						"type": "STANDARD",
+						"subtype": null,
+						"mediaflag": 0,
+						"entrytype": "private",
+						"firstname": "Torsten",
+						"lastname": "Muster B\u00fcroservice",
+						"salutation": "Herr",
+						"displayname": "Muster B\u00fcroservice Torsten",
+						"backlink": "http:\/\/www.klicktel.de\/person\/torsten-herr-muster-bueroservice-berlin-QNIORIYLQE86C81.html",
+						"location": {
+							"streetnumber": "53",
+							"street": "Corinthstr.",
+							"zipcode": "10245",
+							"district": null,
+							"city": "Berlin",
+							"county": null,
+							"state": null,
+							"country": "DE"
+						},
+						"urls": null,
+						"emails": [
+							{
+								"main": 1,
+								"email": ""
+							}
+						],
+						"media": {
+						},
+						"phonenumbers": [
+							{
+								"main": 0,
+								"description": "",
+								"type": "mobile",
+								"countrycode": "49",
+								"area": "0172",
+								"number": "3666xxx",
+								"displayphone": "(01 72) 3 66 6x xx",
+								"pricing": null
+							}
+						],
+						"ratings": {
+							"count": 0,
+							"average": "0,0000",
+							"backlink": "http:\/\/www.klicktel.de\/person\/torsten-herr-muster-bueroservice-berlin-QNIORIYLQE86C81.html"
+						}
+					},
+					{
+						"id": "QYSJZVQLQ77AC1B",
+						"type": "STANDARD",
+						"subtype": null,
+						"mediaflag": 0,
+						"entrytype": "private",
+						"firstname": "Helmut",
+						"lastname": "Musterer",
+						"salutation": "Herr",
+						"displayname": "Musterer Helmut",
+						"backlink": "http:\/\/www.klicktel.de\/person\/helmut-herr-musterer-berlin-QYSJZVQLQ77AC1B.html",
+						"location": {
+							"streetnumber": "16",
+							"street": "Arthur-Weisbrodt-Str.",
+							"zipcode": "10369",
+							"district": null,
+							"city": "Berlin",
+							"county": null,
+							"state": null,
+							"country": "DE"
+						},
+						"urls": null,
+						"emails": [
+							{
+								"main": 1,
+								"email": ""
+							}
+						],
+						"media": {
+						},
+						"phonenumbers": [
+							{
+								"main": 1,
+								"description": "",
+								"type": "phone",
+								"countrycode": "49",
+								"area": "030",
+								"number": "9716xxx",
+								"displayphone": "(0 30) 9 71 6x xx",
+								"pricing": null
+							}
+						],
+						"ratings": {
+							"count": 0,
+							"average": "0,0000",
+							"backlink": "http:\/\/www.klicktel.de\/person\/helmut-herr-musterer-berlin-QYSJZVQLQ77AC1B.html"
+						}
+					},
+					{
+						"id": "QJXSKJWLQ993575",
+						"type": "STANDARD",
+						"subtype": null,
+						"mediaflag": 0,
+						"entrytype": "private",
+						"firstname": "Zofia Krystyna",
+						"lastname": "Musterer",
+						"displayname": "Musterer Zofia Krystyna",
+						"backlink": "http:\/\/www.klicktel.de\/person\/zofia-krystyna-musterer-berlin-QJXSKJWLQ993575.html",
+						"location": {
+							"streetnumber": "22",
+							"street": "Fidicinstr.",
+							"zipcode": "10965",
+							"district": null,
+							"city": "Berlin",
+							"county": null,
+							"state": null,
+							"country": "DE"
+						},
+						"urls": null,
+						"emails": [
+							{
+								"main": 1,
+								"email": ""
+							}
+						],
+						"media": {
+						},
+						"phonenumbers": [
+							{
+								"main": 1,
+								"description": "",
+								"type": "phone",
+								"countrycode": "49",
+								"area": "030",
+								"number": "53005xxx",
+								"displayphone": "(0 30) 53 00 5x xx",
+								"pricing": null
+							}
+						],
+						"ratings": {
+							"count": 0,
+							"average": "0,0000",
+							"backlink": "http:\/\/www.klicktel.de\/person\/zofia-krystyna-musterer-berlin-QJXSKJWLQ993575.html"
+						}
+					},
+					{
+						"id": "QWKILRQLQ9072C7",
+						"type": "STANDARD",
+						"subtype": null,
+						"mediaflag": 0,
+						"entrytype": "private",
+						"firstname": "Jennifer",
+						"lastname": "Mustermann",
+						"salutation": "Frau",
+						"displayname": "Mustermann Jennifer",
+						"backlink": "http:\/\/www.klicktel.de\/person\/jennifer-frau-mustermann-berlin-QWKILRQLQ9072C7.html",
+						"location": {
+							"streetnumber": null,
+							"street": null,
+							"zipcode": "10365",
+							"district": null,
+							"city": "Berlin",
+							"county": null,
+							"state": null,
+							"country": "DE"
+						},
+						"urls": null,
+						"emails": [
+							{
+								"main": 1,
+								"email": ""
+							}
+						],
+						"media": {
+						},
+						"phonenumbers": [
+							{
+								"main": 0,
+								"description": "",
+								"type": "mobile",
+								"countrycode": "49",
+								"area": "0171",
+								"number": "2757xxx",
+								"displayphone": "(01 71) 2 75 7x xx",
+								"pricing": null
+							}
+						],
+						"ratings": {
+							"count": 0,
+							"average": "0,0000",
+							"backlink": "http:\/\/www.klicktel.de\/person\/jennifer-frau-mustermann-berlin-QWKILRQLQ9072C7.html"
+						}
+					}
+				]
+			}
+		]
+	}
+}

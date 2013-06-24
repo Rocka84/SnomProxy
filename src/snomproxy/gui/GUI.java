@@ -82,7 +82,7 @@ public class GUI extends JFrame implements ActionListener {
     }
 
     private void initTray() {
-//Check the SystemTray is supported
+//Check if the SystemTray is supported
         if (!SystemTray.isSupported()) {
             logger.log(Level.WARNING,"No SystemTray");
             return;

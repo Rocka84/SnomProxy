@@ -1,0 +1,5055 @@
+{"response": {
+  "results": [{
+    "total": 432089,
+    "fused": false,
+    "count": 20,
+    "last": 20,
+    "entries": [
+      {
+        "entrytype": "business",
+        "keywords": [
+          {
+            "id": 6060305,
+            "keyword": "Patientenverfügung"
+          },
+          {
+            "id": 6086078,
+            "keyword": "Vorsorgevollmacht"
+          },
+          {
+            "id": 6134106,
+            "keyword": "Generalvollmachten"
+          },
+          {
+            "id": 6076384,
+            "keyword": "Sterbebegleitung"
+          },
+          {
+            "id": 6149389,
+            "keyword": "Humanes Sterben"
+          },
+          {
+            "id": 6149391,
+            "keyword": "Patientenwille"
+          },
+          {
+            "id": 6149390,
+            "keyword": "Notfall-Ausweis"
+          }
+        ],
+        "location": {
+          "county": null,
+          "streetnumber": "4",
+          "zipcode": "10117",
+          "street": "Kronenstr.",
+          "state": null,
+          "district": null,
+          "country": "DE",
+          "city": "Berlin"
+        },
+        "urls": [{
+          "link": "http://www.dghs.de",
+          "display": "www.dghs.de",
+          "main": 1
+        }],
+        "emails": [{
+          "email": "info@dghs.de",
+          "main": 1
+        }],
+        "type": "MEDIA",
+        "contacts": [{
+          "phonenumbers": [
+            {
+              "pricing": null,
+              "area": "030",
+              "countrycode": "49",
+              "displayphone": "(0 30) 2 12 22 3x xx",
+              "description": "",
+              "number": "212223xxx",
+              "type": "phone",
+              "main": 0
+            },
+            {
+              "pricing": null,
+              "area": "030",
+              "countrycode": "49",
+              "displayphone": "(0 30) 21 22 23 3x xx",
+              "description": "",
+              "number": "2122233xxx",
+              "type": "fax",
+              "main": 0
+            }
+          ],
+          "title": "",
+          "email": "info@dghs.de",
+          "name": null,
+          "lastname": "",
+          "firstname": "",
+          "addition": "",
+          "salutation": "",
+          "main": 1
+        }],
+        "id": "Z3625232",
+        "phonenumbers": [
+          {
+            "pricing": "",
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 2 12 22 3x xx",
+            "description": "",
+            "number": "212223xxx",
+            "type": "phone",
+            "main": 1
+          },
+          {
+            "pricing": "",
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 21 22 23 3x xx",
+            "description": "",
+            "number": "2122233xxx",
+            "type": "fax",
+            "main": 0
+          }
+        ],
+        "slogan": "\u2026damit das Leben bis zuletzt human bleibt!",
+        "mediaflag": 1,
+        "backlink": "http://www.klicktel.de/branchenbuch/dghs-deutsche-gesellschaft-fuer-humanes-sterben-e-v,berlin,4617500,Z3625232.html",
+        "subtype": null,
+        "company": "DGHS Deutsche Gesellschaft für Humanes Sterben e.V.",
+        "trades": [{
+          "id": "3305524",
+          "trade": "Vereine"
+        }],
+        "openinghours": {
+          "format3": {"format3": [
+            {
+              "begin2": "",
+              "begin1": "09:00",
+              "weekday": "mon",
+              "end2": "",
+              "end1": "16:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "09:00",
+              "weekday": "tue",
+              "end2": "",
+              "end1": "16:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "09:00",
+              "weekday": "wed",
+              "end2": "",
+              "end1": "16:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "09:00",
+              "weekday": "thu",
+              "end2": "",
+              "end1": "16:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "09:00",
+              "weekday": "fri",
+              "end2": "",
+              "end1": "16:00"
+            }
+          ]},
+          "info": null
+        },
+        "salutation": "Firma",
+        "media": {
+          "logos": [{
+            "id": 836082,
+            "fused": false,
+            "mimetype": "image/jpeg",
+            "title": "",
+            "height": 130,
+            "width": 439,
+            "url": "http://openapi.klicktel.de/de/1.0/media/logo-836082-439x130.jpg",
+            "mergeSource": null
+          }],
+          "videos": [{
+            "id": 840622,
+            "mimetype": "application/octet-stream",
+            "title": "",
+            "height": null,
+            "width": null,
+            "type": "movie",
+            "thumb": {
+              "title": null,
+              "height": 384,
+              "width": 512,
+              "url": "http://openapi.klicktel.de/de/1.0/media/thumb-840632-512x384.png"
+            },
+            "url": "http://download.klicktel.de/video/eva/840622.flv",
+            "main": 0
+          }]
+        },
+        "ratings": {
+          "count": 0,
+          "backlink": "http://www.klicktel.de/branchenbuch/dghs-deutsche-gesellschaft-fuer-humanes-sterben-e-v,berlin,4617500,Z3625232.html",
+          "average": "0,0000"
+        },
+        "mediatype": "P2",
+        "displayname": "DGHS Deutsche Gesellschaft für Humanes Sterben e.V."
+      },
+      {
+        "entrytype": "business",
+        "keywords": [
+          {
+            "id": 6078497,
+            "keyword": "Taxi"
+          },
+          {
+            "id": 6115801,
+            "keyword": "Taxifunk"
+          },
+          {
+            "id": 6029393,
+            "keyword": "Funktaxi"
+          },
+          {
+            "id": 6078593,
+            "keyword": "Taxizentrale"
+          },
+          {
+            "id": 6047575,
+            "keyword": "Kurierdienste"
+          },
+          {
+            "id": 6029285,
+            "keyword": "Fuhrunternehmen"
+          },
+          {
+            "id": 6078573,
+            "keyword": "Taxiruf"
+          },
+          {
+            "id": 6033716,
+            "keyword": "Großraumtaxi"
+          },
+          {
+            "id": 6141372,
+            "keyword": "Cabcall"
+          },
+          {
+            "id": 6027625,
+            "keyword": "Flughafentransfer"
+          }
+        ],
+        "location": {
+          "county": null,
+          "streetnumber": "87 a",
+          "zipcode": "10969",
+          "street": "Gitschiner Str.",
+          "state": null,
+          "district": null,
+          "country": "DE",
+          "city": "Berlin"
+        },
+        "urls": [{
+          "link": "http://www.taxiberlin.com",
+          "display": "www.taxiberlin.com",
+          "main": 1
+        }],
+        "emails": [{
+          "email": "info@speedcab.de",
+          "main": 1
+        }],
+        "type": "MEDIA",
+        "contacts": [{
+          "phonenumbers": [
+            {
+              "pricing": null,
+              "area": "030",
+              "countrycode": "49",
+              "displayphone": "(0 30) 41 4x xx",
+              "description": "",
+              "number": "414xxx",
+              "type": "phone",
+              "main": 0
+            },
+            {
+              "pricing": null,
+              "area": "030",
+              "countrycode": "49",
+              "displayphone": "(0 30) 41 40 4x xx",
+              "description": "",
+              "number": "41404xxx",
+              "type": "fax",
+              "main": 0
+            }
+          ],
+          "title": "",
+          "email": "info@speedcab.de",
+          "name": null,
+          "lastname": "",
+          "firstname": "",
+          "addition": "",
+          "salutation": "",
+          "main": 1
+        }],
+        "id": "Z3487272",
+        "phonenumbers": [
+          {
+            "pricing": "",
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 41 4x xx",
+            "description": "",
+            "number": "414xxx",
+            "type": "phone",
+            "main": 1
+          },
+          {
+            "pricing": "",
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 41 40 4x xx",
+            "description": "",
+            "number": "41404xxx",
+            "type": "fax",
+            "main": 0
+          }
+        ],
+        "slogan": "Die Taxizentrale in Berlin",
+        "mediaflag": 1,
+        "backlink": "http://www.klicktel.de/branchenbuch/speedcab-taxifunk-gmbh,berlin,4617500,Z3487272.html",
+        "subtype": null,
+        "company": "Speedcab Taxifunk GmbH",
+        "trades": [{
+          "id": "3305179",
+          "trade": "Taxiunternehmen"
+        }],
+        "openinghours": {
+          "format3": {"format3": [
+            {
+              "begin2": "",
+              "begin1": "10:00",
+              "weekday": "mon",
+              "end2": "",
+              "end1": "18:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "10:00",
+              "weekday": "tue",
+              "end2": "",
+              "end1": "18:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "10:00",
+              "weekday": "wed",
+              "end2": "",
+              "end1": "18:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "10:00",
+              "weekday": "thu",
+              "end2": "",
+              "end1": "18:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "10:00",
+              "weekday": "fri",
+              "end2": "",
+              "end1": "18:00"
+            }
+          ]},
+          "info": null
+        },
+        "salutation": "Firma",
+        "media": {"videos": [{
+          "id": 635742,
+          "mimetype": "application/octet-stream",
+          "title": "",
+          "height": null,
+          "width": null,
+          "type": "movie",
+          "thumb": {
+            "title": null,
+            "height": 384,
+            "width": 512,
+            "url": "http://openapi.klicktel.de/de/1.0/media/thumb-635752-512x384.png"
+          },
+          "url": "http://download.klicktel.de/video/eva/635742.flv",
+          "main": 0
+        }]},
+        "ratings": {
+          "count": 2,
+          "backlink": "http://www.klicktel.de/branchenbuch/speedcab-taxifunk-gmbh,berlin,4617500,Z3487272.html",
+          "average": "5,0000"
+        },
+        "mediatype": "P2",
+        "displayname": "Speedcab Taxifunk GmbH"
+      },
+      {
+        "entrytype": "business",
+        "keywords": [
+          {
+            "id": 6086044,
+            "keyword": "Vorsorge"
+          },
+          {
+            "id": 6003216,
+            "keyword": "Altersvorsorge"
+          },
+          {
+            "id": 6004038,
+            "keyword": "Anlageberatung"
+          },
+          {
+            "id": 6093353,
+            "keyword": "Baufinanzierung"
+          },
+          {
+            "id": 6008539,
+            "keyword": "Bausparen"
+          },
+          {
+            "id": 6008552,
+            "keyword": "Bausparkassen"
+          },
+          {
+            "id": 6009503,
+            "keyword": "Beratung"
+          },
+          {
+            "id": 6018600,
+            "keyword": "Direktversicherungen"
+          },
+          {
+            "id": 6026640,
+            "keyword": "Finanzberatungen"
+          },
+          {
+            "id": 6099310,
+            "keyword": "Finanzvermittlungen"
+          },
+          {
+            "id": 6026651,
+            "keyword": "Finanzdienstleistungen"
+          },
+          {
+            "id": 6026710,
+            "keyword": "Finanzplanungen"
+          },
+          {
+            "id": 6026959,
+            "keyword": "Firmen-Versicherungen"
+          },
+          {
+            "id": 6027982,
+            "keyword": "Förderrente"
+          },
+          {
+            "id": 6040738,
+            "keyword": "Investments"
+          },
+          {
+            "id": 6041464,
+            "keyword": "Jobs"
+          },
+          {
+            "id": 6042399,
+            "keyword": "Kapital"
+          },
+          {
+            "id": 6042568,
+            "keyword": "Karriere"
+          },
+          {
+            "id": 6095685,
+            "keyword": "Kfz-Versicherungen"
+          },
+          {
+            "id": 6084950,
+            "keyword": "Versicherungen"
+          },
+          {
+            "id": 6084710,
+            "keyword": "Vermögensberatungen"
+          },
+          {
+            "id": 6075632,
+            "keyword": "Staatliche Förderungen"
+          },
+          {
+            "id": 6066929,
+            "keyword": "Riester-Rente"
+          },
+          {
+            "id": 6063322,
+            "keyword": "Private Krankenversicherungen"
+          },
+          {
+            "id": 6048918,
+            "keyword": "Lebensversicherungen"
+          }
+        ],
+        "news": "\n",
+        "location": {
+          "county": null,
+          "streetnumber": "89",
+          "zipcode": "16341",
+          "street": "Heinestr.",
+          "state": null,
+          "district": null,
+          "country": "DE",
+          "city": "Panketal"
+        },
+        "urls": [
+          {
+            "link": "http://www.swisslife-select.de/jochen-lukosch",
+            "display": "http://www.swisslife-select.de/jochen-lukosch ",
+            "main": 1
+          },
+          {
+            "link": "http://www.swisslife-select.de",
+            "display": "Swiss Life Select",
+            "main": 0
+          },
+          {
+            "link": "http://www.kundenmagazin-finanzplaner.de/",
+            "display": "Kundenmagazin Finanzplaner",
+            "main": 0
+          },
+          {
+            "link": "http://www.altersvorsorge-hilft.de",
+            "display": "Altersvorsorge hilft",
+            "main": 0
+          },
+          {
+            "link": "http://www.swisslife-select-erfahrungen.de",
+            "display": "Erfahrungen mit Swiss Life Select",
+            "main": 0
+          }
+        ],
+        "emails": [{
+          "email": "jochen.lukosch@swisslife-select.de",
+          "main": 1
+        }],
+        "type": "MEDIA",
+        "contacts": [{
+          "phonenumbers": [
+            {
+              "pricing": null,
+              "area": "030",
+              "countrycode": "49",
+              "displayphone": "(0 30) 9 44 6x -  xx",
+              "description": "",
+              "number": "9446x-xx",
+              "type": "phone",
+              "main": 0
+            },
+            {
+              "pricing": null,
+              "area": "030",
+              "countrycode": "49",
+              "displayphone": "(0 30) 9 44 6x -  xx",
+              "description": "",
+              "number": "9446x-xx",
+              "type": "fax",
+              "main": 0
+            }
+          ],
+          "title": "",
+          "email": "jochen.lukosch@swisslife-select.de",
+          "name": null,
+          "lastname": "",
+          "firstname": "",
+          "addition": "",
+          "salutation": "",
+          "main": 1
+        }],
+        "id": "Z1040125",
+        "phonenumbers": [
+          {
+            "pricing": "",
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 9 44 6x -  xx",
+            "description": "",
+            "number": "9446x-xx",
+            "type": "phone",
+            "main": 1
+          },
+          {
+            "pricing": "",
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 9 44 6x -  xx",
+            "description": "",
+            "number": "9446x-xx",
+            "type": "fax",
+            "main": 0
+          }
+        ],
+        "slogan": "Jochen Lukosch - Franchisepartner für Swiss Life Select",
+        "mediaflag": 1,
+        "backlink": "http://www.klicktel.de/branchenbuch/swiss-life-select,panketal,68539141,Z1040125.html",
+        "subsidiaries": [
+          "Z5720",
+          "Z5721",
+          "Z5730",
+          "Z5733",
+          "Z5735",
+          "Z5738",
+          "Z5742",
+          "Z5745",
+          "Z5886",
+          "Z5895",
+          "Z11171",
+          "Z11173",
+          "Z11174",
+          "Z11176",
+          "Z11177",
+          "Z11182",
+          "Z13329",
+          "Z16824",
+          "Z19999",
+          "Z20002",
+          "Z20003",
+          "Z20006",
+          "Z20008",
+          "Z22439",
+          "Z22440",
+          "Z22441",
+          "Z22451",
+          "Z22452",
+          "Z22456",
+          "Z22466",
+          "Z22468",
+          "Z22483",
+          "Z22486",
+          "Z22488",
+          "Z22491",
+          "Z22492",
+          "Z22808",
+          "Z22811",
+          "Z24285",
+          "Z24287",
+          "Z28017",
+          "Z28020",
+          "Z28021",
+          "Z28035",
+          "Z28049",
+          "Z30378",
+          "Z33956",
+          "Z34757",
+          "Z34758",
+          "Z34759",
+          "Z34760",
+          "Z35960",
+          "Z37841",
+          "Z40464",
+          "Z40465",
+          "Z40467",
+          "Z40472",
+          "Z40479",
+          "Z40480",
+          "Z40483",
+          "Z40484",
+          "Z41103",
+          "Z41105",
+          "Z41109",
+          "Z41120",
+          "Z41121",
+          "Z41123",
+          "Z41795",
+          "Z44244",
+          "Z44725",
+          "Z1040113",
+          "Z1040116",
+          "Z1040121",
+          "Z1040122",
+          "Z1040126",
+          "Z1040127",
+          "Z1040130",
+          "Z1040135",
+          "Z1040136",
+          "Z1040137",
+          "Z1040138",
+          "Z1040140",
+          "Z1040147",
+          "Z1040149",
+          "Z1040150",
+          "Z1040154",
+          "Z1040156",
+          "Z1056571",
+          "Z3221880",
+          "Z3221882",
+          "Z3227333",
+          "Z3227334",
+          "Z3227336",
+          "Z3227338",
+          "Z3227339",
+          "Z3227611",
+          "Z3227613",
+          "Z3227614",
+          "Z3229297",
+          "Z3229298",
+          "Z3232510",
+          "Z3287272",
+          "Z3287292",
+          "Z3384382",
+          "Z3411672",
+          "Z3451842",
+          "Z3493452",
+          "Z3493462",
+          "Z3508842",
+          "Z3514182",
+          "Z3529962",
+          "Z3533762",
+          "Z3585532",
+          "Z3611952",
+          "Z3631252",
+          "Z3639672",
+          "Z3639682",
+          "Z3639692",
+          "Z3639702",
+          "Z3639712",
+          "Z3639722",
+          "Z3639732",
+          "Z3639742",
+          "Z3639752",
+          "Z3639762",
+          "Z3639772",
+          "Z3639782",
+          "Z3639792",
+          "Z3639802",
+          "Z3639812",
+          "Z3639822",
+          "Z3639832",
+          "Z3639842",
+          "Z3639852",
+          "Z3639862",
+          "Z3639872",
+          "Z3639882",
+          "Z3639892",
+          "Z3639912",
+          "Z3639922",
+          "Z3639932",
+          "Z3639952",
+          "Z3639962",
+          "Z3639972",
+          "Z3639982",
+          "Z3639992",
+          "Z3640002",
+          "Z3640012",
+          "Z3640032",
+          "Z3640042",
+          "Z3640052",
+          "Z3640062",
+          "Z3640072",
+          "Z3640082",
+          "Z3640092",
+          "Z3640102",
+          "Z3640112",
+          "Z3640122",
+          "Z3640132",
+          "Z3640142",
+          "Z3640152",
+          "Z3640162",
+          "Z3640172",
+          "Z3640182",
+          "Z3640192",
+          "Z3640202",
+          "Z3640212",
+          "Z3640222",
+          "Z3640232",
+          "Z3640242",
+          "Z3640252",
+          "Z3640262",
+          "Z3640272",
+          "Z3640282",
+          "Z3640292",
+          "Z3640792",
+          "Z3640822",
+          "Z3640832",
+          "Z3640842",
+          "Z3644642",
+          "Z3653402"
+        ],
+        "subtype": null,
+        "company": "Swiss Life Select",
+        "trades": [
+          {
+            "id": "3300129",
+            "trade": "Anlageberatung"
+          },
+          {
+            "id": "3300596",
+            "trade": "Bausparkassen"
+          },
+          {
+            "id": "3301610",
+            "trade": "Finanzberatungen und Finanzvermittlungen"
+          },
+          {
+            "id": "3301614",
+            "trade": "Finanzdienstleistungen"
+          },
+          {
+            "id": "3303181",
+            "trade": "Krankenversicherungen"
+          },
+          {
+            "id": "3305568",
+            "trade": "Vermögensberatungen"
+          },
+          {
+            "id": "3305627",
+            "trade": "Versicherungen"
+          }
+        ],
+        "salutation": "Firma",
+        "media": {"logos": [{
+          "id": 898602,
+          "fused": false,
+          "mimetype": "image/png",
+          "title": "Swiss Life Select",
+          "height": 70,
+          "width": 139,
+          "url": "http://openapi.klicktel.de/de/1.0/media/logo-898602-139x70.png",
+          "mergeSource": null
+        }]},
+        "ratings": {
+          "count": 0,
+          "backlink": "http://www.klicktel.de/branchenbuch/swiss-life-select,panketal,68539141,Z1040125.html",
+          "average": "0,0000"
+        },
+        "mediatype": "P2",
+        "displayname": "Swiss Life Select"
+      },
+      {
+        "entrytype": "business",
+        "keywords": [
+          {
+            "id": 6114923,
+            "keyword": "Schlüsselnotdienste"
+          },
+          {
+            "id": 6070222,
+            "keyword": "Schlossdienste"
+          },
+          {
+            "id": 6070348,
+            "keyword": "Schlüssel-Notdienst"
+          },
+          {
+            "id": 6072945,
+            "keyword": "Sicherheitstechnik"
+          },
+          {
+            "id": 6090810,
+            "keyword": "Zylinder"
+          },
+          {
+            "id": 6070225,
+            "keyword": "Schlösser"
+          },
+          {
+            "id": 6070177,
+            "keyword": "Schließtechnik"
+          },
+          {
+            "id": 6020802,
+            "keyword": "Einbruchschutz"
+          },
+          {
+            "id": 6070156,
+            "keyword": "Schließanlagen"
+          },
+          {
+            "id": 6070177,
+            "keyword": "Schließtechnik"
+          }
+        ],
+        "location": {
+          "county": null,
+          "streetnumber": "11",
+          "zipcode": "14109",
+          "street": "Königstr.",
+          "state": null,
+          "district": null,
+          "country": "DE",
+          "city": "Berlin"
+        },
+        "urls": [{
+          "link": "http://www.123-berlin-key.de",
+          "display": "www.123-berlin-key.de",
+          "main": 1
+        }],
+        "emails": [{
+          "email": "info@123-berlin-key.de",
+          "main": 1
+        }],
+        "type": "MEDIA",
+        "contacts": [{
+          "phonenumbers": [{
+            "pricing": null,
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 70 03 5x xx",
+            "description": "",
+            "number": "70035xxx",
+            "type": "phone",
+            "main": 0
+          }],
+          "title": "",
+          "email": "info@123-berlin-key.de",
+          "name": null,
+          "lastname": "",
+          "firstname": "",
+          "addition": "",
+          "salutation": "",
+          "main": 1
+        }],
+        "id": "Z3650752",
+        "phonenumbers": [{
+          "pricing": "",
+          "area": "030",
+          "countrycode": "49",
+          "displayphone": "(0 30) 70 03 5x xx",
+          "description": "",
+          "number": "70035xxx",
+          "type": "phone",
+          "main": 1
+        }],
+        "mediaflag": 1,
+        "backlink": "http://www.klicktel.de/branchenbuch/00-24-123-berlin-key-schluesseldienst-wannsee,berlin,4617500,Z3650752.html",
+        "subsidiaries": [
+          "Z3650342",
+          "Z3650352",
+          "Z3650362",
+          "Z3650372",
+          "Z3650382",
+          "Z3650392",
+          "Z3650402",
+          "Z3650412",
+          "Z3650422",
+          "Z3650432",
+          "Z3650442",
+          "Z3650452",
+          "Z3650462",
+          "Z3650472",
+          "Z3650482",
+          "Z3650492",
+          "Z3650502",
+          "Z3650512",
+          "Z3650522",
+          "Z3650532",
+          "Z3650542",
+          "Z3650552",
+          "Z3650562",
+          "Z3650572",
+          "Z3650582",
+          "Z3650592",
+          "Z3650602",
+          "Z3650612",
+          "Z3650622",
+          "Z3650632",
+          "Z3650642",
+          "Z3650652",
+          "Z3650672",
+          "Z3650682",
+          "Z3650692",
+          "Z3650702",
+          "Z3650712",
+          "Z3650722",
+          "Z3650732",
+          "Z3650742",
+          "Z3650762",
+          "Z3650772",
+          "Z3650782",
+          "Z3650792",
+          "Z3650802",
+          "Z3650812",
+          "Z3650822"
+        ],
+        "subtype": null,
+        "company": "00-24 123-Berlin-Key-Schlüsseldienst - Wannsee",
+        "trades": [{
+          "id": "3304670",
+          "trade": "Schlüsseldienste"
+        }],
+        "openinghours": {
+          "format3": {"format3": [
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "mon",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "tue",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "wed",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "thu",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "fri",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "sat",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "sun",
+              "end2": "",
+              "end1": "00:00"
+            }
+          ]},
+          "info": null
+        },
+        "salutation": "Firma",
+        "media": {
+          "logos": [{
+            "id": 940102,
+            "fused": false,
+            "mimetype": "image/jpeg",
+            "title": "",
+            "height": 1181,
+            "width": 1181,
+            "url": "http://openapi.klicktel.de/de/1.0/media/logo-940102-1181x1181.jpg",
+            "mergeSource": null
+          }],
+          "videos": [{
+            "id": 945212,
+            "mimetype": "application/octet-stream",
+            "title": "",
+            "height": null,
+            "width": null,
+            "type": "movie",
+            "thumb": {
+              "title": null,
+              "height": 384,
+              "width": 512,
+              "url": "http://openapi.klicktel.de/de/1.0/media/thumb-945222-512x384.png"
+            },
+            "url": "http://download.klicktel.de/video/eva/945212.flv",
+            "main": 0
+          }]
+        },
+        "ratings": {
+          "count": 0,
+          "backlink": "http://www.klicktel.de/branchenbuch/00-24-123-berlin-key-schluesseldienst-wannsee,berlin,4617500,Z3650752.html",
+          "average": "0,0000"
+        },
+        "mediatype": "P2",
+        "displayname": "00-24 123-Berlin-Key-Schlüsseldienst - Wannsee"
+      },
+      {
+        "paymentmethods": [
+          {
+            "id": 1,
+            "type": "creditcard"
+          },
+          {
+            "id": 2,
+            "type": "creditcard"
+          },
+          {
+            "id": 3,
+            "type": "creditcard"
+          },
+          {
+            "id": 4,
+            "type": "creditcard"
+          },
+          {
+            "id": 6,
+            "type": "creditcard"
+          }
+        ],
+        "entrytype": "business",
+        "keywords": [
+          {
+            "id": 6082399,
+            "keyword": "Übernachtungen"
+          },
+          {
+            "id": 6116941,
+            "keyword": "WLAN"
+          },
+          {
+            "id": 6019025,
+            "keyword": "Doppelzimmer"
+          },
+          {
+            "id": 6021135,
+            "keyword": "Einzelzimmer"
+          },
+          {
+            "id": 6145880,
+            "keyword": "Tierfreundliche Pension"
+          },
+          {
+            "id": 6146472,
+            "keyword": "4-Bett-Zimmer"
+          },
+          {
+            "id": 6146473,
+            "keyword": "5-Bett-Zimmer"
+          },
+          {
+            "id": 6146474,
+            "keyword": "3-Bett-Zimmer"
+          }
+        ],
+        "location": {
+          "county": null,
+          "streetnumber": "71",
+          "zipcode": "10627",
+          "street": "Kantstr.",
+          "state": null,
+          "district": null,
+          "country": "DE",
+          "city": "Berlin"
+        },
+        "urls": [{
+          "link": "http://www.hotel-city-berlin.de",
+          "display": "www.hotel-city-berlin.de",
+          "main": 1
+        }],
+        "emails": [{
+          "email": "info@hotel-city-berlin.de",
+          "main": 1
+        }],
+        "type": "MEDIA",
+        "contacts": [{
+          "title": null,
+          "email": "info@hotel-city-berlin.de",
+          "name": "Inhaber",
+          "lastname": "Besidskiy",
+          "firstname": "Mikhail",
+          "addition": "",
+          "salutation": "Herr",
+          "main": 0
+        }],
+        "distances": [
+          {
+            "unit": "metric",
+            "value": 6100,
+            "type": "airport"
+          },
+          {
+            "unit": "metric",
+            "value": 100,
+            "type": "publictransport"
+          },
+          {
+            "unit": "metric",
+            "value": 9200,
+            "type": "center"
+          },
+          {
+            "unit": "metric",
+            "value": 1000,
+            "type": "tradefair"
+          },
+          {
+            "unit": "metric",
+            "value": 1000,
+            "type": "highway"
+          },
+          {
+            "unit": "metric",
+            "value": 200,
+            "type": "trainstation"
+          }
+        ],
+        "id": "Z3609862",
+        "phonenumbers": [
+          {
+            "pricing": "",
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 32 30 3x xx",
+            "description": "",
+            "number": "32303xxx",
+            "type": "phone",
+            "main": 1
+          },
+          {
+            "pricing": "",
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 32 30 3x xx",
+            "description": "",
+            "number": "32303xxx",
+            "type": "fax",
+            "main": 0
+          }
+        ],
+        "mediaflag": 1,
+        "backlink": "http://www.klicktel.de/branchenbuch/hotel-cityblick,berlin,4617500,Z3609862.html",
+        "subtype": null,
+        "company": "Hotel Cityblick",
+        "trades": [
+          {
+            "id": "3302420",
+            "trade": "Hotels"
+          },
+          {
+            "id": "3304043",
+            "trade": "Pensionen und Zimmer"
+          }
+        ],
+        "openinghours": {
+          "format3": {"format3": [
+            {
+              "begin2": "",
+              "begin1": "08:00",
+              "weekday": "mon",
+              "end2": "",
+              "end1": "22:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "08:00",
+              "weekday": "tue",
+              "end2": "",
+              "end1": "22:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "08:00",
+              "weekday": "wed",
+              "end2": "",
+              "end1": "22:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "08:00",
+              "weekday": "thu",
+              "end2": "",
+              "end1": "22:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "08:00",
+              "weekday": "fri",
+              "end2": "",
+              "end1": "22:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "08:00",
+              "weekday": "sat",
+              "end2": "",
+              "end1": "22:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "08:00",
+              "weekday": "sun",
+              "end2": "",
+              "end1": "22:00"
+            }
+          ]},
+          "info": "Rezeption geöffnet"
+        },
+        "salutation": "Firma",
+        "media": {
+          "photos": [
+            {
+              "id": 794782,
+              "mimetype": "image/jpeg",
+              "title": null,
+              "height": 667,
+              "width": 1000,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-794782-1000x667.jpg",
+              "main": 0
+            },
+            {
+              "id": 794792,
+              "mimetype": "image/jpeg",
+              "title": null,
+              "height": 667,
+              "width": 1000,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-794792-1000x667.jpg",
+              "main": 0
+            },
+            {
+              "id": 794802,
+              "mimetype": "image/jpeg",
+              "title": null,
+              "height": 667,
+              "width": 1000,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-794802-1000x667.jpg",
+              "main": 0
+            },
+            {
+              "id": 794812,
+              "mimetype": "image/jpeg",
+              "title": null,
+              "height": 667,
+              "width": 1000,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-794812-1000x667.jpg",
+              "main": 0
+            },
+            {
+              "id": 794822,
+              "mimetype": "image/jpeg",
+              "title": null,
+              "height": 664,
+              "width": 1000,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-794822-1000x664.jpg",
+              "main": 0
+            },
+            {
+              "id": 794832,
+              "mimetype": "image/jpeg",
+              "title": null,
+              "height": 667,
+              "width": 1000,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-794832-1000x667.jpg",
+              "main": 0
+            }
+          ],
+          "videos": [{
+            "id": 794172,
+            "mimetype": "application/octet-stream",
+            "title": "",
+            "height": null,
+            "width": null,
+            "type": "movie",
+            "thumb": {
+              "title": null,
+              "height": 384,
+              "width": 512,
+              "url": "http://openapi.klicktel.de/de/1.0/media/thumb-794182-512x384.png"
+            },
+            "url": "http://download.klicktel.de/video/eva/794172.flv",
+            "main": 0
+          }]
+        },
+        "ratings": {
+          "count": 0,
+          "backlink": "http://www.klicktel.de/branchenbuch/hotel-cityblick,berlin,4617500,Z3609862.html",
+          "average": "0,0000"
+        },
+        "mediatype": "P2",
+        "displayname": "Hotel Cityblick"
+      },
+      {
+        "entrytype": "business",
+        "keywords": [
+          {
+            "id": 6114923,
+            "keyword": "Schlüsselnotdienste"
+          },
+          {
+            "id": 6070222,
+            "keyword": "Schlossdienste"
+          },
+          {
+            "id": 6070348,
+            "keyword": "Schlüssel-Notdienst"
+          },
+          {
+            "id": 6072945,
+            "keyword": "Sicherheitstechnik"
+          },
+          {
+            "id": 6090810,
+            "keyword": "Zylinder"
+          },
+          {
+            "id": 6070225,
+            "keyword": "Schlösser"
+          },
+          {
+            "id": 6070177,
+            "keyword": "Schließtechnik"
+          },
+          {
+            "id": 6020802,
+            "keyword": "Einbruchschutz"
+          },
+          {
+            "id": 6070156,
+            "keyword": "Schließanlagen"
+          },
+          {
+            "id": 6070177,
+            "keyword": "Schließtechnik"
+          }
+        ],
+        "location": {
+          "county": null,
+          "streetnumber": "3",
+          "zipcode": "10119",
+          "street": "Zionskirchstr.",
+          "state": null,
+          "district": null,
+          "country": "DE",
+          "city": "Berlin"
+        },
+        "urls": [{
+          "link": "http://www.123-berlin-key.de",
+          "display": "www.123-berlin-key.de",
+          "main": 1
+        }],
+        "emails": [{
+          "email": "info@123-berlin-key.de",
+          "main": 1
+        }],
+        "type": "MEDIA",
+        "contacts": [{
+          "phonenumbers": [{
+            "pricing": null,
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 70 03 3x xx",
+            "description": "",
+            "number": "70033xxx",
+            "type": "phone",
+            "main": 0
+          }],
+          "title": "",
+          "email": "info@123-berlin-key.de",
+          "name": null,
+          "lastname": "",
+          "firstname": "",
+          "addition": "",
+          "salutation": "",
+          "main": 1
+        }],
+        "id": "Z3650822",
+        "phonenumbers": [{
+          "pricing": "",
+          "area": "030",
+          "countrycode": "49",
+          "displayphone": "(0 30) 70 03 3x xx",
+          "description": "",
+          "number": "70033xxx",
+          "type": "phone",
+          "main": 1
+        }],
+        "mediaflag": 1,
+        "backlink": "http://www.klicktel.de/branchenbuch/00-24-123-berlin-key-schluesseldienst-mitte,berlin,4617500,Z3650822.html",
+        "subsidiaries": [
+          "Z3650342",
+          "Z3650352",
+          "Z3650362",
+          "Z3650372",
+          "Z3650382",
+          "Z3650392",
+          "Z3650402",
+          "Z3650412",
+          "Z3650422",
+          "Z3650432",
+          "Z3650442",
+          "Z3650452",
+          "Z3650462",
+          "Z3650472",
+          "Z3650482",
+          "Z3650492",
+          "Z3650502",
+          "Z3650512",
+          "Z3650522",
+          "Z3650532",
+          "Z3650542",
+          "Z3650552",
+          "Z3650562",
+          "Z3650572",
+          "Z3650582",
+          "Z3650592",
+          "Z3650602",
+          "Z3650612",
+          "Z3650622",
+          "Z3650632",
+          "Z3650642",
+          "Z3650652",
+          "Z3650672",
+          "Z3650682",
+          "Z3650692",
+          "Z3650702",
+          "Z3650712",
+          "Z3650722",
+          "Z3650732",
+          "Z3650742",
+          "Z3650752",
+          "Z3650762",
+          "Z3650772",
+          "Z3650782",
+          "Z3650792",
+          "Z3650802",
+          "Z3650812"
+        ],
+        "subtype": null,
+        "company": "00-24 123-Berlin-Key-Schlüsseldienst - Mitte",
+        "trades": [{
+          "id": "3304670",
+          "trade": "Schlüsseldienste"
+        }],
+        "openinghours": {
+          "format3": {"format3": [
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "mon",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "tue",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "wed",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "thu",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "fri",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "sat",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "sun",
+              "end2": "",
+              "end1": "00:00"
+            }
+          ]},
+          "info": null
+        },
+        "salutation": "Firma",
+        "media": {
+          "logos": [{
+            "id": 940102,
+            "fused": false,
+            "mimetype": "image/jpeg",
+            "title": "",
+            "height": 1181,
+            "width": 1181,
+            "url": "http://openapi.klicktel.de/de/1.0/media/logo-940102-1181x1181.jpg",
+            "mergeSource": null
+          }],
+          "videos": [{
+            "id": 945212,
+            "mimetype": "application/octet-stream",
+            "title": "",
+            "height": null,
+            "width": null,
+            "type": "movie",
+            "thumb": {
+              "title": null,
+              "height": 384,
+              "width": 512,
+              "url": "http://openapi.klicktel.de/de/1.0/media/thumb-945222-512x384.png"
+            },
+            "url": "http://download.klicktel.de/video/eva/945212.flv",
+            "main": 0
+          }]
+        },
+        "ratings": {
+          "count": 0,
+          "backlink": "http://www.klicktel.de/branchenbuch/00-24-123-berlin-key-schluesseldienst-mitte,berlin,4617500,Z3650822.html",
+          "average": "0,0000"
+        },
+        "mediatype": "P2",
+        "displayname": "00-24 123-Berlin-Key-Schlüsseldienst - Mitte"
+      },
+      {
+        "entrytype": "business",
+        "keywords": [
+          {
+            "id": 6026948,
+            "keyword": "Firmenumzüge"
+          },
+          {
+            "id": 6071610,
+            "keyword": "Schwerlast-Transporte"
+          },
+          {
+            "id": 6074959,
+            "keyword": "Spezialtransporte"
+          },
+          {
+            "id": 6140232,
+            "keyword": "Umzugsverpackungen"
+          },
+          {
+            "id": 6093772,
+            "keyword": "Möbelmontagen"
+          },
+          {
+            "id": 6141658,
+            "keyword": "Seniorenumzüge"
+          },
+          {
+            "id": 6031025,
+            "keyword": "Gefahrgut-Transporte"
+          },
+          {
+            "id": 6022286,
+            "keyword": "Entrümpelungen"
+          },
+          {
+            "id": 6147348,
+            "keyword": "Krankenhaus-Umzüge"
+          }
+        ],
+        "location": {
+          "county": null,
+          "streetnumber": "97",
+          "zipcode": "13409",
+          "street": "Mittelbruchzeile",
+          "state": null,
+          "district": null,
+          "country": "DE",
+          "city": "Berlin"
+        },
+        "urls": [{
+          "link": "http://www.isslerumzüge.de",
+          "display": "www.isslerumzüge.de",
+          "main": 1
+        }],
+        "emails": [{
+          "email": "issler@isslerservice.de",
+          "main": 1
+        }],
+        "type": "MEDIA",
+        "contacts": [{
+          "phonenumbers": [
+            {
+              "pricing": null,
+              "area": "030",
+              "countrycode": "49",
+              "displayphone": "(0 30) 48 47 8x xx",
+              "description": "",
+              "number": "48478xxx",
+              "type": "phone",
+              "main": 0
+            },
+            {
+              "pricing": null,
+              "area": "0174",
+              "countrycode": "49",
+              "displayphone": "(01 74) 1 77 2x xx",
+              "description": "",
+              "number": "1772xxx",
+              "type": "mobile",
+              "main": 0
+            }
+          ],
+          "title": "",
+          "email": "issler@isslerservice.de",
+          "name": null,
+          "lastname": "",
+          "firstname": "",
+          "addition": "",
+          "salutation": "",
+          "main": 1
+        }],
+        "id": "Z3622862",
+        "phonenumbers": [
+          {
+            "pricing": "",
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 48 47 8x xx",
+            "description": "",
+            "number": "48478xxx",
+            "type": "phone",
+            "main": 1
+          },
+          {
+            "pricing": "",
+            "area": "0174",
+            "countrycode": "49",
+            "displayphone": "(01 74) 1 77 2x xx",
+            "description": "",
+            "number": "1772xxx",
+            "type": "mobile",
+            "main": 0
+          }
+        ],
+        "mediaflag": 1,
+        "backlink": "http://www.klicktel.de/branchenbuch/issler-logistik,berlin,4617500,Z3622862.html",
+        "subtype": null,
+        "company": "Issler Logistik",
+        "trades": [
+          {
+            "id": "3301363",
+            "trade": "Entrümpelungen"
+          },
+          {
+            "id": "3305471",
+            "trade": "Umzüge"
+          }
+        ],
+        "salutation": "Firma",
+        "media": {"videos": [{
+          "id": 844252,
+          "mimetype": "application/octet-stream",
+          "title": "",
+          "height": null,
+          "width": null,
+          "type": "movie",
+          "thumb": {
+            "title": null,
+            "height": 384,
+            "width": 512,
+            "url": "http://openapi.klicktel.de/de/1.0/media/thumb-844262-512x384.png"
+          },
+          "url": "http://download.klicktel.de/video/eva/844252.flv",
+          "main": 0
+        }]},
+        "ratings": {
+          "count": 0,
+          "backlink": "http://www.klicktel.de/branchenbuch/issler-logistik,berlin,4617500,Z3622862.html",
+          "average": "0,0000"
+        },
+        "mediatype": "P2",
+        "displayname": "Issler Logistik"
+      },
+      {
+        "entrytype": "business",
+        "keywords": [
+          {
+            "id": 6086044,
+            "keyword": "Vorsorge"
+          },
+          {
+            "id": 6003216,
+            "keyword": "Altersvorsorge"
+          },
+          {
+            "id": 6004038,
+            "keyword": "Anlageberatung"
+          },
+          {
+            "id": 6093353,
+            "keyword": "Baufinanzierung"
+          },
+          {
+            "id": 6008539,
+            "keyword": "Bausparen"
+          },
+          {
+            "id": 6008552,
+            "keyword": "Bausparkassen"
+          },
+          {
+            "id": 6009503,
+            "keyword": "Beratung"
+          },
+          {
+            "id": 6018600,
+            "keyword": "Direktversicherungen"
+          },
+          {
+            "id": 6026640,
+            "keyword": "Finanzberatungen"
+          },
+          {
+            "id": 6099310,
+            "keyword": "Finanzvermittlungen"
+          },
+          {
+            "id": 6026651,
+            "keyword": "Finanzdienstleistungen"
+          },
+          {
+            "id": 6026710,
+            "keyword": "Finanzplanungen"
+          },
+          {
+            "id": 6026959,
+            "keyword": "Firmen-Versicherungen"
+          },
+          {
+            "id": 6027982,
+            "keyword": "Förderrente"
+          },
+          {
+            "id": 6040738,
+            "keyword": "Investments"
+          },
+          {
+            "id": 6041464,
+            "keyword": "Jobs"
+          },
+          {
+            "id": 6042399,
+            "keyword": "Kapital"
+          },
+          {
+            "id": 6042568,
+            "keyword": "Karriere"
+          },
+          {
+            "id": 6095685,
+            "keyword": "Kfz-Versicherungen"
+          },
+          {
+            "id": 6084950,
+            "keyword": "Versicherungen"
+          },
+          {
+            "id": 6084710,
+            "keyword": "Vermögensberatungen"
+          },
+          {
+            "id": 6075632,
+            "keyword": "Staatliche Förderungen"
+          },
+          {
+            "id": 6066929,
+            "keyword": "Riester-Rente"
+          },
+          {
+            "id": 6063322,
+            "keyword": "Private Krankenversicherungen"
+          },
+          {
+            "id": 6048918,
+            "keyword": "Lebensversicherungen"
+          }
+        ],
+        "location": {
+          "county": null,
+          "streetnumber": "13",
+          "zipcode": "63263",
+          "street": "Friedhofstr.",
+          "state": null,
+          "district": null,
+          "country": "DE",
+          "city": "Neu-Isenburg"
+        },
+        "urls": [
+          {
+            "link": "http://www.swisslife-select.de/markus-aigner",
+            "display": "http://www.swisslife-select.de/markus-aigner",
+            "main": 1
+          },
+          {
+            "link": "http://www.swisslife-select.de",
+            "display": "Swiss Life Select",
+            "main": 0
+          },
+          {
+            "link": "http://www.kundenmagazin-finanzplaner.de/",
+            "display": "Kundenmagazin Finanzplaner",
+            "main": 0
+          },
+          {
+            "link": "http://www.swisslife-select-erfahrungen.de",
+            "display": "Erfahrungen mit Swiss Life Select",
+            "main": 0
+          },
+          {
+            "link": "http://www.altersvorsorge-hilft.de",
+            "display": "Altersvorsorge hilft",
+            "main": 0
+          }
+        ],
+        "emails": [{
+          "email": "markus.aigner@swisslife-select.de",
+          "main": 1
+        }],
+        "type": "MEDIA",
+        "contacts": [{
+          "phonenumbers": [
+            {
+              "pricing": null,
+              "area": "030",
+              "countrycode": "49",
+              "displayphone": "(0 30) 5 68 9x xx",
+              "description": "",
+              "number": "5689xxx",
+              "type": "phone",
+              "main": 0
+            },
+            {
+              "pricing": null,
+              "area": "06102",
+              "countrycode": "49",
+              "displayphone": "(0 61 02) 8 84 6x xx",
+              "description": "",
+              "number": "8846xxx",
+              "type": "fax",
+              "main": 0
+            },
+            {
+              "pricing": null,
+              "area": "0160",
+              "countrycode": "49",
+              "displayphone": "(01 60) 97 82 2x xx",
+              "description": "",
+              "number": "978225xxx",
+              "type": "mobile",
+              "main": 0
+            }
+          ],
+          "title": "",
+          "email": "markus.aigner@swisslife-select.de",
+          "name": null,
+          "lastname": "",
+          "firstname": "",
+          "addition": "",
+          "salutation": "",
+          "main": 1
+        }],
+        "id": "Z3640142",
+        "phonenumbers": [
+          {
+            "pricing": "",
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 5 68 9x xx",
+            "description": "",
+            "number": "5689xxx",
+            "type": "phone",
+            "main": 1
+          },
+          {
+            "pricing": "",
+            "area": "06102",
+            "countrycode": "49",
+            "displayphone": "(0 61 02) 8 84 6x xx",
+            "description": "",
+            "number": "8846xxx",
+            "type": "fax",
+            "main": 0
+          },
+          {
+            "pricing": "",
+            "area": "0160",
+            "countrycode": "49",
+            "displayphone": "(01 60) 97 82 2x xx",
+            "description": "",
+            "number": "978225xxx",
+            "type": "mobile",
+            "main": 0
+          }
+        ],
+        "slogan": "Markus Aigner - selbstständiger Handelsvertreter für Swiss Life Select",
+        "mediaflag": 1,
+        "backlink": "http://www.klicktel.de/branchenbuch/swiss-life-select,neu-isenburg,41319000,Z3640142.html",
+        "subsidiaries": [
+          "Z5720",
+          "Z5721",
+          "Z5730",
+          "Z5733",
+          "Z5735",
+          "Z5738",
+          "Z5742",
+          "Z5745",
+          "Z5886",
+          "Z5895",
+          "Z11171",
+          "Z11173",
+          "Z11174",
+          "Z11176",
+          "Z11177",
+          "Z11182",
+          "Z13329",
+          "Z16824",
+          "Z19999",
+          "Z20002",
+          "Z20003",
+          "Z20006",
+          "Z20008",
+          "Z22439",
+          "Z22440",
+          "Z22441",
+          "Z22451",
+          "Z22452",
+          "Z22456",
+          "Z22466",
+          "Z22468",
+          "Z22483",
+          "Z22486",
+          "Z22488",
+          "Z22491",
+          "Z22492",
+          "Z22808",
+          "Z22811",
+          "Z24285",
+          "Z24287",
+          "Z28017",
+          "Z28020",
+          "Z28021",
+          "Z28035",
+          "Z28049",
+          "Z30378",
+          "Z33956",
+          "Z34757",
+          "Z34758",
+          "Z34759",
+          "Z34760",
+          "Z35960",
+          "Z37841",
+          "Z40464",
+          "Z40465",
+          "Z40467",
+          "Z40472",
+          "Z40479",
+          "Z40480",
+          "Z40483",
+          "Z40484",
+          "Z41103",
+          "Z41105",
+          "Z41109",
+          "Z41120",
+          "Z41121",
+          "Z41123",
+          "Z41795",
+          "Z44244",
+          "Z44725",
+          "Z1040113",
+          "Z1040116",
+          "Z1040121",
+          "Z1040122",
+          "Z1040125",
+          "Z1040126",
+          "Z1040127",
+          "Z1040130",
+          "Z1040135",
+          "Z1040136",
+          "Z1040137",
+          "Z1040138",
+          "Z1040140",
+          "Z1040147",
+          "Z1040149",
+          "Z1040150",
+          "Z1040154",
+          "Z1040156",
+          "Z1056571",
+          "Z3221880",
+          "Z3221882",
+          "Z3227333",
+          "Z3227334",
+          "Z3227336",
+          "Z3227338",
+          "Z3227339",
+          "Z3227611",
+          "Z3227613",
+          "Z3227614",
+          "Z3229297",
+          "Z3229298",
+          "Z3232510",
+          "Z3287272",
+          "Z3287292",
+          "Z3384382",
+          "Z3411672",
+          "Z3451842",
+          "Z3493452",
+          "Z3493462",
+          "Z3508842",
+          "Z3514182",
+          "Z3529962",
+          "Z3533762",
+          "Z3585532",
+          "Z3611952",
+          "Z3631252",
+          "Z3639672",
+          "Z3639682",
+          "Z3639692",
+          "Z3639702",
+          "Z3639712",
+          "Z3639722",
+          "Z3639732",
+          "Z3639742",
+          "Z3639752",
+          "Z3639762",
+          "Z3639772",
+          "Z3639782",
+          "Z3639792",
+          "Z3639802",
+          "Z3639812",
+          "Z3639822",
+          "Z3639832",
+          "Z3639842",
+          "Z3639852",
+          "Z3639862",
+          "Z3639872",
+          "Z3639882",
+          "Z3639892",
+          "Z3639912",
+          "Z3639922",
+          "Z3639932",
+          "Z3639952",
+          "Z3639962",
+          "Z3639972",
+          "Z3639982",
+          "Z3639992",
+          "Z3640002",
+          "Z3640012",
+          "Z3640032",
+          "Z3640042",
+          "Z3640052",
+          "Z3640062",
+          "Z3640072",
+          "Z3640082",
+          "Z3640092",
+          "Z3640102",
+          "Z3640112",
+          "Z3640122",
+          "Z3640132",
+          "Z3640152",
+          "Z3640162",
+          "Z3640172",
+          "Z3640182",
+          "Z3640192",
+          "Z3640202",
+          "Z3640212",
+          "Z3640222",
+          "Z3640232",
+          "Z3640242",
+          "Z3640252",
+          "Z3640262",
+          "Z3640272",
+          "Z3640282",
+          "Z3640292",
+          "Z3640792",
+          "Z3640822",
+          "Z3640832",
+          "Z3640842",
+          "Z3644642",
+          "Z3653402"
+        ],
+        "subtype": null,
+        "company": "Swiss Life Select",
+        "trades": [
+          {
+            "id": "3300129",
+            "trade": "Anlageberatung"
+          },
+          {
+            "id": "3300596",
+            "trade": "Bausparkassen"
+          },
+          {
+            "id": "3301610",
+            "trade": "Finanzberatungen und Finanzvermittlungen"
+          },
+          {
+            "id": "3301614",
+            "trade": "Finanzdienstleistungen"
+          },
+          {
+            "id": "3303181",
+            "trade": "Krankenversicherungen"
+          },
+          {
+            "id": "3305568",
+            "trade": "Vermögensberatungen"
+          },
+          {
+            "id": "3305627",
+            "trade": "Versicherungen"
+          }
+        ],
+        "salutation": "Firma",
+        "media": {"logos": [{
+          "id": 898602,
+          "fused": false,
+          "mimetype": "image/png",
+          "title": "Swiss Life Select",
+          "height": 70,
+          "width": 139,
+          "url": "http://openapi.klicktel.de/de/1.0/media/logo-898602-139x70.png",
+          "mergeSource": null
+        }]},
+        "ratings": {
+          "count": 0,
+          "backlink": "http://www.klicktel.de/branchenbuch/swiss-life-select,neu-isenburg,41319000,Z3640142.html",
+          "average": "0,0000"
+        },
+        "mediatype": "P2",
+        "displayname": "Swiss Life Select"
+      },
+      {
+        "entrytype": "business",
+        "keywords": [
+          {
+            "id": 6013838,
+            "keyword": "Büroreinigung"
+          },
+          {
+            "id": 6062998,
+            "keyword": "Praxisreinigung"
+          },
+          {
+            "id": 6025845,
+            "keyword": "Fensterreinigung"
+          },
+          {
+            "id": 6035687,
+            "keyword": "Haushaltshilfen"
+          },
+          {
+            "id": 6029614,
+            "keyword": "Fußmatten-Service"
+          },
+          {
+            "id": 6032653,
+            "keyword": "Glasreinigung"
+          },
+          {
+            "id": 6094017,
+            "keyword": "Treppenhausreinigung"
+          },
+          {
+            "id": 6038789,
+            "keyword": "Hygieneartikel"
+          },
+          {
+            "id": 6035756,
+            "keyword": "Hausmeisterdienste"
+          }
+        ],
+        "location": {
+          "county": null,
+          "streetnumber": "13",
+          "zipcode": "12349",
+          "street": "Alt-Buckow",
+          "state": null,
+          "district": null,
+          "country": "DE",
+          "city": "Berlin"
+        },
+        "urls": [
+          {
+            "link": "http://www.modern-cleaning.de",
+            "display": "www.modern-cleaning.de",
+            "main": 1
+          },
+          {
+            "link": "http://modern-cleaning.de/gebaeudereinigung.html",
+            "display": "Gebäude- und Büroreinigung für Sie in Berlin, Potsdam und Brandenburg",
+            "main": 0
+          },
+          {
+            "link": "http://modern-cleaning.de/fensterputzer.html",
+            "display": "Ihre freundlichen Fensterputzer für Berlin, Potsdam und Brandenburg",
+            "main": 0
+          },
+          {
+            "link": "http://modern-cleaning.de/haushaltshilfe.html",
+            "display": "Ihre Haushaltshilfe oder Ihre Putzfrau für Berlin, Potsdam und Brandenburg",
+            "main": 0
+          }
+        ],
+        "emails": [{
+          "email": "info@modern-cleaning.de",
+          "main": 1
+        }],
+        "type": "MEDIA",
+        "contacts": [{
+          "phonenumbers": [
+            {
+              "pricing": null,
+              "area": "030",
+              "countrycode": "49",
+              "displayphone": "(0 30) 66 52 6x xx",
+              "description": "",
+              "number": "66526xxx",
+              "type": "phone",
+              "main": 0
+            },
+            {
+              "pricing": null,
+              "area": "030",
+              "countrycode": "49",
+              "displayphone": "(0 30) 66 52 6x xx",
+              "description": "",
+              "number": "66526xxx",
+              "type": "fax",
+              "main": 0
+            }
+          ],
+          "title": "",
+          "email": "info@modern-cleaning.de",
+          "name": null,
+          "lastname": "",
+          "firstname": "",
+          "addition": "",
+          "salutation": "",
+          "main": 1
+        }],
+        "id": "Z3599622",
+        "phonenumbers": [
+          {
+            "pricing": "",
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 66 52 6x xx",
+            "description": "",
+            "number": "66526xxx",
+            "type": "phone",
+            "main": 1
+          },
+          {
+            "pricing": "",
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 66 52 6x xx",
+            "description": "",
+            "number": "66526xxx",
+            "type": "fax",
+            "main": 0
+          }
+        ],
+        "slogan": "Für ein sauberes Miteinander",
+        "mediaflag": 1,
+        "backlink": "http://www.klicktel.de/branchenbuch/modern-cleaning,berlin,4617500,Z3599622.html",
+        "subtype": null,
+        "company": "Modern Cleaning",
+        "trades": [{
+          "id": "3301911",
+          "trade": "Gebäudereinigung"
+        }],
+        "openinghours": {
+          "format3": {"format3": [
+            {
+              "begin2": "",
+              "begin1": "09:00",
+              "weekday": "mon",
+              "end2": "",
+              "end1": "15:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "09:00",
+              "weekday": "tue",
+              "end2": "",
+              "end1": "15:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "09:00",
+              "weekday": "wed",
+              "end2": "",
+              "end1": "15:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "09:00",
+              "weekday": "thu",
+              "end2": "",
+              "end1": "15:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "09:00",
+              "weekday": "fri",
+              "end2": "",
+              "end1": "15:00"
+            }
+          ]},
+          "info": null
+        },
+        "salutation": "Firma",
+        "media": {
+          "photos": [
+            {
+              "id": 736372,
+              "mimetype": "image/jpeg",
+              "title": "",
+              "height": 230,
+              "width": 314,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-736372-314x230.jpg",
+              "main": 0
+            },
+            {
+              "id": 746552,
+              "mimetype": "image/jpeg",
+              "title": null,
+              "height": 3264,
+              "width": 2448,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-746552-2448x3264.jpg",
+              "main": 0
+            },
+            {
+              "id": 746562,
+              "mimetype": "image/jpeg",
+              "title": null,
+              "height": 4320,
+              "width": 3240,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-746562-3240x4320.jpg",
+              "main": 0
+            },
+            {
+              "id": 746572,
+              "mimetype": "image/jpeg",
+              "title": null,
+              "height": 2448,
+              "width": 3264,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-746572-3264x2448.jpg",
+              "main": 0
+            },
+            {
+              "id": 746582,
+              "mimetype": "image/jpeg",
+              "title": null,
+              "height": 4320,
+              "width": 3240,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-746582-3240x4320.jpg",
+              "main": 0
+            },
+            {
+              "id": 746592,
+              "mimetype": "image/jpeg",
+              "title": null,
+              "height": 4320,
+              "width": 3240,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-746592-3240x4320.jpg",
+              "main": 0
+            },
+            {
+              "id": 746602,
+              "mimetype": "image/jpeg",
+              "title": null,
+              "height": 3264,
+              "width": 2448,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-746602-2448x3264.jpg",
+              "main": 0
+            },
+            {
+              "id": 746612,
+              "mimetype": "image/jpeg",
+              "title": null,
+              "height": 2448,
+              "width": 3264,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-746612-3264x2448.jpg",
+              "main": 0
+            },
+            {
+              "id": 746622,
+              "mimetype": "image/jpeg",
+              "title": null,
+              "height": 2448,
+              "width": 3264,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-746622-3264x2448.jpg",
+              "main": 0
+            }
+          ],
+          "logos": [{
+            "id": 736362,
+            "fused": false,
+            "mimetype": "image/jpeg",
+            "title": "",
+            "height": 652,
+            "width": 2088,
+            "url": "http://openapi.klicktel.de/de/1.0/media/logo-736362-2088x652.jpg",
+            "mergeSource": null
+          }],
+          "videos": [{
+            "id": 746492,
+            "mimetype": "application/octet-stream",
+            "title": "",
+            "height": null,
+            "width": null,
+            "type": "movie",
+            "thumb": {
+              "title": null,
+              "height": 384,
+              "width": 512,
+              "url": "http://openapi.klicktel.de/de/1.0/media/thumb-746502-512x384.png"
+            },
+            "url": "http://download.klicktel.de/video/eva/746492.flv",
+            "main": 0
+          }]
+        },
+        "ratings": {
+          "count": 2,
+          "backlink": "http://www.klicktel.de/branchenbuch/modern-cleaning,berlin,4617500,Z3599622.html",
+          "average": "5,0000"
+        },
+        "mediatype": "P2",
+        "displayname": "Modern Cleaning"
+      },
+      {
+        "entrytype": "business",
+        "keywords": [
+          {
+            "id": 6080901,
+            "keyword": "Traditionelle Thai-Massage"
+          },
+          {
+            "id": 6029948,
+            "keyword": "Ganzkörpermassagen"
+          },
+          {
+            "id": 6004914,
+            "keyword": "Aromaölmassagen"
+          },
+          {
+            "id": 6029674,
+            "keyword": "Fußreflexzonenmassagen"
+          },
+          {
+            "id": 6058475,
+            "keyword": "Ölmassagen"
+          },
+          {
+            "id": 6031759,
+            "keyword": "Geschenkgutscheine"
+          },
+          {
+            "id": 6056037,
+            "keyword": "Nackenmassage"
+          },
+          {
+            "id": 6141207,
+            "keyword": "Männermassage"
+          }
+        ],
+        "location": {
+          "county": null,
+          "streetnumber": "5",
+          "zipcode": "10787",
+          "street": "Keithstr.",
+          "state": null,
+          "district": null,
+          "country": "DE",
+          "city": "Berlin"
+        },
+        "urls": [{
+          "link": "http://www.nhums.de",
+          "display": "www.nhums.de",
+          "main": 1
+        }],
+        "emails": [{
+          "email": "info@nhums.de",
+          "main": 1
+        }],
+        "type": "MEDIA",
+        "contacts": [{
+          "phonenumbers": [
+            {
+              "pricing": null,
+              "area": "030",
+              "countrycode": "49",
+              "displayphone": "(0 30) 22 00 2x xx",
+              "description": "",
+              "number": "22002xxx",
+              "type": "phone",
+              "main": 0
+            },
+            {
+              "pricing": null,
+              "area": "030",
+              "countrycode": "49",
+              "displayphone": "(0 30) 22 48 7x xx",
+              "description": "",
+              "number": "22487xxx",
+              "type": "fax",
+              "main": 0
+            }
+          ],
+          "title": "",
+          "email": "info@nhums.de",
+          "name": null,
+          "lastname": "",
+          "firstname": "",
+          "addition": "",
+          "salutation": "",
+          "main": 1
+        }],
+        "id": "Z3485102",
+        "phonenumbers": [
+          {
+            "pricing": "",
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 22 00 2x xx",
+            "description": "",
+            "number": "22002xxx",
+            "type": "phone",
+            "main": 1
+          },
+          {
+            "pricing": "",
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 22 48 7x xx",
+            "description": "",
+            "number": "22487xxx",
+            "type": "fax",
+            "main": 0
+          }
+        ],
+        "slogan": "Hier werden Sie von Männern massiert!",
+        "mediaflag": 1,
+        "backlink": "http://www.klicktel.de/branchenbuch/nhum-s-thai-massage,berlin,4617500,Z3485102.html",
+        "subtype": null,
+        "company": "Nhum's Thai Massage",
+        "trades": [{
+          "id": "3303564",
+          "trade": "Massagepraxen"
+        }],
+        "openinghours": {
+          "format3": {"format3": [
+            {
+              "begin2": "",
+              "begin1": "12:00",
+              "weekday": "mon",
+              "end2": "",
+              "end1": "20:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "12:00",
+              "weekday": "tue",
+              "end2": "",
+              "end1": "20:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "12:00",
+              "weekday": "wed",
+              "end2": "",
+              "end1": "20:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "12:00",
+              "weekday": "thu",
+              "end2": "",
+              "end1": "20:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "12:00",
+              "weekday": "fri",
+              "end2": "",
+              "end1": "20:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "12:00",
+              "weekday": "sat",
+              "end2": "",
+              "end1": "20:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "12:00",
+              "weekday": "sun",
+              "end2": "",
+              "end1": "20:00"
+            }
+          ]},
+          "info": "Sie finden uns in KaDeWe-Nähe! Termine auch nach Vereinbarung möglich."
+        },
+        "salutation": "Firma",
+        "media": {
+          "photos": [
+            {
+              "id": 597752,
+              "mimetype": "image/pjpeg",
+              "title": "",
+              "height": 720,
+              "width": 531,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-597752-531x720.jpg",
+              "main": 0
+            },
+            {
+              "id": 597762,
+              "mimetype": "image/pjpeg",
+              "title": "",
+              "height": 768,
+              "width": 558,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-597762-558x768.jpg",
+              "main": 0
+            },
+            {
+              "id": 597772,
+              "mimetype": "image/pjpeg",
+              "title": "",
+              "height": 669,
+              "width": 1024,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-597772-1024x669.jpg",
+              "main": 0
+            },
+            {
+              "id": 597782,
+              "mimetype": "image/pjpeg",
+              "title": "",
+              "height": 768,
+              "width": 851,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-597782-851x768.jpg",
+              "main": 0
+            },
+            {
+              "id": 597792,
+              "mimetype": "image/pjpeg",
+              "title": "",
+              "height": 768,
+              "width": 1024,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-597792-1024x768.jpg",
+              "main": 0
+            },
+            {
+              "id": 597802,
+              "mimetype": "image/pjpeg",
+              "title": "",
+              "height": 768,
+              "width": 576,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-597802-576x768.jpg",
+              "main": 0
+            },
+            {
+              "id": 597812,
+              "mimetype": "image/pjpeg",
+              "title": "",
+              "height": 744,
+              "width": 1024,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-597812-1024x744.jpg",
+              "main": 0
+            },
+            {
+              "id": 597822,
+              "mimetype": "image/pjpeg",
+              "title": "",
+              "height": 768,
+              "width": 1024,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-597822-1024x768.jpg",
+              "main": 0
+            },
+            {
+              "id": 597832,
+              "mimetype": "image/pjpeg",
+              "title": "",
+              "height": 768,
+              "width": 576,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-597832-576x768.jpg",
+              "main": 0
+            },
+            {
+              "id": 597842,
+              "mimetype": "image/pjpeg",
+              "title": "",
+              "height": 754,
+              "width": 1024,
+              "url": "http://openapi.klicktel.de/de/1.0/media/photo-597842-1024x754.jpg",
+              "main": 0
+            }
+          ],
+          "logos": [{
+            "id": 580312,
+            "fused": false,
+            "mimetype": "image/pjpeg",
+            "title": "",
+            "height": 126,
+            "width": 322,
+            "url": "http://openapi.klicktel.de/de/1.0/media/logo-580312-322x126.jpg",
+            "mergeSource": null
+          }],
+          "videos": [{
+            "id": 585212,
+            "mimetype": "application/octet-stream",
+            "title": "",
+            "height": null,
+            "width": null,
+            "type": "movie",
+            "thumb": {
+              "title": null,
+              "height": 384,
+              "width": 512,
+              "url": "http://openapi.klicktel.de/de/1.0/media/thumb-585222-512x384.png"
+            },
+            "url": "http://download.klicktel.de/video/eva/585212.flv",
+            "main": 0
+          }]
+        },
+        "ratings": {
+          "count": 1,
+          "backlink": "http://www.klicktel.de/branchenbuch/nhum-s-thai-massage,berlin,4617500,Z3485102.html",
+          "average": "5,0000"
+        },
+        "mediatype": "P2",
+        "displayname": "Nhum's Thai Massage"
+      },
+      {
+        "entrytype": "business",
+        "keywords": [
+          {
+            "id": 6114923,
+            "keyword": "Schlüsselnotdienste"
+          },
+          {
+            "id": 6070222,
+            "keyword": "Schlossdienste"
+          },
+          {
+            "id": 6070348,
+            "keyword": "Schlüssel-Notdienst"
+          },
+          {
+            "id": 6072945,
+            "keyword": "Sicherheitstechnik"
+          },
+          {
+            "id": 6090810,
+            "keyword": "Zylinder"
+          },
+          {
+            "id": 6070225,
+            "keyword": "Schlösser"
+          },
+          {
+            "id": 6070177,
+            "keyword": "Schließtechnik"
+          },
+          {
+            "id": 6020802,
+            "keyword": "Einbruchschutz"
+          },
+          {
+            "id": 6070156,
+            "keyword": "Schließanlagen"
+          },
+          {
+            "id": 6070177,
+            "keyword": "Schließtechnik"
+          }
+        ],
+        "location": {
+          "county": null,
+          "streetnumber": "27",
+          "zipcode": "14163",
+          "street": "Kleiststr.",
+          "state": null,
+          "district": null,
+          "country": "DE",
+          "city": "Berlin"
+        },
+        "urls": [{
+          "link": "http://www.123-berlin-key.de",
+          "display": "www.123-berlin-key.de",
+          "main": 1
+        }],
+        "emails": [{
+          "email": "info@123-berlin-key.de",
+          "main": 1
+        }],
+        "type": "MEDIA",
+        "contacts": [{
+          "phonenumbers": [{
+            "pricing": null,
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 70 03 2x xx",
+            "description": "",
+            "number": "70032xxx",
+            "type": "phone",
+            "main": 0
+          }],
+          "title": "",
+          "email": "info@123-berlin-key.de",
+          "name": null,
+          "lastname": "",
+          "firstname": "",
+          "addition": "",
+          "salutation": "",
+          "main": 1
+        }],
+        "id": "Z3650742",
+        "phonenumbers": [{
+          "pricing": "",
+          "area": "030",
+          "countrycode": "49",
+          "displayphone": "(0 30) 70 03 2x xx",
+          "description": "",
+          "number": "70032xxx",
+          "type": "phone",
+          "main": 1
+        }],
+        "mediaflag": 1,
+        "backlink": "http://www.klicktel.de/branchenbuch/00-24-123-berlin-key-schluesseldienst-zehlendorf,berlin,4617500,Z3650742.html",
+        "subsidiaries": [
+          "Z3650342",
+          "Z3650352",
+          "Z3650362",
+          "Z3650372",
+          "Z3650382",
+          "Z3650392",
+          "Z3650402",
+          "Z3650412",
+          "Z3650422",
+          "Z3650432",
+          "Z3650442",
+          "Z3650452",
+          "Z3650462",
+          "Z3650472",
+          "Z3650482",
+          "Z3650492",
+          "Z3650502",
+          "Z3650512",
+          "Z3650522",
+          "Z3650532",
+          "Z3650542",
+          "Z3650552",
+          "Z3650562",
+          "Z3650572",
+          "Z3650582",
+          "Z3650592",
+          "Z3650602",
+          "Z3650612",
+          "Z3650622",
+          "Z3650632",
+          "Z3650642",
+          "Z3650652",
+          "Z3650672",
+          "Z3650682",
+          "Z3650692",
+          "Z3650702",
+          "Z3650712",
+          "Z3650722",
+          "Z3650732",
+          "Z3650752",
+          "Z3650762",
+          "Z3650772",
+          "Z3650782",
+          "Z3650792",
+          "Z3650802",
+          "Z3650812",
+          "Z3650822"
+        ],
+        "subtype": null,
+        "company": "00-24 123-Berlin-Key-Schlüsseldienst - Zehlendorf",
+        "trades": [{
+          "id": "3304670",
+          "trade": "Schlüsseldienste"
+        }],
+        "openinghours": {
+          "format3": {"format3": [
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "mon",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "tue",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "wed",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "thu",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "fri",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "sat",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "sun",
+              "end2": "",
+              "end1": "00:00"
+            }
+          ]},
+          "info": null
+        },
+        "salutation": "Firma",
+        "media": {
+          "logos": [{
+            "id": 940102,
+            "fused": false,
+            "mimetype": "image/jpeg",
+            "title": "",
+            "height": 1181,
+            "width": 1181,
+            "url": "http://openapi.klicktel.de/de/1.0/media/logo-940102-1181x1181.jpg",
+            "mergeSource": null
+          }],
+          "videos": [{
+            "id": 945212,
+            "mimetype": "application/octet-stream",
+            "title": "",
+            "height": null,
+            "width": null,
+            "type": "movie",
+            "thumb": {
+              "title": null,
+              "height": 384,
+              "width": 512,
+              "url": "http://openapi.klicktel.de/de/1.0/media/thumb-945222-512x384.png"
+            },
+            "url": "http://download.klicktel.de/video/eva/945212.flv",
+            "main": 0
+          }]
+        },
+        "ratings": {
+          "count": 0,
+          "backlink": "http://www.klicktel.de/branchenbuch/00-24-123-berlin-key-schluesseldienst-zehlendorf,berlin,4617500,Z3650742.html",
+          "average": "0,0000"
+        },
+        "mediatype": "P2",
+        "displayname": "00-24 123-Berlin-Key-Schlüsseldienst - Zehlendorf"
+      },
+      {
+        "entrytype": "business",
+        "keywords": [
+          {
+            "id": 6000606,
+            "keyword": "24-Stunden-Notdienste"
+          },
+          {
+            "id": 6001195,
+            "keyword": "Abdichtungen"
+          },
+          {
+            "id": 6008058,
+            "keyword": "Bauaustrocknung"
+          },
+          {
+            "id": 6008254,
+            "keyword": "Bauhandwerk"
+          },
+          {
+            "id": 6016727,
+            "keyword": "Dämmungen"
+          },
+          {
+            "id": 6017462,
+            "keyword": "Denkmalschutz"
+          },
+          {
+            "id": 6037801,
+            "keyword": "Holzschutz"
+          },
+          {
+            "id": 6040887,
+            "keyword": "Isolierungen"
+          },
+          {
+            "id": 6048946,
+            "keyword": "Leckortung"
+          },
+          {
+            "id": 6067250,
+            "keyword": "Rohrbruch"
+          },
+          {
+            "id": 6079928,
+            "keyword": "Thermografie"
+          }
+        ],
+        "location": {
+          "county": null,
+          "streetnumber": "80",
+          "zipcode": "12555",
+          "street": "Seelenbinderstr.",
+          "state": null,
+          "district": null,
+          "country": "DE",
+          "city": "Berlin"
+        },
+        "urls": [{
+          "link": "http://www.feuchteklinik.de",
+          "display": "www.feuchteklinik.de",
+          "main": 1
+        }],
+        "emails": [{
+          "email": "kontakt@otto-richter.de",
+          "main": 1
+        }],
+        "type": "MEDIA",
+        "contacts": [{
+          "phonenumbers": [{
+            "pricing": null,
+            "area": "0800",
+            "countrycode": "49",
+            "displayphone": "(08 00) 6 56 6x xx",
+            "description": "",
+            "number": "6566xxx",
+            "type": "phone",
+            "main": 0
+          }],
+          "title": null,
+          "email": "",
+          "name": "Service",
+          "lastname": "",
+          "firstname": "",
+          "addition": "",
+          "salutation": "",
+          "main": 0
+        }],
+        "id": "Z1044103",
+        "phonenumbers": [
+          {
+            "pricing": "",
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 65 66 1x xx",
+            "description": "",
+            "number": "65661xxx",
+            "type": "phone",
+            "main": 1
+          },
+          {
+            "pricing": "",
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 65 66 1x xx",
+            "description": "",
+            "number": "65661xxx",
+            "type": "fax",
+            "main": 0
+          }
+        ],
+        "mediaflag": 1,
+        "backlink": "http://www.klicktel.de/branchenbuch/otto-richter-gmbh,berlin,4617500,Z1044103.html",
+        "subtype": null,
+        "company": "Otto Richter GmbH",
+        "trades": [
+          {
+            "id": "3300078",
+            "trade": "Altbausanierung und Bauaustrocknung"
+          },
+          {
+            "id": "3304501",
+            "trade": "Sachverständige"
+          },
+          {
+            "id": "3305726",
+            "trade": "Wasserschadenbeseitigung"
+          }
+        ],
+        "openinghours": {
+          "format3": {"format3": [
+            {
+              "begin2": "",
+              "begin1": "07:00",
+              "weekday": "mon",
+              "end2": "",
+              "end1": "18:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "07:00",
+              "weekday": "tue",
+              "end2": "",
+              "end1": "18:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "07:00",
+              "weekday": "wed",
+              "end2": "",
+              "end1": "18:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "07:00",
+              "weekday": "thu",
+              "end2": "",
+              "end1": "18:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "07:00",
+              "weekday": "fri",
+              "end2": "",
+              "end1": "18:00"
+            }
+          ]},
+          "info": null
+        },
+        "salutation": "Firma",
+        "media": {"logos": [{
+          "id": 439942,
+          "fused": false,
+          "mimetype": "image/pjpeg",
+          "title": null,
+          "height": 315,
+          "width": 385,
+          "url": "http://openapi.klicktel.de/de/1.0/media/logo-439942-385x315.jpg",
+          "mergeSource": null
+        }]},
+        "ratings": {
+          "count": 0,
+          "backlink": "http://www.klicktel.de/branchenbuch/otto-richter-gmbh,berlin,4617500,Z1044103.html",
+          "average": "0,0000"
+        },
+        "mediatype": "P2",
+        "displayname": "Otto Richter GmbH"
+      },
+      {
+        "entrytype": "business",
+        "keywords": [
+          {
+            "id": 6114923,
+            "keyword": "Schlüsselnotdienste"
+          },
+          {
+            "id": 6070222,
+            "keyword": "Schlossdienste"
+          },
+          {
+            "id": 6070348,
+            "keyword": "Schlüssel-Notdienst"
+          },
+          {
+            "id": 6072945,
+            "keyword": "Sicherheitstechnik"
+          },
+          {
+            "id": 6090810,
+            "keyword": "Zylinder"
+          },
+          {
+            "id": 6070225,
+            "keyword": "Schlösser"
+          },
+          {
+            "id": 6070177,
+            "keyword": "Schließtechnik"
+          },
+          {
+            "id": 6020802,
+            "keyword": "Einbruchschutz"
+          },
+          {
+            "id": 6070156,
+            "keyword": "Schließanlagen"
+          },
+          {
+            "id": 6070177,
+            "keyword": "Schließtechnik"
+          }
+        ],
+        "location": {
+          "county": null,
+          "streetnumber": "11",
+          "zipcode": "12247",
+          "street": "Charlottenstr.",
+          "state": null,
+          "district": null,
+          "country": "DE",
+          "city": "Berlin"
+        },
+        "urls": [{
+          "link": "http://www.123-berlin-key.de",
+          "display": "www.123-berlin-key.de",
+          "main": 1
+        }],
+        "emails": [{
+          "email": "info@123-berlin-key.de",
+          "main": 1
+        }],
+        "type": "MEDIA",
+        "contacts": [{
+          "phonenumbers": [{
+            "pricing": null,
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 71 55 2x xx",
+            "description": "",
+            "number": "71552xxx",
+            "type": "phone",
+            "main": 0
+          }],
+          "title": "",
+          "email": "info@123-berlin-key.de",
+          "name": null,
+          "lastname": "",
+          "firstname": "",
+          "addition": "",
+          "salutation": "",
+          "main": 1
+        }],
+        "id": "Z3650682",
+        "phonenumbers": [{
+          "pricing": "",
+          "area": "030",
+          "countrycode": "49",
+          "displayphone": "(0 30) 71 55 2x xx",
+          "description": "",
+          "number": "71552xxx",
+          "type": "phone",
+          "main": 1
+        }],
+        "mediaflag": 1,
+        "backlink": "http://www.klicktel.de/branchenbuch/00-24-123-berlin-key-schluesseldienst-lankwitz,berlin,4617500,Z3650682.html",
+        "subsidiaries": [
+          "Z3650342",
+          "Z3650352",
+          "Z3650362",
+          "Z3650372",
+          "Z3650382",
+          "Z3650392",
+          "Z3650402",
+          "Z3650412",
+          "Z3650422",
+          "Z3650432",
+          "Z3650442",
+          "Z3650452",
+          "Z3650462",
+          "Z3650472",
+          "Z3650482",
+          "Z3650492",
+          "Z3650502",
+          "Z3650512",
+          "Z3650522",
+          "Z3650532",
+          "Z3650542",
+          "Z3650552",
+          "Z3650562",
+          "Z3650572",
+          "Z3650582",
+          "Z3650592",
+          "Z3650602",
+          "Z3650612",
+          "Z3650622",
+          "Z3650632",
+          "Z3650642",
+          "Z3650652",
+          "Z3650672",
+          "Z3650692",
+          "Z3650702",
+          "Z3650712",
+          "Z3650722",
+          "Z3650732",
+          "Z3650742",
+          "Z3650752",
+          "Z3650762",
+          "Z3650772",
+          "Z3650782",
+          "Z3650792",
+          "Z3650802",
+          "Z3650812",
+          "Z3650822"
+        ],
+        "subtype": null,
+        "company": "00-24 123-Berlin-Key-Schlüsseldienst - Lankwitz",
+        "trades": [{
+          "id": "3304670",
+          "trade": "Schlüsseldienste"
+        }],
+        "openinghours": {
+          "format3": {"format3": [
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "mon",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "tue",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "wed",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "thu",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "fri",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "sat",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "sun",
+              "end2": "",
+              "end1": "00:00"
+            }
+          ]},
+          "info": null
+        },
+        "salutation": "Firma",
+        "media": {
+          "logos": [{
+            "id": 940102,
+            "fused": false,
+            "mimetype": "image/jpeg",
+            "title": "",
+            "height": 1181,
+            "width": 1181,
+            "url": "http://openapi.klicktel.de/de/1.0/media/logo-940102-1181x1181.jpg",
+            "mergeSource": null
+          }],
+          "videos": [{
+            "id": 945212,
+            "mimetype": "application/octet-stream",
+            "title": "",
+            "height": null,
+            "width": null,
+            "type": "movie",
+            "thumb": {
+              "title": null,
+              "height": 384,
+              "width": 512,
+              "url": "http://openapi.klicktel.de/de/1.0/media/thumb-945222-512x384.png"
+            },
+            "url": "http://download.klicktel.de/video/eva/945212.flv",
+            "main": 0
+          }]
+        },
+        "ratings": {
+          "count": 0,
+          "backlink": "http://www.klicktel.de/branchenbuch/00-24-123-berlin-key-schluesseldienst-lankwitz,berlin,4617500,Z3650682.html",
+          "average": "0,0000"
+        },
+        "mediatype": "P2",
+        "displayname": "00-24 123-Berlin-Key-Schlüsseldienst - Lankwitz"
+      },
+      {
+        "entrytype": "business",
+        "keywords": [
+          {
+            "id": 6114923,
+            "keyword": "Schlüsselnotdienste"
+          },
+          {
+            "id": 6070222,
+            "keyword": "Schlossdienste"
+          },
+          {
+            "id": 6070348,
+            "keyword": "Schlüssel-Notdienst"
+          },
+          {
+            "id": 6072945,
+            "keyword": "Sicherheitstechnik"
+          },
+          {
+            "id": 6090810,
+            "keyword": "Zylinder"
+          },
+          {
+            "id": 6070225,
+            "keyword": "Schlösser"
+          },
+          {
+            "id": 6070177,
+            "keyword": "Schließtechnik"
+          },
+          {
+            "id": 6020802,
+            "keyword": "Einbruchschutz"
+          },
+          {
+            "id": 6070156,
+            "keyword": "Schließanlagen"
+          },
+          {
+            "id": 6070177,
+            "keyword": "Schließtechnik"
+          }
+        ],
+        "location": {
+          "county": null,
+          "streetnumber": "34",
+          "zipcode": "10707",
+          "street": "Bleibtreustr.",
+          "state": null,
+          "district": null,
+          "country": "DE",
+          "city": "Berlin"
+        },
+        "urls": [{
+          "link": "http://www.123-berlin-key.de",
+          "display": "www.123-berlin-key.de",
+          "main": 1
+        }],
+        "emails": [{
+          "email": "info@123-berlin-key.de",
+          "main": 1
+        }],
+        "type": "MEDIA",
+        "contacts": [{
+          "phonenumbers": [{
+            "pricing": null,
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 70 03 8x xx",
+            "description": "",
+            "number": "70038xxx",
+            "type": "phone",
+            "main": 0
+          }],
+          "title": "",
+          "email": "info@123-berlin-key.de",
+          "name": null,
+          "lastname": "",
+          "firstname": "",
+          "addition": "",
+          "salutation": "",
+          "main": 1
+        }],
+        "id": "Z3650632",
+        "phonenumbers": [{
+          "pricing": "",
+          "area": "030",
+          "countrycode": "49",
+          "displayphone": "(0 30) 70 03 8x xx",
+          "description": "",
+          "number": "70038xxx",
+          "type": "phone",
+          "main": 1
+        }],
+        "mediaflag": 1,
+        "backlink": "http://www.klicktel.de/branchenbuch/00-24-123-berlin-key-schluesseldienst-wilmersdorf,berlin,4617500,Z3650632.html",
+        "subsidiaries": [
+          "Z3650342",
+          "Z3650352",
+          "Z3650362",
+          "Z3650372",
+          "Z3650382",
+          "Z3650392",
+          "Z3650402",
+          "Z3650412",
+          "Z3650422",
+          "Z3650432",
+          "Z3650442",
+          "Z3650452",
+          "Z3650462",
+          "Z3650472",
+          "Z3650482",
+          "Z3650492",
+          "Z3650502",
+          "Z3650512",
+          "Z3650522",
+          "Z3650532",
+          "Z3650542",
+          "Z3650552",
+          "Z3650562",
+          "Z3650572",
+          "Z3650582",
+          "Z3650592",
+          "Z3650602",
+          "Z3650612",
+          "Z3650622",
+          "Z3650642",
+          "Z3650652",
+          "Z3650672",
+          "Z3650682",
+          "Z3650692",
+          "Z3650702",
+          "Z3650712",
+          "Z3650722",
+          "Z3650732",
+          "Z3650742",
+          "Z3650752",
+          "Z3650762",
+          "Z3650772",
+          "Z3650782",
+          "Z3650792",
+          "Z3650802",
+          "Z3650812",
+          "Z3650822"
+        ],
+        "subtype": null,
+        "company": "00-24 123-Berlin-Key-Schlüsseldienst - Wilmersdorf",
+        "trades": [{
+          "id": "3304670",
+          "trade": "Schlüsseldienste"
+        }],
+        "openinghours": {
+          "format3": {"format3": [
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "mon",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "tue",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "wed",
+[ 18:55:15 ] INFO: Worker #1; Request target: "192.168.2.85" source: "SnomIPPhone.xsl" data: ""  [ snomproxy.server.Server$Worker.run() ]
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "thu",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "fri",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "sat",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "sun",
+              "end2": "",
+              "end1": "00:00"
+            }
+          ]},
+          "info": null
+        },
+        "salutation": "Firma",
+        "media": {
+          "logos": [{
+            "id": 940102,
+            "fused": false,
+            "mimetype": "image/jpeg",
+            "title": "",
+            "height": 1181,
+            "width": 1181,
+            "url": "http://openapi.klicktel.de/de/1.0/media/logo-940102-1181x1181.jpg",
+            "mergeSource": null
+          }],
+          "videos": [{
+            "id": 945212,
+            "mimetype": "application/octet-stream",
+            "title": "",
+            "height": null,
+            "width": null,
+            "type": "movie",
+            "thumb": {
+              "title": null,
+              "height": 384,
+              "width": 512,
+              "url": "http://openapi.klicktel.de/de/1.0/media/thumb-945222-512x384.png"
+            },
+            "url": "http://download.klicktel.de/video/eva/945212.flv",
+            "main": 0
+          }]
+        },
+        "ratings": {
+          "count": 0,
+          "backlink": "http://www.klicktel.de/branchenbuch/00-24-123-berlin-key-schluesseldienst-wilmersdorf,berlin,4617500,Z3650632.html",
+          "average": "0,0000"
+        },
+        "mediatype": "P2",
+        "displayname": "00-24 123-Berlin-Key-Schlüsseldienst - Wilmersdorf"
+      },
+      {
+        "entrytype": "business",
+        "keywords": [
+          {
+            "id": 6011578,
+            "keyword": "Bleaching"
+          },
+          {
+            "id": 6099710,
+            "keyword": "Brackets"
+          },
+          {
+            "id": 6063769,
+            "keyword": "Prophylaxe"
+          },
+          {
+            "id": 6070547,
+            "keyword": "Schnarchtherapie"
+          },
+          {
+            "id": 6023172,
+            "keyword": "Erwachsenenbehandlung"
+          },
+          {
+            "id": 6128154,
+            "keyword": "Zahnschienen"
+          },
+          {
+            "id": 6083171,
+            "keyword": "Unsichtbare Zahnspangen"
+          },
+          {
+            "id": 6123013,
+            "keyword": "Kieferorthopädie für Kinder"
+          },
+          {
+            "id": 6128703,
+            "keyword": "Speeds Brackets"
+          },
+          {
+            "id": 6099756,
+            "keyword": "Herausnehmbare Spangen"
+          },
+          {
+            "id": 6122345,
+            "keyword": "Kieferregulierungen"
+          }
+        ],
+        "location": {
+          "county": null,
+          "streetnumber": "145",
+          "zipcode": "12099",
+          "street": "Tempelhofer Damm",
+          "state": null,
+          "district": null,
+          "country": "DE",
+          "city": "Berlin"
+        },
+        "urls": [
+          {
+            "link": "http://www.zahnspange-tempelhof.de",
+            "display": "www.zahnspange-tempelhof.de",
+            "main": 1
+          },
+          {
+            "link": "http://www.zaek-berlin.de",
+            "display": "Berliner Zahnärztekammer",
+            "main": 0
+          },
+          {
+            "link": "http://www.zahnspange-tempelhof.de/Unsere-Leistungen",
+            "display": "Unsere Leistungen",
+            "main": 0
+          }
+        ],
+        "emails": [{
+          "email": "dr.schmiedel@t-online.de",
+          "main": 1
+        }],
+        "type": "MEDIA",
+        "contacts": [{
+          "title": null,
+          "email": "",
+          "name": "Inhaber",
+          "lastname": "Schmiedel",
+          "firstname": "Wolfgang",
+          "addition": "",
+          "salutation": "Herr",
+          "main": 0
+        }],
+        "id": "Z3322282",
+        "phonenumbers": [
+          {
+            "pricing": "",
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 7 52 7x xx",
+            "description": "",
+            "number": "7527xxx",
+            "type": "phone",
+            "main": 1
+          },
+          {
+            "pricing": "",
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 7 52 9x xx",
+            "description": "",
+            "number": "7529xxx",
+            "type": "fax",
+            "main": 0
+          }
+        ],
+        "slogan": "Wir sind für Sie da!",
+        "mediaflag": 1,
+        "backlink": "http://www.klicktel.de/branchenbuch/dr-wolfgang-schmiedel-fachzahnarztpraxis-fuer-kieferorthopaedie,berlin,4617500,Z3322282.html",
+        "subtype": null,
+        "company": "Dr. Wolfgang Schmiedel",
+        "trades": [
+          {
+            "id": "3305897",
+            "trade": "Zahnärzte"
+          },
+          {
+            "id": "3305899",
+            "trade": "Zahnärzte - Kieferorthopädie"
+          }
+        ],
+        "openinghours": {
+          "format3": {"format3": [
+            {
+              "begin2": "13:00",
+              "begin1": "09:00",
+              "weekday": "mon",
+              "end2": "18:00",
+              "end1": "12:00"
+            },
+            {
+              "begin2": "13:00",
+              "begin1": "09:00",
+              "weekday": "tue",
+              "end2": "18:00",
+              "end1": "12:00"
+            },
+            {
+              "begin2": "13:00",
+              "begin1": "09:00",
+              "weekday": "thu",
+              "end2": "18:00",
+              "end1": "12:00"
+            },
+            {
+              "begin2": "13:00",
+              "begin1": "09:00",
+              "weekday": "fri",
+              "end2": "17:00",
+              "end1": "12:00"
+            }
+          ]},
+          "info": "Mittwoch nach Vereinbarung"
+        },
+        "salutation": "Firma",
+        "media": {
+          "logos": [{
+            "id": 556652,
+            "fused": false,
+            "mimetype": "image/jpeg",
+            "title": "",
+            "height": 183,
+            "width": 191,
+            "url": "http://openapi.klicktel.de/de/1.0/media/logo-556652-191x183.jpg",
+            "mergeSource": null
+          }],
+          "videos": [{
+            "id": 590512,
+            "mimetype": "application/octet-stream",
+            "title": "",
+            "height": null,
+            "width": null,
+            "type": "movie",
+            "thumb": {
+              "title": null,
+              "height": 384,
+              "width": 512,
+              "url": "http://openapi.klicktel.de/de/1.0/media/thumb-405732-512x384.jpg"
+            },
+            "url": "http://download.klicktel.de/video/eva/590512.flv",
+            "main": 0
+          }]
+        },
+        "ratings": {
+          "count": 1,
+          "backlink": "http://www.klicktel.de/branchenbuch/dr-wolfgang-schmiedel-fachzahnarztpraxis-fuer-kieferorthopaedie,berlin,4617500,Z3322282.html",
+          "average": "5,0000"
+        },
+        "mediatype": "P2",
+        "displayname": "Dr. Wolfgang Schmiedel Fachzahnarztpraxis für Kieferorthopädie"
+      },
+      {
+        "entrytype": "business",
+        "keywords": [
+          {
+            "id": 6114923,
+            "keyword": "Schlüsselnotdienste"
+          },
+          {
+            "id": 6070222,
+            "keyword": "Schlossdienste"
+          },
+          {
+            "id": 6070348,
+            "keyword": "Schlüssel-Notdienst"
+          },
+          {
+            "id": 6072945,
+            "keyword": "Sicherheitstechnik"
+          },
+          {
+            "id": 6090810,
+            "keyword": "Zylinder"
+          },
+          {
+            "id": 6070225,
+            "keyword": "Schlösser"
+          },
+          {
+            "id": 6070177,
+            "keyword": "Schließtechnik"
+          },
+          {
+            "id": 6020802,
+            "keyword": "Einbruchschutz"
+          },
+          {
+            "id": 6070156,
+            "keyword": "Schließanlagen"
+          },
+          {
+            "id": 6070177,
+            "keyword": "Schließtechnik"
+          }
+        ],
+        "location": {
+          "county": null,
+          "streetnumber": "28",
+          "zipcode": "10589",
+          "street": "Wernigeroder Str.",
+          "state": null,
+          "district": null,
+          "country": "DE",
+          "city": "Berlin"
+        },
+        "urls": [{
+          "link": "http://www.123-berlin-key.de",
+          "display": "www.123-berlin-key.de",
+          "main": 1
+        }],
+        "emails": [{
+          "email": "info@123-berlin-key.de",
+          "main": 1
+        }],
+        "type": "MEDIA",
+        "contacts": [{
+          "phonenumbers": [{
+            "pricing": null,
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 69 52 9x xx",
+            "description": "",
+            "number": "69529xxx",
+            "type": "phone",
+            "main": 0
+          }],
+          "title": "",
+          "email": "info@123-berlin-key.de",
+          "name": null,
+          "lastname": "",
+          "firstname": "",
+          "addition": "",
+          "salutation": "",
+          "main": 1
+        }],
+        "id": "Z3650812",
+        "phonenumbers": [{
+          "pricing": "",
+          "area": "030",
+          "countrycode": "49",
+          "displayphone": "(0 30) 69 52 9x xx",
+          "description": "",
+          "number": "69529xxx",
+          "type": "phone",
+          "main": 1
+        }],
+        "mediaflag": 1,
+        "backlink": "http://www.klicktel.de/branchenbuch/00-24-123-berlin-key-schluesseldienst-charlottenburg,berlin,4617500,Z3650812.html",
+        "subsidiaries": [
+          "Z3650342",
+          "Z3650352",
+          "Z3650362",
+          "Z3650372",
+          "Z3650382",
+          "Z3650392",
+          "Z3650402",
+          "Z3650412",
+          "Z3650422",
+          "Z3650432",
+          "Z3650442",
+          "Z3650452",
+          "Z3650462",
+          "Z3650472",
+          "Z3650482",
+          "Z3650492",
+          "Z3650502",
+          "Z3650512",
+          "Z3650522",
+          "Z3650532",
+          "Z3650542",
+          "Z3650552",
+          "Z3650562",
+          "Z3650572",
+          "Z3650582",
+          "Z3650592",
+          "Z3650602",
+          "Z3650612",
+          "Z3650622",
+          "Z3650632",
+          "Z3650642",
+          "Z3650652",
+          "Z3650672",
+          "Z3650682",
+          "Z3650692",
+          "Z3650702",
+          "Z3650712",
+          "Z3650722",
+          "Z3650732",
+          "Z3650742",
+          "Z3650752",
+          "Z3650762",
+          "Z3650772",
+          "Z3650782",
+          "Z3650792",
+          "Z3650802",
+          "Z3650822"
+        ],
+        "subtype": null,
+        "company": "00-24 123-Berlin-Key-Schlüsseldienst - Charlottenburg",
+        "trades": [{
+          "id": "3304670",
+          "trade": "Schlüsseldienste"
+        }],
+        "openinghours": {
+          "format3": {"format3": [
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "mon",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "tue",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "wed",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "thu",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "fri",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "sat",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "sun",
+              "end2": "",
+              "end1": "00:00"
+            }
+          ]},
+          "info": null
+        },
+        "salutation": "Firma",
+        "media": {
+          "logos": [{
+            "id": 940102,
+            "fused": false,
+            "mimetype": "image/jpeg",
+            "title": "",
+            "height": 1181,
+            "width": 1181,
+            "url": "http://openapi.klicktel.de/de/1.0/media/logo-940102-1181x1181.jpg",
+            "mergeSource": null
+          }],
+          "videos": [{
+            "id": 945212,
+            "mimetype": "application/octet-stream",
+            "title": "",
+            "height": null,
+            "width": null,
+            "type": "movie",
+            "thumb": {
+              "title": null,
+              "height": 384,
+              "width": 512,
+              "url": "http://openapi.klicktel.de/de/1.0/media/thumb-945222-512x384.png"
+            },
+            "url": "http://download.klicktel.de/video/eva/945212.flv",
+            "main": 0
+          }]
+        },
+        "ratings": {
+          "count": 0,
+          "backlink": "http://www.klicktel.de/branchenbuch/00-24-123-berlin-key-schluesseldienst-charlottenburg,berlin,4617500,Z3650812.html",
+          "average": "0,0000"
+        },
+        "mediatype": "P2",
+        "displayname": "00-24 123-Berlin-Key-Schlüsseldienst - Charlottenburg"
+      },
+      {
+        "entrytype": "business",
+        "keywords": [
+          {
+            "id": 6114923,
+            "keyword": "Schlüsselnotdienste"
+          },
+          {
+            "id": 6070222,
+            "keyword": "Schlossdienste"
+          },
+          {
+            "id": 6070348,
+            "keyword": "Schlüssel-Notdienst"
+          },
+          {
+            "id": 6072945,
+            "keyword": "Sicherheitstechnik"
+          },
+          {
+            "id": 6090810,
+            "keyword": "Zylinder"
+          },
+          {
+            "id": 6070225,
+            "keyword": "Schlösser"
+          },
+          {
+            "id": 6070177,
+            "keyword": "Schließtechnik"
+          },
+          {
+            "id": 6020802,
+            "keyword": "Einbruchschutz"
+          },
+          {
+            "id": 6070156,
+            "keyword": "Schließanlagen"
+          },
+          {
+            "id": 6070177,
+            "keyword": "Schließtechnik"
+          }
+        ],
+        "location": {
+          "county": null,
+          "streetnumber": "138",
+          "zipcode": "12043",
+          "street": "Karl-Marx-Str.",
+          "state": null,
+          "district": null,
+          "country": "DE",
+          "city": "Berlin"
+        },
+        "urls": [{
+          "link": "http://www.123-berlin-key.de",
+          "display": "www.123-berlin-key.de",
+          "main": 1
+        }],
+        "emails": [{
+          "email": "info@123-berlin-key.de",
+          "main": 1
+        }],
+        "type": "MEDIA",
+        "contacts": [{
+          "phonenumbers": [{
+            "pricing": null,
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 68 08 8x xx",
+            "description": "",
+            "number": "68088xxx",
+            "type": "phone",
+            "main": 0
+          }],
+          "title": "",
+          "email": "info@123-berlin-key.de",
+          "name": null,
+          "lastname": "",
+          "firstname": "",
+          "addition": "",
+          "salutation": "",
+          "main": 1
+        }],
+        "id": "Z3650372",
+        "phonenumbers": [{
+          "pricing": "",
+          "area": "030",
+          "countrycode": "49",
+          "displayphone": "(0 30) 68 08 8x xx",
+          "description": "",
+          "number": "68088xxx",
+          "type": "phone",
+          "main": 1
+        }],
+        "mediaflag": 1,
+        "backlink": "http://www.klicktel.de/branchenbuch/00-24-123-berlin-key-schluesseldienst-neukoelln,berlin,4617500,Z3650372.html",
+        "subsidiaries": [
+          "Z3650342",
+          "Z3650352",
+          "Z3650362",
+          "Z3650382",
+          "Z3650392",
+          "Z3650402",
+          "Z3650412",
+          "Z3650422",
+          "Z3650432",
+          "Z3650442",
+          "Z3650452",
+          "Z3650462",
+          "Z3650472",
+          "Z3650482",
+          "Z3650492",
+          "Z3650502",
+          "Z3650512",
+          "Z3650522",
+          "Z3650532",
+          "Z3650542",
+          "Z3650552",
+          "Z3650562",
+          "Z3650572",
+          "Z3650582",
+          "Z3650592",
+          "Z3650602",
+          "Z3650612",
+          "Z3650622",
+          "Z3650632",
+          "Z3650642",
+          "Z3650652",
+          "Z3650672",
+          "Z3650682",
+          "Z3650692",
+          "Z3650702",
+          "Z3650712",
+          "Z3650722",
+          "Z3650732",
+          "Z3650742",
+          "Z3650752",
+          "Z3650762",
+          "Z3650772",
+          "Z3650782",
+          "Z3650792",
+          "Z3650802",
+          "Z3650812",
+          "Z3650822"
+        ],
+        "subtype": null,
+        "company": "00-24 123-Berlin-Key-Schlüsseldienst  - Neukölln",
+        "trades": [{
+          "id": "3304670",
+          "trade": "Schlüsseldienste"
+        }],
+        "openinghours": {
+          "format3": {"format3": [
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "mon",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "tue",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "wed",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "thu",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "fri",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "sat",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "sun",
+              "end2": "",
+              "end1": "00:00"
+            }
+          ]},
+          "info": null
+        },
+        "salutation": "Firma",
+        "media": {
+          "logos": [{
+            "id": 940102,
+            "fused": false,
+            "mimetype": "image/jpeg",
+            "title": "",
+            "height": 1181,
+            "width": 1181,
+            "url": "http://openapi.klicktel.de/de/1.0/media/logo-940102-1181x1181.jpg",
+            "mergeSource": null
+          }],
+          "videos": [{
+            "id": 945212,
+            "mimetype": "application/octet-stream",
+            "title": "",
+            "height": null,
+            "width": null,
+            "type": "movie",
+            "thumb": {
+              "title": null,
+              "height": 384,
+              "width": 512,
+              "url": "http://openapi.klicktel.de/de/1.0/media/thumb-945222-512x384.png"
+            },
+            "url": "http://download.klicktel.de/video/eva/945212.flv",
+            "main": 0
+          }]
+        },
+        "ratings": {
+          "count": 0,
+          "backlink": "http://www.klicktel.de/branchenbuch/00-24-123-berlin-key-schluesseldienst-neukoelln,berlin,4617500,Z3650372.html",
+          "average": "0,0000"
+        },
+        "mediatype": "P2",
+        "displayname": "00-24 123-Berlin-Key-Schlüsseldienst  - Neukölln"
+      },
+      {
+        "entrytype": "business",
+        "keywords": [
+          {
+            "id": 6114923,
+            "keyword": "Schlüsselnotdienste"
+          },
+          {
+            "id": 6070222,
+            "keyword": "Schlossdienste"
+          },
+          {
+            "id": 6070348,
+            "keyword": "Schlüssel-Notdienst"
+          },
+          {
+            "id": 6072945,
+            "keyword": "Sicherheitstechnik"
+          },
+          {
+            "id": 6090810,
+            "keyword": "Zylinder"
+          },
+          {
+            "id": 6070225,
+            "keyword": "Schlösser"
+          },
+          {
+            "id": 6070177,
+            "keyword": "Schließtechnik"
+          },
+          {
+            "id": 6020802,
+            "keyword": "Einbruchschutz"
+          },
+          {
+            "id": 6070156,
+            "keyword": "Schließanlagen"
+          },
+          {
+            "id": 6070177,
+            "keyword": "Schließtechnik"
+          }
+        ],
+        "location": {
+          "county": null,
+          "streetnumber": "33",
+          "zipcode": "10117",
+          "street": "Französische Str.",
+          "state": null,
+          "district": null,
+          "country": "DE",
+          "city": "Berlin"
+        },
+        "urls": [{
+          "link": "http://www.123-berlin-key.de",
+          "display": "www.123-berlin-key.de",
+          "main": 1
+        }],
+        "emails": [{
+          "email": "info@123-berlin-key.de",
+          "main": 1
+        }],
+        "type": "MEDIA",
+        "contacts": [{
+          "phonenumbers": [{
+            "pricing": null,
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 20 64 9x xx",
+            "description": "",
+            "number": "20649xxx",
+            "type": "phone",
+            "main": 0
+          }],
+          "title": "",
+          "email": "info@123-berlin-key.de",
+          "name": null,
+          "lastname": "",
+          "firstname": "",
+          "addition": "",
+          "salutation": "",
+          "main": 1
+        }],
+        "id": "Z3650462",
+        "phonenumbers": [{
+          "pricing": "",
+          "area": "030",
+          "countrycode": "49",
+          "displayphone": "(0 30) 20 64 9x xx",
+          "description": "",
+          "number": "20649xxx",
+          "type": "phone",
+          "main": 1
+        }],
+        "mediaflag": 1,
+        "backlink": "http://www.klicktel.de/branchenbuch/00-24-123-berlin-key-schluesseldienst-mitte,berlin,4617500,Z3650462.html",
+        "subsidiaries": [
+          "Z3650342",
+          "Z3650352",
+          "Z3650362",
+          "Z3650372",
+          "Z3650382",
+          "Z3650392",
+          "Z3650402",
+          "Z3650412",
+          "Z3650422",
+          "Z3650432",
+          "Z3650442",
+          "Z3650452",
+          "Z3650472",
+          "Z3650482",
+          "Z3650492",
+          "Z3650502",
+          "Z3650512",
+          "Z3650522",
+          "Z3650532",
+          "Z3650542",
+          "Z3650552",
+          "Z3650562",
+          "Z3650572",
+          "Z3650582",
+          "Z3650592",
+          "Z3650602",
+          "Z3650612",
+          "Z3650622",
+          "Z3650632",
+          "Z3650642",
+          "Z3650652",
+          "Z3650672",
+          "Z3650682",
+          "Z3650692",
+          "Z3650702",
+          "Z3650712",
+          "Z3650722",
+          "Z3650732",
+          "Z3650742",
+          "Z3650752",
+          "Z3650762",
+          "Z3650772",
+          "Z3650782",
+          "Z3650792",
+          "Z3650802",
+          "Z3650812",
+          "Z3650822"
+        ],
+        "subtype": null,
+        "company": "00-24 123-Berlin-Key-Schlüsseldienst - Mitte",
+        "trades": [{
+          "id": "3304670",
+          "trade": "Schlüsseldienste"
+        }],
+        "openinghours": {
+          "format3": {"format3": [
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "mon",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "tue",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "wed",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "thu",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "fri",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "sat",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "sun",
+              "end2": "",
+              "end1": "00:00"
+            }
+          ]},
+          "info": null
+        },
+        "salutation": "Firma",
+        "media": {
+          "logos": [{
+            "id": 940102,
+            "fused": false,
+            "mimetype": "image/jpeg",
+            "title": "",
+            "height": 1181,
+            "width": 1181,
+            "url": "http://openapi.klicktel.de/de/1.0/media/logo-940102-1181x1181.jpg",
+            "mergeSource": null
+          }],
+          "videos": [{
+            "id": 945212,
+            "mimetype": "application/octet-stream",
+            "title": "",
+            "height": null,
+            "width": null,
+            "type": "movie",
+            "thumb": {
+              "title": null,
+              "height": 384,
+              "width": 512,
+              "url": "http://openapi.klicktel.de/de/1.0/media/thumb-945222-512x384.png"
+            },
+            "url": "http://download.klicktel.de/video/eva/945212.flv",
+            "main": 0
+          }]
+        },
+        "ratings": {
+          "count": 0,
+          "backlink": "http://www.klicktel.de/branchenbuch/00-24-123-berlin-key-schluesseldienst-mitte,berlin,4617500,Z3650462.html",
+          "average": "0,0000"
+        },
+        "mediatype": "P2",
+        "displayname": "00-24 123-Berlin-Key-Schlüsseldienst - Mitte"
+      },
+      {
+        "entrytype": "business",
+        "keywords": [
+          {
+            "id": 6056239,
+            "keyword": "Nahrungsergänzungsmittel"
+          },
+          {
+            "id": 6032294,
+            "keyword": "Gewichtsmanagement"
+          },
+          {
+            "id": 6139040,
+            "keyword": "Aloe-Vera-Drinks"
+          },
+          {
+            "id": 6045909,
+            "keyword": "Kosmetik"
+          },
+          {
+            "id": 6045863,
+            "keyword": "Körperpflege"
+          },
+          {
+            "id": 6094001,
+            "keyword": "Tierpflege"
+          },
+          {
+            "id": 6086899,
+            "keyword": "Waschmittel"
+          },
+          {
+            "id": 6010703,
+            "keyword": "Bienenprodukte"
+          },
+          {
+            "id": 6094083,
+            "keyword": "Wellness"
+          },
+          {
+            "id": 6053691,
+            "keyword": "Mineralwasser"
+          }
+        ],
+        "location": {
+          "county": null,
+          "streetnumber": "5",
+          "zipcode": "12627",
+          "street": "Cottbusser Platz",
+          "state": null,
+          "district": null,
+          "country": "DE",
+          "city": "Berlin"
+        },
+        "urls": [{
+          "link": "http://www.be-forever.de/shoprudi",
+          "display": "www.be-forever.de/shoprudi",
+          "main": 1
+        }],
+        "emails": [{
+          "email": "rainerfurchert50@gmail.com",
+          "main": 1
+        }],
+        "type": "MEDIA",
+        "contacts": [{
+          "phonenumbers": [{
+            "pricing": null,
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 99 00 6x xx",
+            "description": "",
+            "number": "99006xxx",
+            "type": "phone",
+            "main": 0
+          }],
+          "title": "",
+          "email": "rainerfurchert50@gmail.com",
+          "name": null,
+          "lastname": "",
+          "firstname": "",
+          "addition": "",
+          "salutation": "",
+          "main": 1
+        }],
+        "id": "Z3642062",
+        "phonenumbers": [{
+          "pricing": "",
+          "area": "030",
+          "countrycode": "49",
+          "displayphone": "(0 30) 99 00 6x xx",
+          "description": "",
+          "number": "99006xxx",
+          "type": "phone",
+          "main": 1
+        }],
+        "mediaflag": 1,
+        "backlink": "http://www.klicktel.de/branchenbuch/forever,berlin,4617500,Z3642062.html",
+        "subtype": null,
+        "company": "Forever",
+        "trades": [{
+          "id": "3303952",
+          "trade": "Online-Shops"
+        }],
+        "openinghours": {
+          "format3": null,
+          "info": "24 Stunden Online-Shop"
+        },
+        "salutation": "Firma",
+        "media": {"videos": [{
+          "id": 948502,
+          "mimetype": "application/octet-stream",
+          "title": "",
+          "height": null,
+          "width": null,
+          "type": "movie",
+          "thumb": {
+            "title": null,
+            "height": 384,
+            "width": 512,
+            "url": "http://openapi.klicktel.de/de/1.0/media/thumb-948512-512x384.png"
+          },
+          "url": "http://download.klicktel.de/video/eva/948502.flv",
+          "main": 0
+        }]},
+        "ratings": {
+          "count": 0,
+          "backlink": "http://www.klicktel.de/branchenbuch/forever,berlin,4617500,Z3642062.html",
+          "average": "0,0000"
+        },
+        "mediatype": "P2",
+        "displayname": "Forever"
+      },
+      {
+        "entrytype": "business",
+        "keywords": [
+          {
+            "id": 6114923,
+            "keyword": "Schlüsselnotdienste"
+          },
+          {
+            "id": 6070222,
+            "keyword": "Schlossdienste"
+          },
+          {
+            "id": 6070348,
+            "keyword": "Schlüssel-Notdienst"
+          },
+          {
+            "id": 6072945,
+            "keyword": "Sicherheitstechnik"
+          },
+          {
+            "id": 6090810,
+            "keyword": "Zylinder"
+          },
+          {
+            "id": 6070225,
+            "keyword": "Schlösser"
+          },
+          {
+            "id": 6070177,
+            "keyword": "Schließtechnik"
+          },
+          {
+            "id": 6020802,
+            "keyword": "Einbruchschutz"
+          },
+          {
+            "id": 6070156,
+            "keyword": "Schließanlagen"
+          },
+          {
+            "id": 6070177,
+            "keyword": "Schließtechnik"
+          }
+        ],
+        "location": {
+          "county": null,
+          "streetnumber": "3",
+          "zipcode": "13585",
+          "street": "Schönwalder Str.",
+          "state": null,
+          "district": null,
+          "country": "DE",
+          "city": "Berlin"
+        },
+        "urls": [{
+          "link": "http://www.123-berlin-key.de",
+          "display": "www.123-berlin-key.de",
+          "main": 1
+        }],
+        "emails": [{
+          "email": "info@123-berlin-key.de",
+          "main": 1
+        }],
+        "type": "MEDIA",
+        "contacts": [{
+          "phonenumbers": [{
+            "pricing": null,
+            "area": "030",
+            "countrycode": "49",
+            "displayphone": "(0 30) 36 28 9x xx",
+            "description": "",
+            "number": "36289xxx",
+            "type": "phone",
+            "main": 0
+          }],
+          "title": "",
+          "email": "info@123-berlin-key.de",
+          "name": null,
+          "lastname": "",
+          "firstname": "",
+          "addition": "",
+          "salutation": "",
+          "main": 1
+        }],
+        "id": "Z3650602",
+        "phonenumbers": [{
+          "pricing": "",
+          "area": "030",
+          "countrycode": "49",
+          "displayphone": "(0 30) 36 28 9x xx",
+          "description": "",
+          "number": "36289xxx",
+          "type": "phone",
+          "main": 1
+        }],
+        "mediaflag": 1,
+        "backlink": "http://www.klicktel.de/branchenbuch/00-24-123-berlin-key-schluesseldienst-spandau,berlin,4617500,Z3650602.html",
+        "subsidiaries": [
+          "Z3650342",
+          "Z3650352",
+          "Z3650362",
+          "Z3650372",
+          "Z3650382",
+          "Z3650392",
+          "Z3650402",
+          "Z3650412",
+          "Z3650422",
+          "Z3650432",
+          "Z3650442",
+          "Z3650452",
+          "Z3650462",
+          "Z3650472",
+          "Z3650482",
+          "Z3650492",
+          "Z3650502",
+          "Z3650512",
+          "Z3650522",
+          "Z3650532",
+          "Z3650542",
+          "Z3650552",
+          "Z3650562",
+          "Z3650572",
+          "Z3650582",
+          "Z3650592",
+          "Z3650612",
+          "Z3650622",
+          "Z3650632",
+          "Z3650642",
+          "Z3650652",
+          "Z3650672",
+          "Z3650682",
+          "Z3650692",
+          "Z3650702",
+          "Z3650712",
+          "Z3650722",
+          "Z3650732",
+          "Z3650742",
+          "Z3650752",
+          "Z3650762",
+          "Z3650772",
+          "Z3650782",
+          "Z3650792",
+          "Z3650802",
+          "Z3650812",
+          "Z3650822"
+        ],
+        "subtype": null,
+        "company": "00-24 123-Berlin-Key-Schlüsseldienst - Spandau",
+        "trades": [{
+          "id": "3304670",
+          "trade": "Schlüsseldienste"
+        }],
+        "openinghours": {
+          "format3": {"format3": [
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "mon",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "tue",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "wed",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "thu",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "fri",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "sat",
+              "end2": "",
+              "end1": "00:00"
+            },
+            {
+              "begin2": "",
+              "begin1": "00:00",
+              "weekday": "sun",
+              "end2": "",
+              "end1": "00:00"
+            }
+          ]},
+          "info": null
+        },
+        "salutation": "Firma",
+        "media": {
+          "logos": [{
+            "id": 940102,
+            "fused": false,
+            "mimetype": "image/jpeg",
+            "title": "",
+            "height": 1181,
+            "width": 1181,
+            "url": "http://openapi.klicktel.de/de/1.0/media/logo-940102-1181x1181.jpg",
+            "mergeSource": null
+          }],
+          "videos": [{
+            "id": 945212,
+            "mimetype": "application/octet-stream",
+            "title": "",
+            "height": null,
+            "width": null,
+            "type": "movie",
+            "thumb": {
+              "title": null,
+              "height": 384,
+              "width": 512,
+              "url": "http://openapi.klicktel.de/de/1.0/media/thumb-945222-512x384.png"
+            },
+            "url": "http://download.klicktel.de/video/eva/945212.flv",
+            "main": 0
+          }]
+        },
+        "ratings": {
+          "count": 0,
+          "backlink": "http://www.klicktel.de/branchenbuch/00-24-123-berlin-key-schluesseldienst-spandau,berlin,4617500,Z3650602.html",
+          "average": "0,0000"
+        },
+        "mediatype": "P2",
+        "displayname": "00-24 123-Berlin-Key-Schlüsseldienst - Spandau"
+      }
+    ],
+    "type": "entries",
+    "first": 1,
+    "mergeSource": null
+  }],
+  "type": "list"
+}}
