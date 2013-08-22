@@ -2,20 +2,18 @@ package snomproxy.sources;
 
 import com.csvreader.CsvReader;
 import java.io.*;
-import java.util.ArrayList;
 import java.util.HashMap;
-import snomproxy.contacts.Contact;
-import snomproxy.contacts.ContactList;
+import snomproxy.data.Data;
+import snomproxy.data.contacts.Contact;
+import snomproxy.data.contacts.ContactList;
 import snomproxy.server.Server;
-import snomproxy.xml.snom.SnomDocument;
-import snomproxy.xml.snom.SnomIPPhoneDirectory;
 
 /**
  * Ein lokale CSV-Datenquelle - PoC
  *
  * @author Fabian Dillmeier <fabian at dillmeier.de>
  */
-public class CSVDataSource extends ContactsSource {
+public class CSVDataSource extends ContactSource {
 
     private CsvReader csvReader;
 //    private String[] cols;
@@ -32,7 +30,6 @@ public class CSVDataSource extends ContactsSource {
     }
 
     public void readCSV(String file) throws FileNotFoundException, IOException {
-        //this.data = new ArrayList<String[]>();
         contacts = new ContactList();
         this.csvReader = new CsvReader(file);
 
@@ -96,32 +93,24 @@ public class CSVDataSource extends ContactsSource {
     }
 
     @Override
-    public SnomDocument request(String data) {
+    public Data request(String data) {
         HashMap<String, String> dataMap = Server.splitData(data);
         ContactList entries;
 
         //System.out.println("csv request; action: "+action+" data: "+data);
-        SnomDocument out = new SnomIPPhoneDirectory();
-        out.addSoftKeyItem("index", "Index", snomproxy.SnomProxy.getServer().getAddressString().concat("/"));
-        out.addSoftKeyItem("csv_menu", "CSV Menü", snomproxy.SnomProxy.getServer().getAddressString().concat("/?menu=csv"));
-        out.addSoftKeyItem("csv_suche", "Suche", snomproxy.SnomProxy.getServer().getAddressString().concat("/?menu=csv_suche"));
+        ContactList out = new ContactList();
+        out.addLink("Index", snomproxy.SnomProxy.getServer().getAddressString().concat("/snom/"));
+        out.addLink("CSV Menü", snomproxy.SnomProxy.getServer().getAddressString().concat("/snom/?menu=csv"));
+        out.addLink("Suche", snomproxy.SnomProxy.getServer().getAddressString().concat("/snom/?menu=csv_suche"));
         if (dataMap.containsKey("search") && !dataMap.get("search").isEmpty()) {
-            ((SnomIPPhoneDirectory) out).setTitle("Suche \"".concat(dataMap.get("search")).concat("\""));
-            out.addSoftKeyItem("taste1", "Alles", snomproxy.SnomProxy.getServer().getAddressString().concat("/csv"));
+            out.setTitle("Suche \"".concat(dataMap.get("search")).concat("\""));
+            out.addLink("Alles", snomproxy.SnomProxy.getServer().getAddressString().concat("/csv"));
             entries = search(dataMap.get("search"));
         } else {
-            ((SnomIPPhoneDirectory) out).setTitle("Lokale Kontakte");
+            out.setTitle("Lokale Kontakte");
             entries = this.contacts;
         }
-        if (entries.size() > 0) {
-            for (Contact contact : entries) {
-                String name = contact.getLastname().concat(contact.getFirstname().isEmpty() ? "" : ", ".concat(contact.getLastname()));
-                HashMap<String, String> phones = contact.getPhones();
-                for (String pkey : phones.keySet()) {
-                    ((SnomIPPhoneDirectory) out).addDirectoryEntry(name.concat(" (").concat(pkey).concat(")"), phones.get(pkey));
-                }
-            }
-        }
+		out.setContacts(entries.getContacts());
 
         return out;
     }

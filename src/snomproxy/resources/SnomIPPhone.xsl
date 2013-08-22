@@ -8,8 +8,7 @@
     <xsl:template match="SnomIPPhoneMenu">
         <html>
             <head>
-                <xsl:call-template name="styles" />
-                <xsl:call-template name="js" />
+                <xsl:call-template name="head" />
                 <title>
                     <xsl:value-of select="Title"/>
                 </title>
@@ -29,8 +28,7 @@
     <xsl:template match="SnomIPPhoneDirectory">
         <html>
             <head>
-                <xsl:call-template name="styles" />
-                <xsl:call-template name="js" />
+                <xsl:call-template name="head" />
                 <title>
                     <xsl:value-of select="Title"/>
                 </title>
@@ -52,8 +50,7 @@
         <xsl:variable name="query" select="InputItem/QueryStringParam" />
         <html>
             <head>
-                <xsl:call-template name="styles" />
-                <xsl:call-template name="js" />
+                <xsl:call-template name="head" />
                 <title>
                     <xsl:value-of select="Title"/>
                 </title>
@@ -87,8 +84,7 @@
     <xsl:template match="SnomIPPhoneText">
         <html>
             <head>
-                <xsl:call-template name="styles" />
-                <xsl:call-template name="js" />
+                <xsl:call-template name="head" />
                 <title>
                     <xsl:value-of select="Title"/>
                 </title>
@@ -97,7 +93,7 @@
                 <div id="header">
                     <xsl:value-of select="Title"/>
                 </div>
-                <div id="content">
+                <div id="content" class="text">
                     <xsl:value-of select="Text"/>
                 </div>
                 <xsl:call-template name="footer" />
@@ -111,8 +107,7 @@
         <xsl:param name="y" select="LocationY"/>
         <html>
             <head>  
-                <xsl:call-template name="styles" />
-                <xsl:call-template name="js" />
+                <xsl:call-template name="head" />
                 <title></title>
             </head>
             <body onload="onload()">
@@ -133,8 +128,7 @@
         <xsl:param name="y" select="LocationY"/>
         <html>
             <head>  
-                <xsl:call-template name="styles" />
-                <xsl:call-template name="js" />
+                <xsl:call-template name="head" />
                 <title></title>
             </head>
             <body onload="onload()">
@@ -172,6 +166,12 @@
         <a href="{$uri}" class="softkey">
             <xsl:value-of select="Label"/>
         </a>
+    </xsl:template>
+    
+    <xsl:template name="head">
+		<link rel="icon" href="/snom/favicon.png" type="image/png"></link>
+		<xsl:call-template name="styles" />
+		<xsl:call-template name="js" />
     </xsl:template>
     
     <xsl:template name="footer">
@@ -423,6 +423,9 @@ body {
     -webkit-border-top-right-radius:5px;
     -moz-border-radius-topright:5px;
     border-top-right-radius:5px;
+}
+.text{
+	font-size:20px !important;
 }
         </style>
     </xsl:template>

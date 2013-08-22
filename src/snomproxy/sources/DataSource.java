@@ -1,15 +1,14 @@
 package snomproxy.sources;
 
-import snomproxy.xml.snom.SnomDocument;
+import snomproxy.data.Data;
 
 /**
- * Ruft Daten von einem Server/WebService ab und liefert sie als XmlDocument
- * zurück
+ * Ruft Daten von einem Server/WebService ab
  * 
  * @author Fabian Dillmeier <fabian at dillmeier.de>
  */
 public interface DataSource {
 
-    public abstract SnomDocument request(String data);
+    public abstract Data request(String request);
 
 }

@@ -3,7 +3,6 @@ package snomproxy.sources;
 import java.io.IOException;
 import java.util.HashMap;
 import snomproxy.server.Server;
-import snomproxy.xml.snom.SnomDocument;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
@@ -16,7 +15,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
-import snomproxy.xml.snom.SnomIPPhoneText;
+import snomproxy.data.Data;
 
 /**
  * Tellows-Scoring-Source
@@ -24,7 +23,7 @@ import snomproxy.xml.snom.SnomIPPhoneText;
  * Ruft ein Scoring und weitere Daten zu einer Telefonnummer von tellows.de ab.
  * @author Fabian Dillmeier <fabian at dillmeier.de>
  */
-public class TellowsSource implements DataSource {
+public class TellowsSource extends TextSource {
 
 	private String api_partner = "test";
 	private String api_key = "test123";
@@ -123,65 +122,63 @@ public class TellowsSource implements DataSource {
 	}
 
 	@Override
-	public SnomDocument request(String data) {
+	public Data request(String data) {
 		HashMap<String, String> dataMap = Server.splitData(data);
-		SnomDocument out = new SnomIPPhoneText();
-		out.addSoftKeyItem("index", "Index", snomproxy.SnomProxy.getServer().getAddressString().concat("/"));
-		out.addSoftKeyItem("csv_suche", "Suche", snomproxy.SnomProxy.getServer().getAddressString().concat("/?menu=tellows_search"));
-		String out_text = "";
+		resetText();
+		text.addLink( "Index", snomproxy.SnomProxy.getServer().getAddressString().concat("/"));
+		text.addLink("Suche", snomproxy.SnomProxy.getServer().getAddressString().concat("/?menu=tellows_search"));
 		try {
 			if (!dataMap.containsKey("search") || dataMap.get("search").isEmpty()) {
-				((SnomIPPhoneText) out).setTitle("Tellows-Suche FEHLER");
-				out_text = "Keine Nummer angegeben!";
+				text.setTitle("Tellows-Suche FEHLER");
+				text.set("Keine Nummer angegeben!");
 			} else if (!search(dataMap.get("search"))) {
-				((SnomIPPhoneText) out).setTitle("Tellows-Suche FEHLER");
-				out_text = "Keine Ergebnisse!";
+				text.setTitle("Tellows-Suche FEHLER");
+				text.set("Keine Ergebnisse!");
 			} else {
-				((SnomIPPhoneText) out).setTitle("Tellows-Suche \"".concat(String.valueOf(number_normalized)).concat("\""));
+				text.setTitle("Tellows-Suche \"".concat(String.valueOf(number_normalized)).concat("\""));
 
-				out_text = out_text.concat("Score: ").concat(String.valueOf(score));
+				text = text.append("Score: ").append(String.valueOf(score));
 				if (score >= 7) {
-					out_text = out_text.concat(" (--)");
+					text.append(" (--)");
 				} else if (score > 5) {
-					out_text = out_text.concat(" (-)");
+					text.append(" (-)");
 				} else if (score <= 3) {
-					out_text = out_text.concat(" (++)");
+					text.append(" (++)");
 				} else if (score < 5) {
-					out_text = out_text.concat(" (+)");
+					text.append(" (+)");
 //				}else{
-//					out_text=out_text.concat(" (/)");
+//					text.append(" (/)");
 				}
-				out_text = out_text.concat("<br>");
+				text.append("<br>");
 
 				if (!location.isEmpty()) {
-					out_text = out_text.concat(location).concat("<br>");
+					text.append(location).append("<br>");
 				}
 
-				out_text = out_text.concat(search_count == 0 ? "Keine " : String.valueOf(search_count)).concat(" Suchanfragen, ")
-						.concat(comment_count == 0 ? "Keine " : String.valueOf(comment_count)).concat(" Kommentare").concat("<br>");
+				text.append(search_count == 0 ? "Keine " : String.valueOf(search_count)).append(" Suchanfragen, ")
+						.append(comment_count == 0 ? "Keine " : String.valueOf(comment_count)).append(" Kommentare").append("<br>");
 
 				if (types.size() > 0) {
-					out_text = out_text.concat("Einstufungen:<br>");
+					text.append("Einstufungen:<br>");
 					for (HashMap<String, String> type : types) {
 						if (!type.get("name").isEmpty()) {
-							out_text = out_text.concat(type.get("name"));
+							text.append(type.get("name"));
 							if (!type.get("count").isEmpty()) {
-								out_text = out_text.concat(" (").concat(type.get("count")).concat(" mal)");
+								text.append(" (").append(type.get("count")).append(" mal)");
 							}
-							out_text = out_text.concat("<br>");
+							text.append("<br>");
 						}
 					}
 				}
 			}
 		} catch (Exception ex) {
-			((SnomIPPhoneText) out).setTitle("Tellows-Suche FEHLER");
-			out_text = "Fehler bei der Abfrager der Daten!";
+			text.setTitle("Tellows-Suche FEHLER");
+			text.set("Fehler bei der Abfrager der Daten!");
 			Logger.getLogger("snomproxy.sources.TellowsSource").log(Level.SEVERE, ex.getMessage());
 //			ex.printStackTrace();
 		}
 
-		((SnomIPPhoneText) out).setText(out_text);
-		return out;
+		return text;
 	}
 
 	public String getNumberSearched() {
