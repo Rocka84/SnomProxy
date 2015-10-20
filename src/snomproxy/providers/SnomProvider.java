@@ -62,7 +62,7 @@ public class SnomProvider extends Provider {
 
     }
 	
-	private static SnomDocument dataToSnomDocument(Data data){
+	public static SnomDocument dataToSnomDocument(Data data){
 		SnomDocument out;
 		if (data instanceof StringData){
 			out=new SnomIPPhoneText(data.getTitle(),data.toString());
@@ -70,8 +70,12 @@ public class SnomProvider extends Provider {
 			out=new SnomIPPhoneDirectory(data.getTitle());
 			for (Contact contact : (ContactList) data){
 				HashMap<String, String> phones=contact.getPhones();
-				for (String key : phones.keySet()){
-					((SnomIPPhoneDirectory) out).addDirectoryEntry(contact.getLastname().concat(", ").concat(contact.getLastname()).concat(key.isEmpty()?"":" - ".concat(key)), phones.get(key));
+				if (phones.isEmpty()){
+					((SnomIPPhoneDirectory) out).addDirectoryEntry(contact.getLastname().concat(contact.getFirstname().isEmpty()?"":", ".concat(contact.getFirstname())), "");
+				}else{					
+					for (String key : phones.keySet()){
+						((SnomIPPhoneDirectory) out).addDirectoryEntry(contact.getLastname().concat(contact.getFirstname().isEmpty()?"":", ".concat(contact.getFirstname())).concat(key.isEmpty()?"":" - ".concat(key)), phones.get(key));
+					}
 				}
 			}
 		}else if (data instanceof Menu){
@@ -83,10 +87,10 @@ public class SnomProvider extends Provider {
 			out=new SnomIPPhoneText(data.getTitle(),"Nicht unterstüztes Daten-Format: ".concat(data.getClass().getCanonicalName()));
 		}
 		for (HashMap<String, String> link : data.getLinks()){
-			out.addSoftKeyItem(link.get("label"), link.get("label"), link.get("action"));
+			out.addSoftKeyItem(link.get("label"), link.get("label"), "/snom".concat(link.get("action")));
 		}
 		if (data.getRelocationTarget()!=null && !data.getRelocationTarget().isEmpty()){
-			out.setFetch(data.getRelocationTarget(), data.getRelocationDelay());
+			out.setFetch("/snom".concat(data.getRelocationTarget()), data.getRelocationDelay());
 		}
 		return out;
 	}

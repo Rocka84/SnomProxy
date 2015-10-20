@@ -7,6 +7,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
+import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import org.json.JSONObject;
@@ -47,7 +48,7 @@ public class ContactPopUp extends PopUp {
 
 		JPanel panel_center = new JPanel(new BorderLayout());
 		panel_center.setBackground(new Color(0, 0, 0, 0));
-		//panel_center.setBorder(BorderFactory.createLineBorder(Color.red));
+//		panel_center.setBorder(BorderFactory.createLineBorder(Color.red));
 
 		if (contact.getImage() != null) {
 			panel.add(new JLabel(new ImageIcon(contact.getImage())), BorderLayout.WEST);
@@ -64,13 +65,12 @@ public class ContactPopUp extends PopUp {
 		panel_wrapper.add(panel_center, BorderLayout.CENTER);
 
 		JPanel panel_bottom = new JPanel(new FlowLayout(FlowLayout.CENTER));
-//		panel_bottom.setBorder(BorderFactory.createLineBorder(Color.red));
-//		panel_bottom.setLayout(new BoxLayout(panel_bottom, BoxLayout.Y_AXIS));
 		panel_bottom.setBackground(new Color(0, 0, 0, 0));
 		for (String key : contact.getMetaData().keySet()) {
 			if (key.startsWith("button_")) {
 				final JSONObject json = (JSONObject) contact.getMetaData(key);
-				ActionButton btn = new ActionButton(json.getString("title"));
+//				ActionButton btn = new ActionButton(json.getString("title"));
+				JButton btn = new JButton(json.getString("title"));
 				btn.addActionListener(new ActionListener() {
 					@Override
 					public void actionPerformed(ActionEvent e) {

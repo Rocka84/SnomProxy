@@ -1,7 +1,5 @@
 package snomproxy;
 
-import java.awt.Image;
-import java.io.File;
 import java.io.StringWriter;
 import java.net.URL;
 import java.util.ArrayList;
@@ -10,21 +8,15 @@ import java.util.GregorianCalendar;
 import java.util.HashMap;
 import java.util.ResourceBundle;
 import java.util.logging.*;
-import javax.imageio.ImageIO;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
-import snomproxy.data.contacts.Contact;
 import snomproxy.gui.GUI;
-import snomproxy.gui.popup.ContactPopUp;
-import snomproxy.gui.popup.PopUp;
-import snomproxy.gui.popup.PopUpList;
 import snomproxy.providers.GuiProvider;
 import snomproxy.providers.SnomProvider;
 import snomproxy.server.Server;
 import snomproxy.sources.ActiveCallSource;
 import snomproxy.sources.BlauContactSource;
-import snomproxy.sources.BlauDataSource;
 import snomproxy.sources.CSVDataSource;
 import snomproxy.sources.KlicktelSource;
 import snomproxy.sources.MainMenuSource;
@@ -54,7 +46,7 @@ public class SnomProxy {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        initLogger(Level.SEVERE);
+        initLogger(Level.ALL);
 
         HashMap<String, Object> argsList=parseArgs(args);
         SnomProxy.language = ResourceBundle.getBundle("snomproxy.resources.lang", java.util.Locale.getDefault());
@@ -66,8 +58,8 @@ public class SnomProxy {
             SnomProxy.server.addProvider("gui", new GuiProvider());
 
             SnomProxy.server.addSource("", new MainMenuSource());
-            SnomProxy.server.addSource("blau", new BlauDataSource());
-            SnomProxy.server.addSource("blau2", new BlauContactSource());
+//            SnomProxy.server.addSource("blau", new BlauDataSource());
+            SnomProxy.server.addSource("blau", new BlauContactSource());
             SnomProxy.server.addSource("csv", new CSVDataSource("blau_data.csv"));
             SnomProxy.server.addSource("call", new ActiveCallSource());
             SnomProxy.server.addSource("tellows", new TellowsSource());
@@ -81,22 +73,24 @@ public class SnomProxy {
 
         if (argsList.containsKey("T")) {
             setTestMode(true);
-			
 //			Contact contact = new Contact();
-//			contact.setLastname("Lorem ipsum dolor sit amet, consetetur!");
+//			contact.setLastname("Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt!");
 //			try {
 //				contact.setImage(ImageIO.read(new File(SnomProxy.getResource("favicon.png").toURI())).getScaledInstance(100, 100, Image.SCALE_FAST));
 //			} catch (Exception ex) {
 //				Logger.getLogger(SnomProxy.class.getName()).log(Level.SEVERE, null, ex);
 //			}
-//			PopUpList pl=new PopUpList();
+//			PopUpList pl=((GuiProvider) SnomProxy.server.getProvider("gui")).getPopups();
 //			pl.addPopup(new ContactPopUp(contact));
-//			pl.addPopup(new PopUp("Lorem ipsum dolor sit amet, consetetur!"));
+//			pl.addPopup(new PopUp("Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt!"));
         }
         
         SnomProxy.server.startServer();
         if (!argsList.containsKey("nogui")) {
             gui=new GUI();
+			if (argsList.containsKey("showgui")) {
+				gui.setVisible(true);
+			}
         }
     }
 

@@ -16,7 +16,7 @@ public class ActiveCallSource extends TextSource {
 
 	private String active_caller = "";
 	private ContactList active_caller_data;
-	private boolean tellows_available;
+	private final boolean tellows_available;
 
 	public ActiveCallSource() {
 		tellows_available = SnomProxy.getServer().hasSource("tellows");
@@ -27,11 +27,13 @@ public class ActiveCallSource extends TextSource {
 		HashMap<String, String> args = Server.splitData(data);
 
 //        System.out.println(args);
-		CSVDataSource source = (CSVDataSource) SnomProxy.getServer().getSource("csv");
+//		CSVDataSource source = (CSVDataSource) SnomProxy.getServer().getSource("csv");
+		BlauContactSource source = (BlauContactSource) SnomProxy.getServer().getSource("blau");
 		text = new StringData();
 
 		if (args.containsKey("incoming") && !args.get("incoming").isEmpty()) {
 			text.setTitle("Eingehender Anruf");
+			source.request("search=".concat(args.get("incoming")));
 			ContactList caller = source.search(args.get("incoming"), ContactList.PHONES);
 			if (caller.size() == 1) {
 				Contact contact = caller.iterator().next();
@@ -45,6 +47,7 @@ public class ActiveCallSource extends TextSource {
 		}
 		if (args.containsKey("info") || (args.containsKey("answered") && !args.get("answered").isEmpty())) {
 			if (args.containsKey("answered") && !args.get("answered").isEmpty()) {
+				source.request("search=".concat(args.get("answered")));
 				active_caller = args.get("answered");
 				active_caller_data = source.search(active_caller, ContactList.PHONES);
 				text.setRelocation(snomproxy.SnomProxy.getServer().getAddressString().concat("/call?info=1"), 3000);

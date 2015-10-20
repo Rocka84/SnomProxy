@@ -2,26 +2,16 @@ package snomproxy.gui.popup;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
-import java.awt.Cursor;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.LayoutManager;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.logging.Level;
 import javax.swing.BorderFactory;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JTextPane;
-import javax.swing.SwingUtilities;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.DefaultStyledDocument;
-import javax.swing.text.Style;
-import javax.swing.text.StyleConstants;
-import javax.swing.text.StyleContext;
 import sas.swing.MultiLineLabel;
-import snomproxy.SnomProxy;
 
 /**
  *
@@ -47,7 +37,7 @@ public class PopUp extends JFrame implements ActionListener {
 		try {
 			com.sun.awt.AWTUtilities.setWindowOpacity(this, 0.95f);
 		} catch (Exception e) {
-			com.sun.awt.AWTUtilities.setWindowOpaque(this, false);
+//			com.sun.awt.AWTUtilities.setWindowOpaque(this, false);
 		}
 		main_panel = new MainPanel();
 
@@ -56,6 +46,7 @@ public class PopUp extends JFrame implements ActionListener {
 
 		closeBtn = new CloseButton("X");
 		closeBtn.addActionListener(this);
+//		this.add(closeBtn);
 		setBounds(PopUpList.max_bounds.width - (width + gap), PopUpList.max_bounds.height - (height + gap), width, height);
 	}
 
@@ -98,12 +89,19 @@ public class PopUp extends JFrame implements ActionListener {
 
 	public final void setContent(JPanel content) {
 		main_panel.removeAll();
-		main_panel.add(closeBtn, BorderLayout.EAST);
 //		content.setSize(main_panel.getSize());
 		main_panel.add(content, BorderLayout.NORTH);
+		main_panel.add(closeBtn, BorderLayout.EAST);
 	}
 
 	public final void setContent(String content) {
+		setContent(content, false);
+	}
+
+	public final void setContent(String content, boolean html) {
+		if (html && !content.startsWith("<html>")){
+			content="<html>".concat(content);
+		}
 		JPanel panel = new JPanel(new BorderLayout());
 		panel.setBorder(BorderFactory.createEmptyBorder(6, 6, 6, 31));
 		panel.setBackground(new Color(0, 0, 0, 0));
@@ -115,51 +113,9 @@ public class PopUp extends JFrame implements ActionListener {
 		setContent(panel);
 	}
 
-	public final void setContent(String content, boolean html) {
-		if (!html) {
-			setContent(content);
-		} else {
-			JPanel panel = new JPanel(new BorderLayout());
-			panel.setBackground(new Color(0, 0, 0, 0));
-			panel.setBorder(BorderFactory.createEmptyBorder(6, 6, 6, 31));
-			panel.add(createHTMLPane(content), BorderLayout.CENTER);
-			setContent(panel);
-		}
-	}
-
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		this.close();
-	}
-
-	private static JTextPane createHTMLPane(final String content) {
-		StyleContext sc = new StyleContext();
-		final DefaultStyledDocument doc = new DefaultStyledDocument(sc);
-		JTextPane pane = new JTextPane(doc);
-		pane.setBackground(new Color(0, 0, 0, 0));
-		pane.setCursor(Cursor.getDefaultCursor());
-		// Create and add the main document style
-		Style defaultStyle = sc.getStyle(StyleContext.DEFAULT_STYLE);
-		final Style mainStyle = sc.addStyle("MainStyle", defaultStyle);
-		StyleConstants.setFontFamily(mainStyle, "sans-serif");
-		StyleConstants.setFontSize(mainStyle, 14);
-		StyleConstants.setBold(mainStyle, true);
-
-		try {
-			SwingUtilities.invokeAndWait(new Runnable() {
-				@Override
-				public void run() {
-					doc.setLogicalStyle(0, mainStyle);
-					try {
-						doc.insertString(0, content, null);
-					} catch (BadLocationException e) {
-					}
-				}
-			});
-		} catch (Exception e) {
-			SnomProxy.getLogger().log(Level.WARNING,"Exception when constructing document: ".concat(e.getMessage()));
-		}
-		return pane;
 	}
 
 	private class MainPanel extends JPanel {
@@ -170,6 +126,7 @@ public class PopUp extends JFrame implements ActionListener {
 
 		public MainPanel() {
 			super(new BorderLayout(3,3));
+//			super(new FlowLayout());
 		}
 
 		@Override

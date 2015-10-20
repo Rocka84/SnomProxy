@@ -32,37 +32,37 @@ public class PopUpList implements WindowListener, MouseListener {
 		//System.out.println(max_bounds);
 
 		/*
-		Rectangle virtualBounds = new Rectangle();
-		GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
-		GraphicsDevice[] gs = ge.getScreenDevices();
-		for (GraphicsDevice gd : gs) {
-			GraphicsConfiguration[] gc = gd.getConfigurations();
-			for (GraphicsConfiguration element : gc) {
-				Insets screenInsets = Toolkit.getDefaultToolkit().getScreenInsets(element);
-				if (screenInsets.bottom!=0 || screenInsets.top!=0 || screenInsets.left!=0 || screenInsets.right!=0){
-					System.out.println(screenInsets);
-				}
-				virtualBounds = virtualBounds.union(element.getBounds());
-				//System.out.println(virtualBounds);
-			}
-		}
-		System.out.println(virtualBounds);
-		*/
-		
+		 Rectangle virtualBounds = new Rectangle();
+		 GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
+		 GraphicsDevice[] gs = ge.getScreenDevices();
+		 for (GraphicsDevice gd : gs) {
+		 GraphicsConfiguration[] gc = gd.getConfigurations();
+		 for (GraphicsConfiguration element : gc) {
+		 Insets screenInsets = Toolkit.getDefaultToolkit().getScreenInsets(element);
+		 if (screenInsets.bottom!=0 || screenInsets.top!=0 || screenInsets.left!=0 || screenInsets.right!=0){
+		 System.out.println(screenInsets);
+		 }
+		 virtualBounds = virtualBounds.union(element.getBounds());
+		 //System.out.println(virtualBounds);
+		 }
+		 }
+		 System.out.println(virtualBounds);
+		 */
+
 		/*
-		GraphicsConfiguration gc = GraphicsEnvironment.getLocalGraphicsEnvironment();
+		 GraphicsConfiguration gc = GraphicsEnvironment.getLocalGraphicsEnvironment();
 
-		Rectangle bounds = gc.getBounds();
+		 Rectangle bounds = gc.getBounds();
 
-		Insets screenInsets = Toolkit.getDefaultToolkit().getScreenInsets(gc);
+		 Insets screenInsets = Toolkit.getDefaultToolkit().getScreenInsets(gc);
 
-		Rectangle effectiveScreenArea = new Rectangle();
+		 Rectangle effectiveScreenArea = new Rectangle();
 
-		effectiveScreenArea.x = bounds.x + screenInsets.left;
-		effectiveScreenArea.y = bounds.y + screenInsets.top;
-		effectiveScreenArea.height = bounds.height - screenInsets.top - screenInsets.bottom;
-		effectiveScreenArea.width = bounds.width - screenInsets.left - screenInsets.right;
-		*/
+		 effectiveScreenArea.x = bounds.x + screenInsets.left;
+		 effectiveScreenArea.y = bounds.y + screenInsets.top;
+		 effectiveScreenArea.height = bounds.height - screenInsets.top - screenInsets.bottom;
+		 effectiveScreenArea.width = bounds.width - screenInsets.left - screenInsets.right;
+		 */
 	}
 
 	@Override
@@ -162,10 +162,10 @@ public class PopUpList implements WindowListener, MouseListener {
 		rePosition();
 		popup.setVisible(true);
 	}
-	
-	public void closeAll(){
-		for (PopUp popup : popups) {
-			popup.close();
+
+	public void closeAll() {
+		while (popups.size()>0){
+			popups.get(0).close();
 		}
 	}
 

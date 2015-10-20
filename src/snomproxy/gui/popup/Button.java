@@ -46,8 +46,8 @@ public class Button extends JButton {
 		if (r2.getWidth() < target_size.width) {
 			g2.drawString(this.getText(), (float) ((((target_size.width - 2) / 2) - r2.getWidth() / 2) + 1), (float) (((target_size.height - 2) / 2 + r2.getHeight() / 2)) - 1);
 		} else {
-			g2.clipRect(0, 0, target_size.width - 3, target_size.height);
-			g2.drawString(this.getText(), 0, (float) (((target_size.height - 2) / 2 + r2.getHeight() / 2)) - 1);
+			g2.clipRect(1, 1, target_size.width - 3, target_size.height);
+			g2.drawString(this.getText(), 1, (float) (((target_size.height - 2) / 2 + r2.getHeight() / 2)) - 1);
 		}
 	}
 

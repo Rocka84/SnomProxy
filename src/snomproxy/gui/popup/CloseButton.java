@@ -23,7 +23,7 @@ public class CloseButton extends Button {
 
 	@Override
 	public void paint(Graphics g) {
-		this.setBounds(new Rectangle(super.getParent().getWidth() - 30, 5, target_size.width, target_size.height));
+		this.setBounds(new Rectangle(super.getParent().getWidth() - target_size.width - 5, 5, target_size.width, target_size.height));
 		super.paint(g);
 	}
 }
